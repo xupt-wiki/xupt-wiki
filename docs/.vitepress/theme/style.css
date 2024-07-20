@@ -1,0 +1,42 @@
+:root {
+  --vp-c-brand-1: #0066dd;
+  --vp-c-brand-2: #003DA5;
+  --vp-c-brand-3: #0077ff;
+  --vp-c-brand-soft: #0077ff55;
+
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
+  --vp-home-hero-image-background-image: linear-gradient(30deg, var(--vp-c-brand-3) 50%, var(--vp-c-brand-2) 50%);
+  --vp-home-hero-image-filter: blur(12em);
+}
+
+.dark:root {
+    --vp-c-brand-1: #33aaff;
+    --vp-c-brand-2: #0066dd;
+    --vp-c-brand-3: #0077ff;
+  /* --vp-c-brand-soft: #33aaff55; */
+}
+
+
+.VPMenuGroup>.title {
+  font-size: 11px;
+}
+
+.vp-doc a {
+  transition: .2s;
+  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+  text-decoration: none;
+}
+
+.vp-doc a:hover {
+  border-radius: .2em;
+  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
+}
+
+.fa-solid,
+.fa-regular,
+.fa-brands {
+  vertical-align: middle;
+  width: 1.3em;
+  text-align: center;
+}
