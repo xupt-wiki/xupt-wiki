@@ -57,8 +57,10 @@ function nav(): DefaultTheme.NavItem[] {
     {
       text: '关于', items:
         [
-          { text: '关于我们', link: '/about' },
+          { text: '友情链接', link: '/links' },
+          { text: '贡献指南', link: '/contribute' },
           { text: '更新日志', link: '/changelog' },
+          { text: '关于我们', link: '/about' },
         ],
     },
   ]
@@ -72,57 +74,132 @@ function sidebar(): DefaultTheme.Sidebar {
         { text: '概览', link: '/overview' },
       ]
     },
+    { text: '校园', link: '/campus/' },
+    { text: '学习', link: '/study/' },
+    { text: '生活', link: '/life/' },
     {
       text: '关于',
       items: [
-        { text: '关于我们', link: '/about' },
+        { text: '友情链接', link: '/links' },
+        { text: '贡献指南', link: '/contribute' },
         { text: '更新日志', link: '/changelog' },
+        { text: '关于我们', link: '/about' },
       ]
     }
     ],
     '/campus/': [
+      { text: '概览', link: '/overview' },
       {
         text: '校园',
         items: [
-          { text: '学校简介', link: '/campus/introduction' },
-          { text: '历史沿革', link: '/campus/history' },
-          { text: '校园环境', link: '/campus/campus' }
+          { text: '学校简介', link: '/campus/' },
+          { text: '地图/校园概览', link: '/campus/map' },
+          { text: '周边环境', link: '/campus/neighborhood' },
+          { text: '手机必备APP', link: '/campus/apps' },
+          { text: '入学办理与防骗', link: '/campus/enrollment' },
         ]
       },
+      { text: '学习', link: '/study/' },
+      { text: '生活', link: '/life/' },
+      { text: '关于', link: "/about" },
     ],
     '/study/': [
+      { text: '概览', link: '/overview' },
+      { text: '校园', link: '/campus/' },
       {
         text: '学习',
         items: [
           {
-            text: '课程信息',
+            text: '课内学业',
             items: [
-              { text: '专业课程', link: '/study/courses/major' },
-              { text: '公共课程', link: '/study/courses/public' },
-              { text: '选修课程', link: '/study/courses/elective' }
+              { text: '选修课、必修课与限选课', link: '/study/curriculum' },
+              { text: '学分、绩点的计算', link: '/study/credit-and-gpa' },
+              { text: '挂科了怎么办', link: '/study/failure-policy' },
+              { text: '线上课程', link: '/study/online-course' },
+              { text: '转专业政策、时间', link: '/study/change-major' },
+              { text: '综测和课外八学分', link: '/study/comprehensive-assessment' },
+              { text: '班干部、党员与评优排名', link: '/study/class-leadership' }
             ]
           },
-          { text: '学习资源', link: '/study/resources' },
-          { text: '实验室与项目', link: '/study/labs-and-projects' }
+          {
+            text: '综合发展',
+            items: [
+              { text: '为什么要找实验室、导师', link: '/study/research-guidance' },
+              { text: '浅谈证书骗局', link: '/study/certificate-scam' },
+              { text: '飞跃手册，常读常新', link: '/study/leap-guide' }
+            ]
+          },
+          {
+            text: '认证证书',
+            items: [
+              { text: '四六级', link: '/study/cet4-cet6' },
+              { text: '大英赛到底是不是捐了50块钱——浅谈竞赛', link: '/study/english-contest' },
+              { text: '“白名单竞赛”之外，亦可给简历镀金', link: '/study/white-list-competitions' }
+            ]
+          },
+          {
+            text: '团体组织',
+            items: [
+              { text: '社团', link: '/study/clubs' },
+              { text: '实验室/兴趣小组', link: '/study/labs-interest-groups' },
+              { text: '兴趣群', link: '/study/hobby-groups' }
+            ]
+          }
         ]
-      }
+      },
+      { text: '生活', link: '/life/' },
+      { text: '关于', link: "/about" },
     ],
     '/life/': [
+      { text: '概览', link: '/overview' },
+      { text: '校园', link: '/campus/' },
+      { text: '学习', link: '/study/' },
       {
         text: '生活',
         items: [
-          { text: '校园服务', link: '/life/services' },
+          { text: '二手书与二手物品', link: '/life/second-hand' },
+          { text: '表白墙、校园社区', link: '/life/confession-wall' },
+          { text: '洗澡、住宿，整理个人形象', link: '/life/bathing-accommodation' },
+          { text: '快递和外卖', link: '/life/express-food-delivery' },
           {
-            text: '社团活动',
+            text: '长安校区',
             items: [
-              { text: '科技类社团', link: '/life/clubs/tech' },
-              { text: '文艺类社团', link: '/life/clubs/art' },
-              { text: '体育类社团', link: '/life/clubs/sports' }
+              { text: '旭日苑、东升苑与美食广场', link: '/life/dining-halls' },
+              { text: '校门口的小摊位，万科，gogo街区', link: '/life/street-food' }
             ]
           },
-          { text: '住宿与餐饮', link: '/life/accommodation-and-dining' },
-          { text: '交通出行', link: '/life/transportation' }
+          {
+            text: '雁塔校区',
+            items: [
+              { text: '八里村摊贩们的秤', link: '/life/yanta/eating/street-vendors' },
+              { text: '小寨的饭需要等', link: '/life/yanta/eating/xiaozhai-restaurants' },
+              { text: '只需要一站地铁——', link: '/life/yanta/play/subway-one-stop' },
+              { text: '步行，然后当一名西安游客', link: '/life/yanta/play/walking-tourist' }
+            ]
+          }, {
+            text: '周边生活',
+            items: [
+              {
+                text: '周末玩什么？',
+                link: '/life/weekend-activities'
+              },
+              {
+                text: '附近好景点，长跑、骑行与city walk',
+                link: '/life/nearby-attractions'
+              },
+              {
+                text: '也许需要一次酣畅淋漓的团建',
+                link: '/life/team-building'
+              },
+              {
+                text: '小众爱好：长安校区向北2公里，wmc出没。',
+                link: '/life/niche-interests'
+              }
+            ]
+          },
         ]
-      },],
+      },
+      { text: '关于', link: "/about" },
+    ],
   }
 };
