@@ -27,7 +27,7 @@ export default defineConfig({
     outline: { level: [2, 3], label: '目录' },
     returnToTopLabel: '返回顶部',
     editLink: {
-      pattern: 'https://github.com/GuuGuai/Block-Tea-Reception/blame/main/docs/:path',
+      pattern: 'https://github.com/xupt-wiki/xupt-wiki/blob/main/docs/:path',
       text: '源代码'
     },
     lastUpdated: {
