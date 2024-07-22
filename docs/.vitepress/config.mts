@@ -92,7 +92,7 @@ function sidebar(): DefaultTheme.Sidebar {
       {
         text: '校园',
         items: [
-          { text: '学校简介', link: '/campus/' },
+          { text: '学校及专业简介', link: '/campus/' },
           { text: '地图/校园概览', link: '/campus/map' },
           { text: '周边环境', link: '/campus/neighborhood' },
           { text: '手机必备APP', link: '/campus/apps' },

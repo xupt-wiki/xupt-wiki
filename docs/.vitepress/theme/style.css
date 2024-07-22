@@ -33,6 +33,10 @@
   background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
 }
 
+.vp-doc strong {
+  background: linear-gradient(0, var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
+}
+
 .fa-solid,
 .fa-regular,
 .fa-brands {
