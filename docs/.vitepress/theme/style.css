@@ -17,6 +17,9 @@
   /* --vp-c-brand-soft: #33aaff55; */
 }
 
+.VPImage.image-src {
+  max-width: 256px;
+}
 
 .VPMenuGroup>.title {
   font-size: 11px;

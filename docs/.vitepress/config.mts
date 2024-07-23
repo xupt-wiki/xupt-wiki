@@ -1,6 +1,6 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
-// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
   lang: 'zh-Hans',
   title: "西邮 Wiki",
@@ -9,14 +9,14 @@ export default defineConfig({
   cleanUrls: true,
 
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
+    // https://vitepress.dev/zh/reference/default-theme-config
     logo: '/logo.svg',
     // siteTitle: '',
     nav: nav(),
     sidebar: sidebar(),
-    // socialLinks: [
-    //   { icon: 'github', link: 'https://github.com/xupt-wiki' },
-    // ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/xupt-wiki' },
+    ],
 
     externalLinkIcon: true,
     langMenuLabel: '切换语言',
@@ -27,7 +27,7 @@ export default defineConfig({
     outline: { level: [2, 3], label: '目录' },
     returnToTopLabel: '返回顶部',
     editLink: {
-      pattern: 'https://github.com/GuuGuai/Block-Tea-Reception/blame/main/docs/:path',
+      pattern: 'https://github.com/xupt-wiki/xupt-wiki/blame/main/docs/:path',
       text: '源代码'
     },
     lastUpdated: {
@@ -37,7 +37,7 @@ export default defineConfig({
     docFooter: { prev: '上一篇', next: '下一篇' },
 
     footer: {
-      message: '纯公益项目',
+      message: '公益项目。与任何组织无关。',
       copyright: `© ${new Date().getFullYear()} 西邮 Wiki 项目组`
     },
   },
@@ -50,9 +50,9 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
   return [
-    { text: '校园', link: '/campus/' },
-    { text: '学习', link: '/study/' },
-    { text: '生活', link: '/life/' },
+    { text: '校园', link: '/campus/', activeMatch: '/campus/' },
+    { text: '学习', link: '/study/', activeMatch: '/study/' },
+    { text: '生活', link: '/life/', activeMatch: '/life/' },
     { text: 'CO导航', link: 'https://cooo.site/' },
     {
       text: '关于', items:
