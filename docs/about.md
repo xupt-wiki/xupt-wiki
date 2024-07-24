@@ -11,6 +11,8 @@ aside: false
 
 西邮 Wiki 项目组成立于 2024-06-30。
 
-## 成员列表
+## 项目组成员
 
 <member-list :members="memberData" />
+
+除了项目组成员之外

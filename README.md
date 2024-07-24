@@ -2,6 +2,8 @@
 
 西邮 Wiki 是由西邮 Wiki 项目中编撰的西安邮电大学第三方公益校园生活百科。
 
+[访问在线版 wiki.cooo.site](https://wiki.cooo.site)。
+
 ## 加入我们
 
 项目组 QQ 群：924632788

@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 西邮 Wiki
   text: 西安邮电大学第三方公益校园生活百科
-  tagline: 由西邮 Wiki 项目组开发
+  tagline: 由西邮 Wiki 项目组开发，纯净无广告
   image:
     src: /logo.svg
     alt: 西邮 Wiki 项目组群头像
@@ -18,7 +18,7 @@ hero:
       link: https://cooo.site
 
 features:
-  - title: 校园
+  - title: 校园初探
     icon: 🏫
     details: 校区环境与设施
     link: /campus/

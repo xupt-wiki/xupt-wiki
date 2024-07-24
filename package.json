@@ -1,5 +1,8 @@
 {
+    "name": "xupt-wiki",
     "type": "module",
+    "version": "0.0.2",
+    "private": true,
     "scripts": {
         "dev": "vitepress dev docs --host",
         "build": "vitepress build docs",
