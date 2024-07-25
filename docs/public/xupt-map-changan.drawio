@@ -1,0 +1,194 @@
+<mxfile host="app.diagrams.net" modified="2024-07-25T03:58:26.164Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" version="24.6.3" etag="yEAs1u2IRStT2OXag8td" type="device">
+  <diagram id="XXEVg8_9hnB7_woKO_JL" name="第 1 页">
+    <mxGraphModel dx="2678" dy="1613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="840" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-2" value="学术交流中心&lt;div&gt;(西邮宾馆)&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="50" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-3" value="北1门&lt;div&gt;(不开放)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-5" value="基础教学楼A" style="rounded=0;whiteSpace=wrap;html=1;rotation=41;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="110" y="160" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-6" value="基础教学楼B" style="rounded=0;whiteSpace=wrap;html=1;rotation=41;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-7" value="喷泉&lt;div&gt;(水煮鸽子)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="110" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-8" value="北门&lt;div&gt;(学校大门)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="325" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-9" value="中国邮政" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-10" value="理学院&lt;div&gt;自动化学院&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="70" y="290" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-11" value="电子工程学院" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="352.5" width="110" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-12" value="通信与信息工程学院&lt;div&gt;人工智能学院&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="27.5" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-13" value="图书馆&lt;div&gt;联通营业厅&lt;/div&gt;&lt;div&gt;卡务中心&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="325" y="440" width="120" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-14" value="工程训练中心" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="500" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-15" value="学生工作部" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-16" value="美食广场" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="700" width="120" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-17" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;小操场&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="110" y="610" width="130" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-18" value="西门&lt;div&gt;(不开放)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="920" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-19" value="理发店&lt;div&gt;浴室&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="500" width="75" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-20" value="卫生所" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="600" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-21" value="♂ 长智一" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="900" width="155" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-22" value="♂ 长智二" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="960" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-23" value="长智三" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="960" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-24" value="长智五" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-52.5" y="1020" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-25" value="长智六" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-53.75" y="1080" width="153.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-26" value="长智二" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="1020" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-27" value="旭日苑餐厅&lt;div&gt;蜜雪冰城&lt;br&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;旧书店&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;修车店&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;奶茶店&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;打印店&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="890" width="190" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-28" value="大学生超市&lt;div&gt;电脑维修&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="1030" width="97.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-33" value="长思一" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-35" value="♂ 长思二" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="970" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-36" value="长思三" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1020" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-37" value="长思四" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1020" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-38" value="长思七" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="600" y="1080" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-39" value="长思五" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1080" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-40" value="长思六" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1080" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-41" value="菜鸟驿站" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="1030" width="97.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-46" value="体育馆&lt;div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="405" y="610" width="115" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-47" value="家属院&lt;div&gt;&lt;/div&gt;&lt;div&gt;14&lt;/div&gt;&lt;div&gt;13&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="860" y="610" width="115" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-48" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;大操场&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="130" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-49" value="播云湖" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="505" y="335" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-54" value="" style="endArrow=none;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeColor=#E6E6E6;strokeWidth=24;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="570" as="sourcePoint" />
+            <mxPoint x="520" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="680" y="570" />
+              <mxPoint x="680" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-55" value="家属院&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;3&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;2&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;1&lt;/div&gt;&lt;div&gt;6&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;5&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;4&lt;/div&gt;&lt;div&gt;9&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;8&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;7&lt;/div&gt;&lt;div&gt;12&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;11&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;10&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="880" y="820" width="287.5" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-56" value="“操场”" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="30" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-57" value="逸夫教学楼" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="140" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-60" value="♂♀ 安美北 4 (研究生)" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="260" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-61" value="♀ 安美南 3" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="310" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-62" value="♂ 安悦北 2&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="370" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-63" value="晾衣广场" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1145" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-64" value="♂ 安悦南 1&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="422.5" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-65" value="菜鸟驿站" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="480" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-66" value="便利店" style="rounded=0;whiteSpace=wrap;html=1;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="1067.5" y="480" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-68" value="东门&lt;div&gt;(不开放)&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1232.5" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-69" value="小树林&lt;div&gt;垃圾场&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="930" y="322.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-70" value="小树林&lt;div&gt;垃圾场&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="750" y="720" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-71" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#E6E6E6;strokeWidth=24;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="570" as="sourcePoint" />
+            <mxPoint x="670" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-72" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#d6b656;strokeWidth=48;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;curved=1;fillColor=#fff2cc;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="850" y="10" as="sourcePoint" />
+            <mxPoint x="850" y="1124.7058823529412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-74" value="天桥&lt;div&gt;(禁自行车)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UoZwVZfXofbYMwHtTRB8-75" value="" style="endArrow=none;html=1;rounded=0;strokeColor=#E6E6E6;strokeWidth=24;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="580" as="sourcePoint" />
+            <mxPoint x="730" y="1184.7058823529412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

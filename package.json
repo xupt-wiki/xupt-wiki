@@ -1,15 +1,21 @@
 {
     "name": "xupt-wiki",
     "type": "module",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "private": true,
     "scripts": {
         "dev": "vitepress dev docs --host",
         "build": "vitepress build docs",
         "preview": "vitepress preview docs"
     },
+    "dependencies": {
+        "@iconify/vue": "^4.1.2",
+        "qrcode": "^1.5.3",
+        "tippy.js": "^6.3.7"
+    },
     "devDependencies": {
         "@antfu/eslint-config": "^2.23.0",
+        "@types/qrcode": "^1.5.5",
         "@zinkawaii/stylelint-config": "^0.1.4",
         "eslint": "^9.7.0",
         "stylelint": "^16.7.0",

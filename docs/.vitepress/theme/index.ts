@@ -4,10 +4,13 @@ import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
 
-import Logo from '../components/Logo.vue'
-import Doubt from '../components/Doubt.vue'
-import Header from '../components/Header.vue'
+import { Icon } from '@iconify/vue/dist/iconify.js'
+
+import Annotation from '../components/Annotation.vue'
 import Footer from '../components/Footer.vue'
+import Header from '../components/Header.vue'
+import Logo from '../components/Logo.vue'
+import QRCode from '../components/QRCode.vue'
 
 export default {
     extends: DefaultTheme,
@@ -20,7 +23,9 @@ export default {
     },
     // enhanceApp({ app, router, siteData }) {
     enhanceApp({ app }) {
+        app.component('Icon', Icon)
+        app.component('Annotation', Annotation)
         app.component('Logo', Logo)
-        app.component('Doubt', Doubt)
+        app.component('QRCode', QRCode)
     },
 } satisfies Theme

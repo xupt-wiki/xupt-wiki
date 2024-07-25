@@ -8,7 +8,7 @@
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
     --vp-home-hero-image-background-image: linear-gradient(30deg, var(--vp-c-brand-3) 50%, var(--vp-c-brand-2) 50%);
-    --vp-home-hero-image-filter: blur(12em);
+    --vp-home-hero-image-filter: blur(240px);
 }
 
 .dark:root {
@@ -25,6 +25,46 @@
 
 .VPMenuGroup > .title {
     font-size: 11px;
+}
+
+.vp-doc {
+    position: relative;
+    counter-reset: section-counter;
+}
+
+.vp-doc h2 {
+    position: relative;
+    counter-increment: section-counter;
+}
+
+.vp-doc h2::before {
+    content: counter(section-counter);
+    position: absolute;
+    opacity: 0.1;
+    left: -2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    text-align: center;
+    color: transparent;
+    z-index: -1;
+    -webkit-text-stroke: 2px var(--vp-c-text-1);
+}
+
+.vp-doc h2::after {
+    content: "西邮 Wiki";
+    position: absolute;
+    opacity: 0.1;
+    right: 0;
+}
+
+.vp-doc h3::before {
+    content: "";
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    margin-right: 0.3em;
+    background: url("/logo.svg") no-repeat;
+    vertical-align: middle;
 }
 
 .vp-doc a {

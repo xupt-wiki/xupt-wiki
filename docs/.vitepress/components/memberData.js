@@ -11,6 +11,8 @@ export default [
         type: '成员',
         members: [
             { name: 'Ph0m', title: '', qq: '2732706745', github: 'Ph0m1', linkText: '博客', link: 'https://blog.phom.space/' },
+            { name: '毕方', title: '', qq: '2889539802' },
+            { name: '困狗', title: '', qq: '1726677248' },
         ],
     },
 ]
