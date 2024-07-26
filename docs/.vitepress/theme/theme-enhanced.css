@@ -1,0 +1,27 @@
+/* stylelint-disable-next-line selector-class-pattern */
+.VPMenuGroup > .title {
+    font-size: 11px;
+}
+
+.vp-doc a {
+    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.vp-doc a:hover {
+    border-radius: 0.2em;
+    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
+}
+
+.vp-doc strong {
+    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
+}
+
+.custom-block {
+    padding: 8px 16px;
+}
+
+.vp-doc .custom-block p:first-child {
+    margin: 8px 0;
+}

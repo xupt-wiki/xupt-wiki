@@ -2,9 +2,10 @@
 import { h } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import './theme-enhanced.css'
 import './style.css'
 
-import { Icon } from '@iconify/vue/dist/iconify.js'
+import { Icon } from '@iconify/vue'
 
 import Annotation from '../components/Annotation.vue'
 import Footer from '../components/Footer.vue'

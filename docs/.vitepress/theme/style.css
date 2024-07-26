@@ -23,10 +23,6 @@
     max-width: 256px;
 }
 
-.VPMenuGroup > .title {
-    font-size: 11px;
-}
-
 .vp-doc {
     position: relative;
     counter-reset: section-counter;
@@ -64,21 +60,6 @@
     margin-right: 0.3em;
     background: url("/logo.svg") no-repeat;
     vertical-align: middle;
-}
-
-.vp-doc a {
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
-    text-decoration: none;
-    transition: 0.2s;
-}
-
-.vp-doc a:hover {
-    border-radius: 0.2em;
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
-}
-
-.vp-doc strong {
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
 }
 
 .fa-solid,
