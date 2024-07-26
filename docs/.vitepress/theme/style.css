@@ -40,21 +40,20 @@
 .vp-doc h2::before {
     content: counter(section-counter);
     position: absolute;
-    opacity: 0.1;
     left: -2rem;
     font-size: 5rem;
     font-weight: bold;
     text-align: center;
     color: transparent;
     z-index: -1;
-    -webkit-text-stroke: 2px var(--vp-c-text-1);
+    -webkit-text-stroke: 2px var(--vp-c-divider);
 }
 
 .vp-doc h2::after {
     content: "西邮 Wiki";
     position: absolute;
-    opacity: 0.1;
     right: 0;
+    color: var(--vp-c-divider);
 }
 
 .vp-doc h3::before {

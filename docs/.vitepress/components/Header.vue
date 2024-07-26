@@ -1,11 +1,9 @@
-<script setup lang="ts">
-import Logo from './Logo.vue'
-</script>
-
 <template>
     <header>
         <p>
-            西邮 Wiki 项目起步，正在修缮，欢迎加入项目组 QQ 群 <strong>924632788</strong> 贡献内容。
+            欢迎加入西邮生活 QQ 群 <Annotation copy="text">
+                <strong>924632788</strong>
+            </Annotation> 。项目修缮中，可联系群管理员贡献内容。
         </p>
         <Logo class="header-logo" />
     </header>
@@ -14,8 +12,8 @@ import Logo from './Logo.vue'
 <style scoped>
 header {
     position: relative;
-    opacity: 0.5;
     margin-block: -1em 2em;
+    color: var(--vp-c-text-3);
 }
 
 strong {
@@ -24,9 +22,10 @@ strong {
 
 .header-logo {
     position: absolute;
-    opacity: 0.2;
     top: 0;
     right: 0;
     height: 5rem;
+    color: var(--vp-c-divider);
+    z-index: -1;
 }
 </style>
