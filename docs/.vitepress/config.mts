@@ -15,7 +15,7 @@ export default defineConfig({
         nav: nav(),
         sidebar: sidebar(),
         socialLinks: [
-            { icon: 'github', link: 'https://github.com/xupt-wiki' },
+            { icon: 'github', link: 'https://github.com/xupt-wiki/xupt-wiki' },
         ],
 
         externalLinkIcon: true,
