@@ -46,6 +46,9 @@ export default defineConfig({
         ['link', { rel: 'icon', href: '/logo.svg' }],
         ['link', { rel: 'stylesheet', href: '//lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
     ],
+    markdown: {
+        math: true,
+    },
 })
 
 function nav(): DefaultTheme.NavItem[] {
@@ -109,13 +112,11 @@ function sidebar(): DefaultTheme.Sidebar {
                     {
                         text: '课内学业',
                         items: [
-                            { text: '选修课、必修课与限选课⚠️', link: '/study/curriculum' },
-                            { text: '学分、绩点的计算⚠️', link: '/study/credit-and-gpa' },
-                            { text: '挂科了怎么办⚠️', link: '/study/failure-policy' },
-                            { text: '线上课程⚠️', link: '/study/online-course' },
-                            { text: '转专业政策、时间⚠️', link: '/study/change-major' },
-                            { text: '综测和课外八学分⚠️', link: '/study/comprehensive-assessment' },
-                            { text: '班干部、党员与评优排名⚠️', link: '/study/class-leadership' },
+                            { text: '课程分类⚠️', link: '/study/curriculum' },
+                            { text: '成绩、挂科', link: '/study/grades' },
+                            { text: '学分、绩点、综测', link: '/study/gpa' },
+                            { text: '转专业⚠️', link: '/study/change-major' },
+                            { text: '干部评优⚠️', link: '/study/class-leadership' },
                         ],
                     },
                     {
