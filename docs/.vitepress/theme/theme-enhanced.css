@@ -22,6 +22,10 @@
     padding: 8px 16px;
 }
 
+.custom-block.details summary {
+    margin: 8px 0;
+}
+
 .vp-doc .custom-block p:first-child {
     margin: 8px 0;
 }

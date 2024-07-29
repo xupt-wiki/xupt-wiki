@@ -115,8 +115,8 @@ function sidebar(): DefaultTheme.Sidebar {
                             { text: '课程分类⚠️', link: '/study/curriculum' },
                             { text: '成绩、挂科', link: '/study/grades' },
                             { text: '学分、绩点、综测', link: '/study/gpa' },
-                            { text: '转专业⚠️', link: '/study/change-major' },
                             { text: '干部评优⚠️', link: '/study/class-leadership' },
+                            { text: '转专业、学籍异动', link: '/study/change-major' },
                         ],
                     },
                     {

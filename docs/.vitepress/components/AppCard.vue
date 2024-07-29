@@ -57,6 +57,7 @@ defineProps<AppProps>()
     width: 3em;
     border-radius: 0.5em;
     box-shadow: 2px 4px 1rem var(--vp-c-divider);
+    background-color: white;
 }
 
 .app-desc > p {

@@ -9,6 +9,7 @@ import { Icon } from '@iconify/vue'
 
 import Annotation from '../components/Annotation.vue'
 import Footer from '../components/Footer.vue'
+import Disclaimer from '../components/Disclaimer.vue'
 import Header from '../components/Header.vue'
 import Logo from '../components/Logo.vue'
 import QRCode from '../components/QRCode.vue'
@@ -24,8 +25,9 @@ export default {
     },
     // enhanceApp({ app, router, siteData }) {
     enhanceApp({ app }) {
-        app.component('Icon', Icon)
         app.component('Annotation', Annotation)
+        app.component('Disclaimer', Disclaimer)
+        app.component('Icon', Icon)
         app.component('Logo', Logo)
         app.component('QRCode', QRCode)
     },

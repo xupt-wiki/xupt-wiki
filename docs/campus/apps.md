@@ -78,13 +78,13 @@ life:
         icon: https://p0.qhimg.com/t0127c180245cf04171.png
         desc:
             - 长安校区公共洗衣机
-            - 微信、支付宝小程序
+            - (微信、支付宝小程序)
     qiegongxiang:
         name: 企鹅共享APP服务
         icon: https://yyb-community-1258344701.file.myqcloud.com/wx_mini_app_icon/wx52cfa5fc8d32a43d.png
         desc:
             - 雁塔校区公共洗衣机
-            - 微信小程序
+            - (微信小程序)
 ---
 
 <script setup>
