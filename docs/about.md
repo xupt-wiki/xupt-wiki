@@ -13,7 +13,7 @@ aside: false
 
 ## 项目组成员
 
-<member-list :members="memberData" />
+<MemberList :members="memberData" />
 
 ## 致谢
 

@@ -69,3 +69,8 @@
     vertical-align: middle;
     text-align: center;
 }
+
+iframe {
+    width: 100%;
+    border: none;
+}

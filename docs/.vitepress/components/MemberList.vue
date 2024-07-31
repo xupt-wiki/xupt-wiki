@@ -84,4 +84,9 @@ function setActiveType(type: string) {
     grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 8px;
 }
+
+.card {
+    width: auto;
+    margin: 0;
+}
 </style>

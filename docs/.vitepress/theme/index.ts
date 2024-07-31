@@ -12,6 +12,7 @@ import Footer from '../components/Footer.vue'
 import Disclaimer from '../components/Disclaimer.vue'
 import Header from '../components/Header.vue'
 import Logo from '../components/Logo.vue'
+import TableAutoSpan from '../components/TableAutoSpan.vue'
 import QRCode from '../components/QRCode.vue'
 
 export default {
@@ -23,12 +24,15 @@ export default {
             'doc-after': () => h(Footer),
         })
     },
-    // enhanceApp({ app, router, siteData }) {
-    enhanceApp({ app }) {
+    enhanceApp({ app, router, siteData }) {
+        void router
+        void siteData
+
         app.component('Annotation', Annotation)
         app.component('Disclaimer', Disclaimer)
         app.component('Icon', Icon)
         app.component('Logo', Logo)
+        app.component('TableAutoSpan', TableAutoSpan)
         app.component('QRCode', QRCode)
     },
 } satisfies Theme

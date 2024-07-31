@@ -4,20 +4,23 @@ import { computed } from 'vue'
 export interface MemberProps {
     name: string
     title?: string
-    qq: string
+    avatarType: 'url' | 'qq' | 'github'
     github?: string
-    linkText?: string
-    link?: string
+    avatarName: string
+    linkText?: string | Array<string>
+    link?: string | Array<string>
 }
 
 const props = defineProps<MemberProps>()
 
 const avatarLink = computed(() => {
-    return props.github
-        ? `https://wsrv.nl/?url=github.com/${props.github}.png`
-        : props.qq
-            ? `https://q1.qlogo.cn/g?b=qq&nk=${props.qq}&s=3`
-            : `/favicon.ico`
+    switch (props.avatarType) {
+        case 'qq':
+            return `https://q1.qlogo.cn/g?b=qq&nk=${props.avatarName}&s=4`
+        case 'github':
+            return `https://wsrv.nl/?url=github.com/${props.github}.png`
+    }
+    return props.avatarName
 })
 </script>
 
@@ -44,6 +47,8 @@ const avatarLink = computed(() => {
     display: flex;
     align-items: center;
     gap: 1em;
+    width: fit-content;
+    margin: 0.5em auto;
     padding: 8px;
     border-radius: 12px;
     background-color: var(--vp-c-bg-soft);
