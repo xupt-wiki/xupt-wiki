@@ -12,6 +12,7 @@ const qrcodeDataUrl = ref('')
 async function generateQRCode() {
     if (props.src) {
         qrcodeDataUrl.value = await QRCode.toDataURL(props.src, {
+            margin: 2,
         })
     }
 }
@@ -38,7 +39,7 @@ onMounted(() => {
 
 .text {
     opacity: 0.8;
-    margin: 0.5em auto;
+    margin: 0.5em 0;
     font-size: 0.8em;
     text-align: center;
 }

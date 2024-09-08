@@ -29,19 +29,19 @@ function setActiveType(type: string) {
     <div class="tabs-container">
         <div class="tabs">
             <button
-                v-for="(gradeObj, gradeIndex) in selectedMembers" :key="gradeIndex"
-                :class="{ active: activeTypeIndex === gradeObj.type }" @click="setActiveType(gradeObj.type)"
+                v-for="(groupObj, groupIndex) in selectedMembers" :key="groupIndex"
+                :class="{ active: activeTypeIndex === groupObj.type }" @click="setActiveType(groupObj.type)"
             >
-                <span class="type">{{ gradeObj.type }}</span>
-                <span class="badge">{{ gradeObj.members.length }}</span>
+                <span class="type">{{ groupObj.type }}</span>
+                <span class="badge">{{ groupObj.members.length }}</span>
             </button>
         </div>
         <div
-            v-for="gradeObj in selectedMembers" v-show="activeTypeIndex === gradeObj.type" :key="gradeObj.type"
+            v-for="groupObj in selectedMembers" v-show="activeTypeIndex === groupObj.type" :key="groupObj.type"
             class="tab-contents"
         >
             <div class="members">
-                <MemberCard v-for="member in gradeObj.members" :key="member.name" v-bind="member" />
+                <MemberCard v-for="member in groupObj.members" :key="member.name" v-bind="member" />
             </div>
         </div>
     </div>

@@ -7,8 +7,8 @@ export interface MemberProps {
     avatarType: 'url' | 'qq' | 'github'
     github?: string
     avatarName: string
-    linkText?: string | Array<string>
-    link?: string | Array<string>
+    linkText?: string
+    link?: string
 }
 
 const props = defineProps<MemberProps>()

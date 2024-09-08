@@ -3,8 +3,8 @@ aside: false
 ---
 
 <script setup>
-    import memberData from '/.vitepress/components/memberData.js'
-    import MemberList from '/.vitepress/components/MemberList.vue'
+import memberData from '/.vitepress/components/memberData.js'
+import MemberList from '/.vitepress/components/MemberList.vue'
 </script>
 
 # 关于我们

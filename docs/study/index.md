@@ -8,5 +8,6 @@
 
 - [《上海交通大学生存手册》](https://survivesjtu.gitbook.io/survivesjtumanual)
 - [《CS自学指南》](https://csdiy.wiki/)
+- [《HDU计算机科学讲义》](https://hdu-cs.wiki/)
 - [《代码随想录》](https://www.programmercarl.com/)
 - [《西邮 Linux 兴趣小组培养计划》](https://plan.xiyoulinux.com/)

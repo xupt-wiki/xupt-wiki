@@ -7,11 +7,11 @@ import MemberCard from "/.vitepress/components/MemberCard.vue";
 ## 推荐博主
 
 <MemberCard
-    name="爱吃饼干的喵"
-    avatarType="url"
-    avatarName="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_6f3907e1033e723af12925e04b7e3ff0~c5_300x300.jpeg"
-    linkText="抖音主页"
-    link="https://www.douyin.com/user/MS4wLjABAAAAhdyOaI6Uf0hSGbxUVCyf0Eusd3WI6LIHdPIxURqkOeQ" />
+  name="爱吃饼干的喵"
+  avatarType="url"
+  avatarName="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_6f3907e1033e723af12925e04b7e3ff0~c5_300x300.jpeg"
+  linkText="抖音主页"
+  link="https://www.douyin.com/user/MS4wLjABAAAAhdyOaI6Uf0hSGbxUVCyf0Eusd3WI6LIHdPIxURqkOeQ" />
 
 [爱吃饼干的喵的抖音合集：跟着学姐吃邮电系列](https://www.iesdouyin.com/share/mix/detail/7366461662573889588/)
 
@@ -64,15 +64,15 @@ import MemberCard from "/.vitepress/components/MemberCard.vue";
 ### 聚餐推荐
 
 - 东北菜：
-    - 馋胖肉蟹煲：锅包肉、爆炒鸡胗、滋味肉、酸菜拆骨肉、东北大拉皮
-    - 葳薇家小锅烀饼
+  - 馋胖肉蟹煲：锅包肉、爆炒鸡胗、滋味肉、酸菜拆骨肉、东北大拉皮
+  - 葳薇家小锅烀饼
 - 当地特色：长安搅团
 - 其他：
-    - 陕师大上林火锅鸡
-    - 重庆鸡公煲229
-    - 花雕醉鸡
-    - 渝味源
-    - 小天地
+  - 陕师大上林火锅鸡
+  - 重庆鸡公煲229
+  - 花雕醉鸡
+  - 渝味源
+  - 小天地
 
 ### 小吃
 
