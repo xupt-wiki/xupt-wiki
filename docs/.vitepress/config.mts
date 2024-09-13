@@ -70,22 +70,9 @@ function sidebar(): DefaultTheme.Sidebar {
     return {
         '/': [
             { text: '西邮Wiki', items: [
-                { text: '概览', link: '/overview' },
-                { text: '贡献指南', link: '/contribute' },
+                { text: '写在开头', link: '/overview' },
             ] },
-            { text: '校园', link: '/campus/' },
-            { text: '学习', link: '/study/' },
-            { text: '生活', link: '/life/' },
-            { text: '关于', items: [
-                { text: '写在末尾', link: '/end' },
-                { text: '友情链接', link: '/links' },
-                { text: '更新日志', link: '/changelog' },
-                { text: '关于我们', link: '/about' },
-            ] },
-        ],
-        '/campus/': [
-            { text: '概览', link: '/overview' },
-            { text: '校园', items: [
+            { text: '校园', collapsed: true, items: [
                 { text: '学校及专业简介', link: '/campus/' },
                 { text: '地图/校园概览', link: '/campus/map' },
                 { text: '住宿生活', link: '/campus/accommodation' },
@@ -94,14 +81,7 @@ function sidebar(): DefaultTheme.Sidebar {
                 { text: '手机必备APP', link: '/campus/apps' },
                 { text: '周边环境', link: '/campus/neighborhood' },
             ] },
-            { text: '学习', link: '/study/' },
-            { text: '生活', link: '/life/' },
-            { text: '关于', link: '/end ' },
-        ],
-        '/study/': [
-            { text: '概览', link: '/overview' },
-            { text: '校园', link: '/campus/' },
-            { text: '学习', link: '/study/', items: [
+            { text: '学习', link: '/study/', collapsed: true, items: [
                 { text: '课内学业', items: [
                     { text: '课程安排', link: '/study/curriculum' },
                     { text: '成绩、挂科', link: '/study/grades' },
@@ -114,14 +94,7 @@ function sidebar(): DefaultTheme.Sidebar {
                 { text: '社团(未写)', link: '####/study/clubs' },
                 { text: '毕业去向', link: '/study/pathway' },
             ] },
-            { text: '生活', link: '/life/' },
-            { text: '关于', link: '/end ' },
-        ],
-        '/life/': [
-            { text: '概览', link: '/overview' },
-            { text: '校园', link: '/campus/' },
-            { text: '学习', link: '/study/' },
-            { text: '生活', items: [
+            { text: '生活', collapsed: true, items: [
                 { text: '二手书与二手物品(未写)', link: '####/life/second-hand' },
                 { text: '表白墙、校园社区(未写)', link: '####/life/confession-wall' },
                 { text: '快递和外卖', link: '/life/delivery' },
@@ -131,7 +104,12 @@ function sidebar(): DefaultTheme.Sidebar {
                     { text: '附近好景点，长跑、骑行与city walk(未写)', link: '####/life/nearby-attractions' },
                 ] },
             ] },
-            { text: '关于', link: '/end' },
+            { text: '关于', items: [
+                { text: '友情链接', link: '/links' },
+                { text: '贡献指南', link: '/contribute' },
+                { text: '更新日志', link: '/changelog' },
+                { text: '关于我们', link: '/about' },
+            ] },
         ],
     }
 };

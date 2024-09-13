@@ -1,0 +1,25 @@
+/* stylelint-disable selector-class-pattern */
+:root {
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
+    --vp-home-hero-image-background-image: linear-gradient(30deg, var(--vp-c-brand-3) 50%, var(--vp-c-brand-2) 50%);
+    --vp-home-hero-image-filter: blur(240px);
+}
+
+.VPImage.image-src {
+    max-width: 256px;
+}
+
+.VPFeature {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.VPFeature .icon {
+    position: absolute;
+    opacity: 0.2;
+    right: 10%;
+    font-size: 8em;
+    z-index: -1;
+}

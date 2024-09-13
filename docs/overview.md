@@ -1,23 +1,9 @@
-# 概览
+# 写在开头
 
-欢迎来到西邮 Wiki！
+《西邮 Wiki》不像传统意义上的 Wiki，它更像是一本西邮生活手册。
 
-## 特色篇目
+说实话，校园生活只是广袤人生中的一小部分，而西邮 Wiki 也只能涵盖校园生活中的一小部分。
 
-### 校园
+## 真正的生活指南
 
-- [住宿生活](/campus/accommodation)
-- [入学办理](/campus/enrollment)
-- [防骗指南](/campus/anti-fraud)
-- [手机必备APP](/campus/apps)
-
-### 学习
-
-- [课程安排](/study/curriculum)
-- [成绩与挂科](/study/grades)
-- [学分、绩点和综测](/study/gpa)
-
-### 生活
-
-- [快递与外卖](/life/delivery)
-- [美食推荐](/life/food)
+什么才是真正的生活指南？
