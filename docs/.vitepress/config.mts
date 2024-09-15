@@ -72,14 +72,13 @@ function sidebar(): DefaultTheme.Sidebar {
             { text: '西邮Wiki', items: [
                 { text: '写在开头', link: '/overview' },
             ] },
-            { text: '校园', collapsed: true, items: [
-                { text: '学校及专业简介', link: '/campus/' },
-                { text: '地图/校园概览', link: '/campus/map' },
+            { text: '校园', link: '/campus/', collapsed: true, items: [
+                { text: '本科专业列表', link: '/campus/major' },
                 { text: '住宿生活', link: '/campus/accommodation' },
                 { text: '入学准备与办理', link: '/campus/enrollment' },
                 { text: '防骗', link: '/campus/anti-fraud' },
                 { text: '手机必备APP', link: '/campus/apps' },
-                { text: '周边环境', link: '/campus/neighborhood' },
+                { text: '趣闻', link: '/campus/anecdote' },
             ] },
             { text: '学习', link: '/study/', collapsed: true, items: [
                 { text: '课内学业', items: [
@@ -94,7 +93,7 @@ function sidebar(): DefaultTheme.Sidebar {
                 { text: '社团(未写)', link: '####/study/clubs' },
                 { text: '毕业去向', link: '/study/pathway' },
             ] },
-            { text: '生活', collapsed: true, items: [
+            { text: '生活', link: '/life/', collapsed: true, items: [
                 { text: '二手书与二手物品(未写)', link: '####/life/second-hand' },
                 { text: '表白墙、校园社区(未写)', link: '####/life/confession-wall' },
                 { text: '快递和外卖', link: '/life/delivery' },

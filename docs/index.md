@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: 西邮 Wiki
-  text: 西安邮电大学第三方公益校园生活百科
-  tagline: 由西邮 Wiki 项目组开发，纯净无广告
+  text: 西安邮电大学非官方校园生活指南
+  tagline: 由西邮 Wiki 项目组用❤开发
   image:
     src: /logo.svg
     alt: 西邮 Wiki 项目组群头像
@@ -47,7 +47,3 @@ features:
     details: 😋
     link: /life/food
 ---
-
-<script setup>
-import '/.vitepress/theme/index.css'
-</script>

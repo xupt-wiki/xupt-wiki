@@ -1,9 +1,13 @@
+/* stylelint-disable selector-class-pattern */
 :root {
     --vp-c-default-soft: #bbb3;
     --vp-c-brand-1: #06d;
     --vp-c-brand-2: #003da5;
     --vp-c-brand-3: #07f;
-    --vp-c-brand-soft: #07f3;
+    --vp-c-brand-soft: #07f2;
+    --vp-home-hero-name-color: transparent;
+    --vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
+    --vp-home-hero-image-filter: blur(240px);
 }
 
 .dark:root {
@@ -51,6 +55,25 @@
     background: url("/logo.svg") no-repeat;
     vertical-align: middle;
 }
+
+.VPImage.image-src {
+    max-width: 240px;
+}
+
+.VPFeature {
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.VPFeature .icon {
+    position: absolute;
+    opacity: 0.2;
+    right: 10%;
+    font-size: 8em;
+    z-index: -1;
+}
+
 
 .fa-solid,
 .fa-regular,
