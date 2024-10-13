@@ -1,19 +1,19 @@
 // https://vitepress.dev/zh/guide/custom-theme
-import { h } from 'vue'
 import type { Theme } from 'vitepress'
-import DefaultTheme from 'vitepress/theme'
-import './theme-enhanced.css'
-import './style.css'
-
 import { Icon } from '@iconify/vue'
+import DefaultTheme from 'vitepress/theme'
+import { h } from 'vue'
 
 import Annotation from '../components/Annotation.vue'
-import Footer from '../components/Footer.vue'
 import Disclaimer from '../components/Disclaimer.vue'
+import Footer from '../components/Footer.vue'
 import Header from '../components/Header.vue'
 import Logo from '../components/Logo.vue'
-import TableAutoSpan from '../components/TableAutoSpan.vue'
 import QRCode from '../components/QRCode.vue'
+import TableAutoSpan from '../components/TableAutoSpan.vue'
+
+import './theme-enhanced.css'
+import './style.css'
 
 export default {
     extends: DefaultTheme,

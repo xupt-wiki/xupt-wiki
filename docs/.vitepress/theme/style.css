@@ -68,12 +68,12 @@
 
 .VPFeature .icon {
     position: absolute;
-    opacity: 0.2;
+    opacity: 0.15;
     right: 10%;
+    background-color: transparent;
     font-size: 8em;
     z-index: -1;
 }
-
 
 .fa-solid,
 .fa-regular,
