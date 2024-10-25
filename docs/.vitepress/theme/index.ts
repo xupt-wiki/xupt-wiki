@@ -3,6 +3,7 @@ import type { Theme } from 'vitepress'
 import { Icon } from '@iconify/vue'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
+import VueTippy from 'vue-tippy'
 
 import Disclaimer from '../components/Disclaimer.vue'
 import Footer from '../components/Footer.vue'
@@ -14,6 +15,7 @@ import Tip from '../components/Tip.vue'
 
 import './theme-enhanced.css'
 import './style.css'
+import 'tippy.js/dist/tippy.css'
 
 export default {
     extends: DefaultTheme,
@@ -34,5 +36,7 @@ export default {
         app.component('TableAutoSpan', TableAutoSpan)
         app.component('Tip', Tip)
         app.component('QRCode', QRCode)
+
+        app.use(VueTippy, { directive: 'tippy', component: 'tippy' })
     },
 } satisfies Theme

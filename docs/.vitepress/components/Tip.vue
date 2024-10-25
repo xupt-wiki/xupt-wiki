@@ -1,8 +1,7 @@
 <script setup lang="ts">
 import ClipboardJS from 'clipboard'
-import tippy from 'tippy.js'
 import { onMounted, ref } from 'vue'
-import 'tippy.js/dist/tippy.css'
+import { tippy } from 'vue-tippy'
 
 const props = defineProps<{
     text?: string
@@ -11,34 +10,23 @@ const props = defineProps<{
 }>()
 
 const tipEl = ref<HTMLElement | null>(null)
-
+const tooltipText = props.text || (props.copy ? '点击复制' : '')
 const icon = props.icon || (props.copy ? 'ph:copy' : 'ph:question')
 
-const tooltipText = props.text || (props.copy ? '点击复制' : '')
-
-onMounted(() => {
-    tippy(tipEl.value!, {
-        content: tooltipText,
-    })
-
-    if (props.copy) {
-        new ClipboardJS(tipEl.value!, {
-            text: () => tipEl.value?.textContent || '',
-        }).on('success', () => {
+props.copy && onMounted(() => {
+    new ClipboardJS(tipEl.value!, { text: () => tipEl.value?.textContent || '' })
+        .on('success', () => {
             tippy(tipEl.value!, {
                 content: '已复制',
                 trigger: 'manual',
-                onShow(instance) {
-                    setTimeout(() => instance.hide(), 1000)
-                },
+                onShow(instance) { setTimeout(() => instance.hide(), 1000) },
             }).show()
         })
-    }
 })
 </script>
 
 <template>
-    <span ref="tipEl" class="annotation">
+    <span ref="tipEl" v-tippy="tooltipText" class="annotation">
         <slot />
         <Icon :icon="icon" class="annotation-icon" />
     </span>
