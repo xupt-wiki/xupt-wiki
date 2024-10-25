@@ -1,9 +1,8 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
-import tippy from 'tippy.js'
-import 'tippy.js/dist/tippy.css'
-import type { Icon } from '@iconify/vue'
 import ClipboardJS from 'clipboard'
+import tippy from 'tippy.js'
+import { onMounted, ref } from 'vue'
+import 'tippy.js/dist/tippy.css'
 
 const props = defineProps<{
     text?: string
@@ -11,22 +10,22 @@ const props = defineProps<{
     copy?: boolean
 }>()
 
-const annotation = ref<HTMLElement | null>(null)
+const tipEl = ref<HTMLElement | null>(null)
 
 const icon = props.icon || (props.copy ? 'ph:copy' : 'ph:question')
 
 const tooltipText = props.text || (props.copy ? '点击复制' : '')
 
 onMounted(() => {
-    tippy(annotation.value!, {
+    tippy(tipEl.value!, {
         content: tooltipText,
     })
 
     if (props.copy) {
-        new ClipboardJS(annotation.value!, {
-            text: () => annotation.value?.textContent || '',
+        new ClipboardJS(tipEl.value!, {
+            text: () => tipEl.value?.textContent || '',
         }).on('success', () => {
-            tippy(annotation.value!, {
+            tippy(tipEl.value!, {
                 content: '已复制',
                 trigger: 'manual',
                 onShow(instance) {
@@ -39,7 +38,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <span ref="annotation" class="annotation">
+    <span ref="tipEl" class="annotation">
         <slot />
         <Icon :icon="icon" class="annotation-icon" />
     </span>

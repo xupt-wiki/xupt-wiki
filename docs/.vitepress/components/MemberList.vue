@@ -1,6 +1,6 @@
 <script lang="ts" setup>
-import { computed, ref } from 'vue'
 import type { MemberProps } from './MemberCard.vue'
+import { computed, ref } from 'vue'
 import MemberCard from './MemberCard.vue'
 
 const props = defineProps<{
@@ -29,7 +29,7 @@ function setActiveType(type: string) {
     <div class="tabs-container">
         <div class="tabs">
             <button
-                v-for="(groupObj, groupIndex) in selectedMembers" :key="groupIndex"
+                v-for="groupObj, groupIndex in selectedMembers" :key="groupIndex"
                 :class="{ active: activeTypeIndex === groupObj.type }" @click="setActiveType(groupObj.type)"
             >
                 <span class="type">{{ groupObj.type }}</span>

@@ -21,14 +21,14 @@ function calculateRowSpan(startRow: number, colIndex: number) {
     <table>
         <thead>
             <tr>
-                <th v-for="(header, index) in data[0]" :key="index">
+                <th v-for="header, index in data[0]" :key="index">
                     {{ header }}
                 </th>
             </tr>
         </thead>
         <tbody>
-            <tr v-for="(row, rowIndex) in data.slice(1)" :key="rowIndex">
-                <template v-for="(cell, colIndex) in row" :key="colIndex">
+            <tr v-for="row, rowIndex in data.slice(1)" :key="rowIndex">
+                <template v-for="cell, colIndex in row" :key="colIndex">
                     <td
                         v-if="cell || (rowIndex | colIndex) === 0"
                         :rowspan="cell ? calculateRowSpan(rowIndex + 1, colIndex) : 1"

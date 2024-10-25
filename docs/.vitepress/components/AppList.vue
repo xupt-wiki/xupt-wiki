@@ -7,7 +7,7 @@ defineProps<{ data: Record<string, AppProps> }>()
 
 <template>
     <div class="app-list">
-        <AppCard v-for="(app, index) in data" :key="index" v-bind="app" />
+        <AppCard v-for="app, index in data" :key="index" v-bind="app" />
     </div>
 </template>
 

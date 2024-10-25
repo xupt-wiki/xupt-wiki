@@ -1,9 +1,9 @@
 <template>
     <header>
         <p>
-            欢迎加入西邮生活 QQ 群 <Annotation copy>
+            欢迎加入西邮生活 QQ 群 <Tip copy>
                 <strong>924632788</strong>
-            </Annotation>。项目修缮中，可联系群管理员贡献内容。
+            </Tip>。项目修缮中，可联系群管理员贡献内容。
         </p>
         <Logo class="header-logo" />
     </header>

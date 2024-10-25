@@ -17,15 +17,16 @@
 
 ### 长安校区
 
-![campus-changan](https://pic1.zhimg.com/v2-8d1fdb3bdafe4c5719a56239ea9cd3ab_r.jpg)
+![长安校区地图 by 信连创](https://pic1.zhimg.com/v2-8d1fdb3bdafe4c5719a56239ea9cd3ab_r.jpg)
 
 #### 教学楼
 
 - 西区有基础教学楼A和B，位于西区西北角。
 - 东区有逸夫教学楼。
-  - FF开头的是大教室，位于东侧。
-  - FZ开头的是小教室。
+  - FF开头的是大教室，位于东侧；FZ开头的是小教室。
+  - A口位于西北角，B口位于西南角，C口位于东北角，D口位于东南角。
+  - 如果找不到教室，可以关注 <Tip copy>隔壁小O</Tip> 公众号（[使用指南](https://mp.weixin.qq.com/s/CZR_d2SmltiZyl-oCz3zhA)）。
 
 ### 雁塔校区
 
-![campus-yanta](https://weishengsuo.xupt.edu.cn/_mediafile/wss/2015/08/03/238rx6fyve.jpg)
+![雁塔校区地图 by 卫生所](https://weishengsuo.xupt.edu.cn/_mediafile/wss/2015/08/03/238rx6fyve.jpg)
