@@ -46,4 +46,8 @@ features:
     icon: 🍽️
     details: 😋
     link: /life/food
+  - title: 校园墙
+    icon: 📷
+    details: 表白墙、校园社区
+    link: /life/forum
 ---
