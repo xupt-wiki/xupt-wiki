@@ -83,12 +83,12 @@ const avatarLink = computed(() => {
     line-height: 1.2;
 }
 
-.card-content a {
+.card > .card-content a {
     overflow: hidden;
     background: unset;
 }
 
-.card-content a[target]::after {
+.card > .card-content a[target]::after {
     content: unset;
 }
 </style>
