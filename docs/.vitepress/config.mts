@@ -89,6 +89,7 @@ function sidebar(): DefaultTheme.Sidebar {
                     { text: '防骗', link: '/campus/anti-fraud' },
                     { text: '手机必备APP', link: '/campus/apps' },
                     { text: '趣闻', link: '/campus/anecdote' },
+                    { text: '反馈与舆论', link: '/campus/feedback' },
                 ],
             },
             {
@@ -100,16 +101,14 @@ function sidebar(): DefaultTheme.Sidebar {
                         text: '课内学业',
                         items: [
                             { text: '课程安排', link: '/study/curriculum' },
-                            { text: '成绩、挂科', link: '/study/grades' },
-                            { text: '学分、绩点、综测', link: '/study/gpa' },
-                            { text: '评选优秀(未写)', link: '####/study/evaluation' },
-                            { text: '转专业、学籍异动', link: '/study/change-major' },
+                            { text: '学业成绩', link: '/study/grades' },
+                            { text: '学分绩点/综测评优', link: '/study/gpa' },
+                            { text: '学号/学籍', link: '/study/status' },
                         ],
                     },
                     { text: '实验室/兴趣小组', link: '/study/labs' },
-                    { text: '竞赛(未写)', link: '####/study/contest' },
-                    { text: '社团(未写)', link: '####/study/clubs' },
-                    { text: '毕业去向', link: '/study/pathway' },
+                    { text: '竞赛与证书', link: '/study/contest' },
+                    { text: '社团与爱好(未写)', link: '/study/clubs' },
                 ],
             },
             {
@@ -120,20 +119,14 @@ function sidebar(): DefaultTheme.Sidebar {
                     { text: '校园墙/社区/二手交易', link: '/life/forum' },
                     { text: '快递和外卖', link: '/life/delivery' },
                     { text: '美食推荐', link: '/life/food' },
-                    {
-                        text: '周边生活',
-                        items: [
-                            { text: '周末玩什么？(未写)', link: '####/life/weekend-activities' },
-                            { text: '附近好景点，长跑、骑行与city walk(未写)', link: '####/life/nearby-attractions' },
-                        ],
-                    },
+                    { text: '周边去处', link: '/life/nearby' },
                 ],
             },
             {
                 text: '关于',
                 items: [
                     { text: '友情链接', link: '/links' },
-                    { text: '贡献指南', link: '/contribute' },
+                    { text: '贡献指南', link: '/contributing' },
                     { text: '更新日志', link: '/changelog' },
                     { text: '关于我们', link: '/about' },
                 ],

@@ -9,6 +9,7 @@ import Disclaimer from '../components/Disclaimer.vue'
 import Footer from '../components/Footer.vue'
 import Header from '../components/Header.vue'
 import Logo from '../components/Logo.vue'
+import NotFound from '../components/NotFound.vue'
 import QRCode from '../components/QRCode.vue'
 import TableAutoSpan from '../components/TableAutoSpan.vue'
 import Tip from '../components/Tip.vue'
@@ -24,6 +25,7 @@ export default {
             // https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
             'doc-before': () => h(Header),
             'doc-after': () => h(Footer),
+            'not-found': () => h(NotFound),
         })
     },
     enhanceApp({ app, router, siteData }) {
