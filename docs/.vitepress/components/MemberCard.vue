@@ -18,7 +18,7 @@ const avatarLink = computed(() => {
         case 'qq':
             return `https://q1.qlogo.cn/g?b=qq&nk=${props.avatarName}&s=4`
         case 'github':
-            return `https://wsrv.nl/?url=github.com/${props.github}.png`
+            return `https://wsrv.nl/?url=github.com/${props.github}.png%3fsize=92`
     }
     return props.avatarName
 })
@@ -28,8 +28,10 @@ const avatarLink = computed(() => {
     <div class="card">
         <img class="card-avatar" :src="avatarLink">
         <div class="card-content">
-            <span v-if="name" class="name">{{ name }}</span>
-            <span v-if="title" class="title">{{ title }}</span>
+            <div>
+                <span class="name">{{ name }}</span>
+                <span v-if="title" class="title">{{ title }}</span>
+            </div>
             <span v-if="github || linkText && link" class="links">
                 <a v-if="github" :href="`https://github.com/${github}`" target="_blank">
                     <i class="fa-brands fa-github" />
@@ -47,7 +49,8 @@ const avatarLink = computed(() => {
     display: flex;
     align-items: center;
     gap: 1em;
-    width: fit-content;
+    width: 240px;
+    max-width: 100%;
     margin: 0.5em auto;
     padding: 8px;
     border-radius: 12px;
@@ -67,11 +70,12 @@ const avatarLink = computed(() => {
     gap: 4px;
 }
 
-.card-content > .name {
+.card-content .name {
     font-weight: 600;
 }
 
-.card-content > .title {
+.card-content .title {
+    margin-left: 0.5em;
     font-size: 0.8em;
     color: var(--vp-c-text-3);
 }

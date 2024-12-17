@@ -38,7 +38,7 @@ export default defineConfig({
 
         footer: {
             message: '公益项目。与任何组织无关。Made with ❤.',
-            copyright: `© ${new Date().getFullYear()} 西邮 Wiki 项目组`,
+            copyright: `© ${new Date().getFullYear()} <a href="https://github.com/xupt-wiki">西邮 Wiki 项目组</a>`,
         },
     },
 
