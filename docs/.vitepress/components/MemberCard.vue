@@ -1,17 +1,8 @@
 <script lang="ts" setup>
+import type { Member } from '../data/member'
 import { computed } from 'vue'
 
-export interface MemberProps {
-    name: string
-    title?: string
-    avatarType: 'url' | 'qq' | 'github'
-    github?: string
-    avatarName: string
-    linkText?: string
-    link?: string
-}
-
-const props = defineProps<MemberProps>()
+const props = defineProps<Member>()
 
 const avatarLink = computed(() => {
     switch (props.avatarType) {

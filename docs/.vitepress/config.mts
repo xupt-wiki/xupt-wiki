@@ -1,4 +1,5 @@
-import { type DefaultTheme, defineConfig } from 'vitepress'
+import type { DefaultTheme } from 'vitepress'
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
@@ -44,7 +45,7 @@ export default defineConfig({
 
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
-        ['link', { rel: 'stylesheet', href: '//lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
+        ['link', { rel: 'stylesheet', href: 'https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
     ],
     markdown: {
         math: true,
@@ -53,9 +54,9 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '校园', link: '/campus/', activeMatch: '/campus/' },
-        { text: '学习', link: '/study/', activeMatch: '/study/' },
-        { text: '生活', link: '/life/', activeMatch: '/life/' },
+        { text: '校园', link: '/campus/', activeMatch: '^/campus/' },
+        { text: '学习', link: '/study/', activeMatch: '^/study/' },
+        { text: '生活', link: '/life/', activeMatch: '^/life/' },
         { text: 'CO导航', link: 'https://cooo.site/' },
         {
             text: '关于',

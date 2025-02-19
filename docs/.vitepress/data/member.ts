@@ -1,3 +1,18 @@
+export interface Member {
+    name: string
+    title?: string
+    avatarType: 'url' | 'qq' | 'github'
+    github?: string
+    avatarName?: string
+    linkText?: string
+    link?: string
+}
+
+export interface MemberGroup {
+    type: string
+    members: Member[]
+}
+
 export default [
     {
         type: '管理组',
@@ -15,4 +30,4 @@ export default [
             { name: '困狗', title: '', avatarType: 'qq', avatarName: '1726677248', github: 'Claisenn' },
         ],
     },
-]
+] satisfies MemberGroup[]

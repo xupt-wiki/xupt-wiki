@@ -1,9 +1,9 @@
 // https://vitepress.dev/zh/guide/custom-theme
 import type { Theme } from 'vitepress'
 import { Icon } from '@iconify/vue'
-import DefaultTheme from 'vitepress/theme'
+import DefaultTheme from 'vitepress/theme-without-fonts'
 import { h } from 'vue'
-import VueTippy from 'vue-tippy'
+import VueTippy, { roundArrow } from 'vue-tippy'
 
 import Disclaimer from '../components/Disclaimer.vue'
 import Footer from '../components/Footer.vue'
@@ -14,9 +14,9 @@ import QRCode from '../components/QRCode.vue'
 import TableAutoSpan from '../components/TableAutoSpan.vue'
 import Tip from '../components/Tip.vue'
 
+import 'tippy.js/dist/svg-arrow.css'
 import './theme-enhanced.css'
 import './style.css'
-import 'tippy.js/dist/tippy.css'
 
 export default {
     extends: DefaultTheme,
@@ -28,10 +28,7 @@ export default {
             'not-found': () => h(NotFound),
         })
     },
-    enhanceApp({ app, router, siteData }) {
-        void router
-        void siteData
-
+    enhanceApp({ app }) {
         app.component('Disclaimer', Disclaimer)
         app.component('Icon', Icon)
         app.component('Logo', Logo)
@@ -39,6 +36,12 @@ export default {
         app.component('Tip', Tip)
         app.component('QRCode', QRCode)
 
-        app.use(VueTippy, { directive: 'tippy', component: 'tippy' })
+        app.use(VueTippy, {
+            component: 'Tooltip',
+            directive: 'tip',
+            defaultProps: {
+                arrow: roundArrow,
+            },
+        })
     },
 } satisfies Theme

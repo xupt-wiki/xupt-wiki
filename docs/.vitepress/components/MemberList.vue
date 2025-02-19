@@ -1,13 +1,10 @@
 <script lang="ts" setup>
-import type { MemberProps } from './MemberCard.vue'
+import type { MemberGroup } from '../data/member'
 import { computed, ref } from 'vue'
 import MemberCard from './MemberCard.vue'
 
 const props = defineProps<{
-    members: Array<{
-        type: string
-        members: Array<MemberProps>
-    }>
+    members: MemberGroup[]
     from?: number
     to?: number
 }>()

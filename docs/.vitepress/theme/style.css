@@ -84,3 +84,20 @@ iframe {
     width: 100%;
     border: none;
 }
+
+.tippy-box {
+    padding: 0.3em 0.6em;
+    border-radius: 0.5em;
+    box-shadow: var(--vp-shadow-3);
+    background-color: var(--vp-c-bg-elv);
+    font-size: 0.8em;
+    color: var(--c-text-2);
+}
+
+.tippy-box[data-state="hidden"] {
+    opacity: 0;
+}
+
+.tippy-box > .tippy-svg-arrow {
+    fill: var(--vp-c-bg-elv);
+}

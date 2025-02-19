@@ -1,47 +1,43 @@
 <script setup lang="ts">
-import ClipboardJS from 'clipboard'
-import { onMounted, ref } from 'vue'
-import { tippy } from 'vue-tippy'
+import { useClipboard } from '@vueuse/core'
+import { computed, useTemplateRef } from 'vue'
 
 const props = defineProps<{
     text?: string
-    icon?: string
+    tip?: string
+    icon?: string | boolean
     copy?: boolean
 }>()
 
-const tipEl = ref<HTMLElement | null>(null)
-const tooltipText = props.text || (props.copy ? '点击复制' : '')
-const icon = props.icon || (props.copy ? 'ph:copy' : 'ph:question')
+const tip = computed(() => props.tip || (props.copy ? '点击复制' : ''))
+const tipSource = useTemplateRef('tip-text')
 
-props.copy && onMounted(() => {
-    new ClipboardJS(tipEl.value!, { text: () => tipEl.value?.textContent || '' })
-        .on('success', () => {
-            tippy(tipEl.value!, {
-                content: '已复制',
-                trigger: 'manual',
-                onShow(instance) { setTimeout(() => instance.hide(), 1000) },
-            }).show()
-        })
-})
+const { copy, copied } = useClipboard({ source: () => tipSource.value!.textContent!, legacy: true })
+const icon = computed(() => props.icon
+    || (copied.value && 'ph:check-bold')
+    || (props.copy && 'ph:copy-bold')
+    || 'ph:question-bold',
+)
 </script>
 
 <template>
-    <span ref="tipEl" v-tippy="tooltipText" class="annotation">
-        <slot />
-        <Icon :icon="icon" class="annotation-icon" />
+    <span ref="tip-text" v-tip="tip" class="tip" @click="props.copy && copy()">
+        <slot>{{ text }}</slot>
+        <Icon v-if="typeof icon === 'string'" :icon class="tip-icon" />
     </span>
 </template>
 
 <style scoped>
-.annotation {
+.tip {
     position: relative;
     text-decoration: underline dashed var(--vp-c-text-3);
     text-underline-offset: 4px;
     cursor: pointer;
 }
 
-.annotation-icon {
+.tip-icon {
     display: inline-block;
+    font-size: 1em;
     vertical-align: top;
 }
 </style>

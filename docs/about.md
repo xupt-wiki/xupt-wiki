@@ -3,7 +3,7 @@ aside: false
 ---
 
 <script setup>
-import memberData from '/.vitepress/components/memberData.js'
+import memberData from '/.vitepress/data/member.ts'
 import MemberList from '/.vitepress/components/MemberList.vue'
 </script>
 
