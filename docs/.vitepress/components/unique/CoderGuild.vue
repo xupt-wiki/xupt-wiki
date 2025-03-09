@@ -37,4 +37,8 @@ import QRCode from '../QRCode.vue'
     line-height: normal;
     color: var(--vp-c-text-2);
 }
+
+:deep(.qrcode) {
+    border-radius: 0.2rem;
+}
 </style>
