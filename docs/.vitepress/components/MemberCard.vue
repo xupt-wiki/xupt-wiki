@@ -1,17 +1,18 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import type { Member } from '../data/member'
 import { computed } from 'vue'
+import Link from './Link.vue'
 
 const props = defineProps<Member>()
 
 const avatarLink = computed(() => {
     switch (props.avatarType) {
         case 'qq':
-            return `https://q1.qlogo.cn/g?b=qq&nk=${props.avatarName}&s=4`
+            return `https://q1.qlogo.cn/g?b=qq&nk=${props.avatar}&s=4`
         case 'github':
             return `https://wsrv.nl/?url=github.com/${props.github}.png%3fsize=92`
     }
-    return props.avatarName
+    return props.avatar
 })
 </script>
 
@@ -24,12 +25,8 @@ const avatarLink = computed(() => {
                 <span v-if="title" class="title">{{ title }}</span>
             </div>
             <span v-if="github || linkText && link" class="links">
-                <a v-if="github" :href="`https://github.com/${github}`" target="_blank">
-                    <i class="fa-brands fa-github" />
-                </a>
-                <a v-if="link && linkText" :href="link" target="_blank">
-                    <i class="fa-solid fa-link" />{{ linkText }}
-                </a>
+                <Link v-if="github" icon="ri:github-fill" :link="`https://github.com/${github}`" />
+                <Link v-if="link && linkText" icon="ri:link-m" :link="link">{{ linkText }}</Link>
             </span>
         </div>
     </div>

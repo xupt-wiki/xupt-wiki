@@ -1,20 +1,23 @@
-<script setup>
+<script setup lang="ts">
 import QRCode from 'qrcode'
 import { onMounted, ref } from 'vue'
 
-const props = defineProps({
-    src: String,
-    text: String,
-})
+const props = defineProps<{
+    src: string
+    text?: string
+    scale?: number
+}>()
 
 const qrcodeDataUrl = ref('')
 
 async function generateQRCode() {
-    if (props.src) {
-        qrcodeDataUrl.value = await QRCode.toDataURL(props.src, {
-            margin: 2,
-        })
-    }
+    if (!props.src)
+        return
+
+    qrcodeDataUrl.value = await QRCode.toDataURL(props.src, {
+        margin: 2,
+        scale: props.scale ?? 4,
+    })
 }
 
 onMounted(() => {
@@ -25,9 +28,7 @@ onMounted(() => {
 <template>
     <div>
         <img class="qrcode" :src="qrcodeDataUrl" alt="QR Code">
-        <div class="text">
-            {{ text }}
-        </div>
+        <div v-if="text" class="text" v-text="text" />
     </div>
 </template>
 

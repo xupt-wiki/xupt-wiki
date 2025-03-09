@@ -10,11 +10,14 @@ hero:
     src: /logo.svg
     alt: 西邮 Wiki 项目组群头像
   actions:
-    - theme: brand
-      text: 开始阅读
+    - text: 开始阅读
+      theme: brand
       link: /overview
-    - theme: alt
-      text: 常用网址导航
+    - text: 实验室/码农频道
+      theme: alt
+      link: /coder
+    - text: CO导航
+      theme: alt
       link: https://cooo.site
 
 features:

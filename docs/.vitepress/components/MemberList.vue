@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import type { MemberGroup } from '../data/member'
 import { computed, ref } from 'vue'
 import MemberCard from './MemberCard.vue'

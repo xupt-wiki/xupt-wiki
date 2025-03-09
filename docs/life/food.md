@@ -19,7 +19,7 @@ import MemberCard from "/.vitepress/components/MemberCard.vue";
 <MemberCard
   name="爱吃饼干的喵"
   avatarType="url"
-  avatarName="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_6f3907e1033e723af12925e04b7e3ff0~c5_300x300.jpeg"
+  avatar="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_6f3907e1033e723af12925e04b7e3ff0~c5_300x300.jpeg"
   linkText="抖音主页"
   link="https://www.douyin.com/user/MS4wLjABAAAAhdyOaI6Uf0hSGbxUVCyf0Eusd3WI6LIHdPIxURqkOeQ"
 />

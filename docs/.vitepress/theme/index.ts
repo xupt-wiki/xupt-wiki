@@ -1,6 +1,7 @@
 // https://vitepress.dev/zh/guide/custom-theme
 import type { Theme } from 'vitepress'
 import { Icon } from '@iconify/vue'
+import { createPinia } from 'pinia'
 import DefaultTheme from 'vitepress/theme-without-fonts'
 import { h } from 'vue'
 import VueTippy, { roundArrow } from 'vue-tippy'
@@ -36,6 +37,9 @@ export default {
         app.component('Tip', Tip)
         app.component('QRCode', QRCode)
 
+        const pinia = createPinia()
+
+        app.use(pinia)
         app.use(VueTippy, {
             component: 'Tooltip',
             directive: 'tip',

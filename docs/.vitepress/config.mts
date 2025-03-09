@@ -50,10 +50,13 @@ export default defineConfig({
     markdown: {
         math: true,
     },
+
+    vite: { server: { allowedHosts: true } },
 })
 
 function nav(): DefaultTheme.NavItem[] {
     return [
+        { text: '实验室/码农频道', link: '/coder' },
         { text: '校园', link: '/campus/', activeMatch: '^/campus/' },
         { text: '学习', link: '/study/', activeMatch: '^/study/' },
         { text: '生活', link: '/life/', activeMatch: '^/life/' },

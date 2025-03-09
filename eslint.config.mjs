@@ -6,10 +6,16 @@ export default antfu({
     },
     rules: {
         'jsonc/indent': ['error', 2],
+        'vue/block-lang': ['warn', {
+            script: { lang: ['ts', 'tsx'] },
+        }],
+        'vue/enforce-style-attribute': ['warn', {
+            allow: ['scoped'],
+        }],
         'yaml/indent': ['error', 2],
     },
 }, {
-    files: ['*.json'],
+    files: ['**/*.json'],
     rules: {
         'jsonc/sort-keys': 'off',
         'style/eol-last': 'off',
