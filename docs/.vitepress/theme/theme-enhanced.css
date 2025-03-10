@@ -1,6 +1,6 @@
 /* stylelint-disable-next-line selector-class-pattern */
 .VPMenuGroup > .title {
-    font-size: 11px;
+    font-size: 0.7em;
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
@@ -36,4 +36,13 @@
 
 .vp-doc .custom-block :first-child:first-child {
     margin: 8px 0;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.VPBadge {
+    padding: 0.2em 0.6em;
+    font-size: 0.8em;
+    line-height: normal;
+    vertical-align: text-bottom;
+    transform: none;
 }

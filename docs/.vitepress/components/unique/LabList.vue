@@ -16,7 +16,7 @@ onMounted(shuffleLabs)
         <Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleLabs" />
     </h1>
     <div class="center-line">
-        修改信息请联系 QQ 2399052066
+        添加或修改信息请联系 QQ 2399052066
     </div>
     <TransitionGroup tag="section" class="lab-list">
         <LabItem v-for="lab in labs" v-bind="lab" :key="lab.id" />
@@ -40,6 +40,6 @@ onMounted(shuffleLabs)
 }
 
 .v-move {
-    transition: transform 0.5s;
+    transition: transform 0.3s;
 }
 </style>

@@ -1,4 +1,5 @@
 ---
+title: 实验室列表
 layout: home
 # sidebar: false
 ---

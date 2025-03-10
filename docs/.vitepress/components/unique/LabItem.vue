@@ -11,29 +11,33 @@ const avatar = computed(() => getAvatar(props))
 <template>
     <div class="card">
         <div class="card-face">
-            <img class="banner-bg" :src="avatar" alt="">
+            <img class="blur-bg" :src="avatar" alt="">
 
             <div class="banner">
-                <span class="id">{{ id }}</span>
-                <img v-if="avatar" class="avatar" :src="avatar" alt="">
+                <img class="avatar" :src="avatar" alt="">
             </div>
 
             <div class="name">
                 {{ name }}
             </div>
 
-            <div class="desc">
-                <Badge v-for="tag in desc.split(',')" :key="tag" :text="tag" />
+            <div class="tag-line">
+                <Badge v-for="tag in tags.split(',')" :key="tag" :text="tag" />
             </div>
         </div>
 
         <div class="card-back">
-            <img class="banner-bg" :src="avatar" alt="">
+            <img class="blur-bg" :src="avatar" alt="">
+
+            <div class="id">
+                {{ id }}
+            </div>
+
             <div class="name">
                 {{ name }}
             </div>
 
-            <div class="icon-line">
+            <div class="link-line">
                 <Link v-if="github" icon="ri:github-fill" :link="`https://github.com/${github}`" :tip="`@${github}`" />
                 <Link v-if="website" icon="ri:global-fill" :link="website" text="官网" />
                 <Link v-if="plan" icon="ri:book-2-line" :link="plan" text="培养计划" />
@@ -48,13 +52,13 @@ const avatar = computed(() => getAvatar(props))
                     {{ addr }}
                 </Link>
 
-                <Link v-if="qq" icon="ri:qq-fill">
+                <Link v-if="qq" icon="ri:qq-fill" copy>
                     {{ qq }}
                 </Link>
 
-            <!-- <Link v-if="note" icon="ri:message-2-line">
-                {{ note }}
-            </Link> -->
+                <!-- <Link v-if="note" icon="ri:message-2-line">
+                    {{ note }}
+                </Link> -->
             </div>
         </div>
     </div>
@@ -72,12 +76,14 @@ const avatar = computed(() => getAvatar(props))
     flex-direction: column;
     gap: 0.5rem;
     position: relative;
-    overflow: clip;
-    padding: 0.5rem 1rem 1rem;
+    overflow: hidden;
+    padding: 1rem;
     border-radius: 0.5em;
     background-color: var(--vp-c-bg-soft);
+    /* stylelint-disable-next-line property-no-vendor-prefix */
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: transform 0.2s;
+    transition: transform 0.3s;
     z-index: 0;
 }
 
@@ -96,60 +102,58 @@ const avatar = computed(() => getAvatar(props))
     transform: rotateY(0);
 }
 
-.banner {
-    display: grid;
-    place-items: center;
-    position: relative;
-    height: 7rem;
-    z-index: -1;
-}
-
-.banner-bg {
+.blur-bg {
     position: absolute;
-    opacity: 0.2;
     top: 50%;
     left: 0;
     width: 100%;
     transform: translateY(-50%) scale(1.2);
     transition: all 0.2s;
-    filter: brightness(0.8) saturate(10) contrast(0.8) blur(3em);
+    filter: saturate(2) contrast(0.5) blur(3em);
+    mix-blend-mode: color;
+    pointer-events: none;
     z-index: -1;
 }
 
 .id {
+    align-self: center;
     position: absolute;
-    opacity: 0.1;
+    top: 0;
     font-size: 4em;
     font-weight: bold;
+    line-height: 1.5;
     white-space: nowrap;
+    mix-blend-mode: color-burn;
     user-select: none;
     z-index: -1;
 }
 
-.icon-line {
+.link-line {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 0.9em;
 }
 
 .avatar {
     width: 5rem;
     height: 5rem;
+    margin: 0.5rem auto;
     border-radius: 4rem;
 }
 
 .name {
     font-weight: bold;
-    line-height: normal;
     text-align: center;
 }
 
-.desc {
+.tag-line {
     display: flex;
     justify-content: center;
     gap: 0.2rem;
-    margin-top: 0.5rem;
+    margin: 0.5rem;
     font-size: 0.9em;
     flex-wrap: wrap;
 }
@@ -158,7 +162,8 @@ const avatar = computed(() => getAvatar(props))
     display: grid;
     gap: 0.4rem;
     opacity: 0.7;
+    width: 16em;
+    margin: 0 auto;
     font-size: 0.9em;
-    line-height: normal;
 }
 </style>

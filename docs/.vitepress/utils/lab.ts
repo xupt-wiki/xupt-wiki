@@ -5,7 +5,7 @@ export interface Lab {
     name: string
     qq: string
     belong: string
-    desc: string
+    tags: string
     addr: string
     join: string
     github: string
