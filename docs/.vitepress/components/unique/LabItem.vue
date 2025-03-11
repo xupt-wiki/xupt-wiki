@@ -38,27 +38,16 @@ const avatar = computed(() => getAvatar(props))
             </div>
 
             <div class="link-line">
-                <Link v-if="github" icon="ri:github-fill" :link="`https://github.com/${github}`" :tip="`@${github}`" />
+                <Link v-if="github" v-tip="`@${github}`" icon="ri:github-fill" :link="`https://github.com/${github}`" />
                 <Link v-if="website" icon="ri:global-fill" :link="website" text="官网" />
                 <Link v-if="plan" icon="ri:book-2-line" :link="plan" text="培养计划" />
             </div>
 
             <div class="info">
-                <Link v-if="belong" icon="ri:building-line">
-                    {{ belong }}
-                </Link>
-
-                <Link v-if="addr" icon="ri:map-pin-2-line">
-                    {{ addr }}
-                </Link>
-
-                <Link v-if="qq" icon="ri:qq-fill" copy>
-                    {{ qq }}
-                </Link>
-
-                <!-- <Link v-if="note" icon="ri:message-2-line">
-                    {{ note }}
-                </Link> -->
+                <Link v-if="belong" icon="ri:building-line" :text="belong" />
+                <Link v-if="addr" icon="ri:map-pin-2-line" :text="addr" />
+                <Link v-if="qq" icon="ri:qq-fill" copy :text="qq" />
+                <!-- <Link v-if="note" icon="ri:message-2-line" :text="note" /> -->
             </div>
         </div>
     </div>
@@ -74,6 +63,8 @@ const avatar = computed(() => getAvatar(props))
 .card-face, .card-back {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 0.5rem;
     position: relative;
     overflow: hidden;
@@ -88,7 +79,6 @@ const avatar = computed(() => getAvatar(props))
 }
 
 .card-back {
-    justify-content: center;
     position: absolute;
     inset: 0;
     transform: rotateY(-180deg);
@@ -104,10 +94,8 @@ const avatar = computed(() => getAvatar(props))
 
 .blur-bg {
     position: absolute;
-    top: 50%;
-    left: 0;
     width: 100%;
-    transform: translateY(-50%) scale(1.2);
+    transform: scale(1.2);
     transition: all 0.2s;
     filter: saturate(2) contrast(0.5) blur(3em);
     mix-blend-mode: color;
@@ -115,8 +103,29 @@ const avatar = computed(() => getAvatar(props))
     z-index: -1;
 }
 
+.card-back .blur-bg {
+    transform: scale(-1.2, 1.2);
+}
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    margin: 0.5rem 0;
+    border-radius: 4rem;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.tag-line {
+    flex-grow: 1;
+    margin: 0.5rem;
+    font-size: 0.9em;
+    text-align: center;
+}
+
 .id {
-    align-self: center;
     position: absolute;
     top: 0;
     font-size: 4em;
@@ -130,40 +139,16 @@ const avatar = computed(() => getAvatar(props))
 
 .link-line {
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 0.5rem;
     margin-bottom: 0.5rem;
     font-size: 0.9em;
-}
-
-.avatar {
-    width: 5rem;
-    height: 5rem;
-    margin: 0.5rem auto;
-    border-radius: 4rem;
-}
-
-.name {
-    font-weight: bold;
-    text-align: center;
-}
-
-.tag-line {
-    display: flex;
-    justify-content: center;
-    gap: 0.2rem;
-    margin: 0.5rem;
-    font-size: 0.9em;
-    flex-wrap: wrap;
 }
 
 .info {
     display: grid;
     gap: 0.4rem;
     opacity: 0.7;
-    width: 16em;
-    margin: 0 auto;
+    width: 90%;
     font-size: 0.9em;
 }
 </style>

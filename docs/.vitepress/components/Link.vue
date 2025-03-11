@@ -5,20 +5,22 @@ defineProps<{
     icon?: string
     link?: string
     text?: string
-    tip?: string
     copy?: boolean
 }>()
 </script>
 
 <template>
-    <component :is="link ? 'a' : 'span'" v-tip="tip" class="link" :href="link" target="_blank">
+    <component :is="link ? 'a' : 'span'" class="link" :href="link" target="_blank">
         <Icon v-if="icon" :icon="icon" />
-        <Tip v-if="copy" copy>
+
+        <component
+            :is="copy ? Tip : 'span'"
+            v-if="$slots.default || text"
+            class="content"
+            :copy
+        >
             <slot>{{ text }}</slot>
-        </Tip>
-        <slot v-else>
-            {{ text }}
-        </slot>
+        </component>
     </component>
 </template>
 
@@ -26,6 +28,18 @@ defineProps<{
 .link {
     display: inline-flex;
     gap: 0.2rem;
-    line-height: normal;
+    line-height: 1.4;
+}
+
+.iconify {
+    height: 1.2em;
+}
+
+.content {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    overflow: hidden;
 }
 </style>
