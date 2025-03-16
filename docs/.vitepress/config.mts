@@ -56,7 +56,7 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '实验室/码农频道', link: '/coder' },
+        { text: '实验室/码农频道', link: '/coder/' },
         { text: '校园', link: '/campus/', activeMatch: '^/campus/' },
         { text: '学习', link: '/study/', activeMatch: '^/study/' },
         { text: '生活', link: '/life/', activeMatch: '^/life/' },
@@ -75,6 +75,12 @@ function nav(): DefaultTheme.NavItem[] {
 
 function sidebar(): DefaultTheme.Sidebar {
     return {
+        '/coder': [
+            { text: '实验室/码农频道', link: '/coder/' },
+            { text: '西邮 Linux 兴趣小组培养计划', link: 'https://plan.xiyoulinux.com/' },
+            { text: '移动应用开发实验室培养计划', link: '/coder/plan-mobile' },
+            { text: '大数据实验室培养方案', link: '/coder/plan-bigdata' },
+        ],
         '/': [
             {
                 text: '西邮Wiki',

@@ -15,7 +15,7 @@ hero:
       link: /overview
     - text: 实验室/码农频道
       theme: alt
-      link: /coder
+      link: /coder/
     - text: CO导航
       theme: alt
       link: https://cooo.site

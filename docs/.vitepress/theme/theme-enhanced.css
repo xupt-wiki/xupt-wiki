@@ -11,6 +11,11 @@
     aspect-ratio: 1;
 }
 
+.vp-doc > div > :where(h4, h5, h6) {
+    margin: 1.4em 0 0.5em;
+}
+
+
 .vp-doc a {
     background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
     text-decoration: none;

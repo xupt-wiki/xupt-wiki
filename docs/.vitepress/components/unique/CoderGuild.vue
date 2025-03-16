@@ -13,7 +13,7 @@ import QRCode from '../QRCode.vue'
                 QQ扫码加入，获取更多纳新、技术交流、就业信息。
             </div>
         </div>
-        <QRCode src="https://pd.qq.com/s/grwcu97te" :scale="2" style="flex-shrink: 0;" />
+        <QRCode src="https://pd.qq.com/g/pd65611488" :scale="2" style="flex-shrink: 0;" />
     </div>
 </template>
 

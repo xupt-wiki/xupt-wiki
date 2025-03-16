@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { isExtLink } from '../utils/link'
 import Tip from './Tip.vue'
 
 defineProps<{
@@ -10,7 +11,12 @@ defineProps<{
 </script>
 
 <template>
-    <component :is="link ? 'a' : 'span'" class="link" :href="link" target="_blank">
+    <component
+        :is="link ? 'a' : 'span'"
+        class="link"
+        :href="link"
+        :target="isExtLink(link) ? '_blank' : undefined"
+    >
         <Icon v-if="icon" :icon="icon" />
 
         <component

@@ -16,7 +16,7 @@ onMounted(shuffleLabs)
         <Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleLabs" />
     </h1>
     <div class="center-line">
-        添加或修改信息请联系 QQ 2399052066
+        由 <a href="https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM" target="_blank">西邮各实验室纳新、兴趣群信息</a> 生成，可通过在线文档修改信息
     </div>
     <TransitionGroup tag="section" class="lab-list">
         <LabItem v-for="lab in labs" v-bind="lab" :key="lab.id" />
