@@ -1,3 +1,7 @@
+---
+author: [L33Z22L11]
+---
+
 # 实验班/兴趣小组
 
 <Disclaimer />

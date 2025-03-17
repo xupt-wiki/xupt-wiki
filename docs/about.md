@@ -1,10 +1,11 @@
 ---
 aside: false
+author: [L33Z22L11]
 ---
 
 <script setup>
-import memberData from '/.vitepress/data/member.ts'
-import MemberList from '/.vitepress/components/MemberList.vue'
+import memberData from '/.vitepress/data/members.json'
+import MemberList from '/.vitepress/components/unique/MemberList.vue'
 </script>
 
 # 关于我们

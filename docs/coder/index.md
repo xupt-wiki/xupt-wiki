@@ -1,6 +1,7 @@
 ---
 title: 实验室列表
 layout: home
+author: [L33Z22L11]
 # sidebar: false
 ---
 
@@ -8,7 +9,6 @@ layout: home
 import CoderGuild from "/.vitepress/components/unique/CoderGuild.vue";
 import LabList from "/.vitepress/components/unique/LabList.vue";
 </script>
-
 
 <CoderGuild />
 

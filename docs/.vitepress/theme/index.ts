@@ -6,6 +6,7 @@ import DefaultTheme from 'vitepress/theme-without-fonts'
 import { h } from 'vue'
 import VueTippy, { roundArrow } from 'vue-tippy'
 
+import Author from '../components/Author.vue'
 import Disclaimer from '../components/Disclaimer.vue'
 import Footer from '../components/Footer.vue'
 import Header from '../components/Header.vue'
@@ -25,6 +26,7 @@ export default {
         return h(DefaultTheme.Layout, null, {
             // https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
             'doc-before': () => h(Header),
+            'doc-footer-before': () => h(Author),
             'doc-after': () => h(Footer),
             'not-found': () => h(NotFound),
         })

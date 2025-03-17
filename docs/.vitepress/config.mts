@@ -45,7 +45,7 @@ export default defineConfig({
 
     head: [
         ['link', { rel: 'icon', href: '/logo.svg' }],
-        ['link', { rel: 'stylesheet', href: 'https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
+        // ['link', { rel: 'stylesheet', href: 'https://lib.baomitu.com/font-awesome/6.5.1/css/all.min.css', media: 'none', onload: 'media="all"' }],
     ],
     markdown: {
         math: true,

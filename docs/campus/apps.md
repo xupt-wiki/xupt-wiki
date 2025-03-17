@@ -1,4 +1,5 @@
 ---
+author: [L33Z22L11]
 aside: false
 study:
   chaoxing:
@@ -86,7 +87,7 @@ life:
 ---
 
 <script setup>
-import AppList from "/.vitepress/components/AppList.vue";
+import AppList from "/.vitepress/components/unique/AppList.vue";
 </script>
 
 # 手机上的 APP 们

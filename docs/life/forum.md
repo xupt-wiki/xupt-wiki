@@ -1,3 +1,7 @@
+---
+author: [L33Z22L11]
+---
+
 # 校园墙、社区论坛、二手交易
 
 :::warning 风险提醒
@@ -24,7 +28,7 @@
 | 蓝学塘   | 糖糖在西柚   | <Tip copy>Xayd_tangtang</Tip>                         | ~20条/月          |
 | 校徽     | 邮电校园通   | <Tip copy>XUPT_XYT</Tip>                              | ~2条/月           |
 | 校徽变体 | 仙邮菌       | <Tip copy>sy223344550</Tip>                           | 2024年8月后未更新 |
-| 黄底白字 | 西邮帮助站   | <Tip copy>XYBZZ001</Tip>                              | ~20条/天          | 我被拉黑了，看不了 |
+| 黄底白字 | 西邮鹿鹿通   | <Tip copy>XYBZZ001</Tip>                              | ~20条/天          | 我被拉黑了，看不了 |
 | 帕恰狗   | 万能表白墙   | <Tip copy>Lovemyself12-5</Tip>                        | 2024年7月后未更新 | 由恋爱盲盒运营     |
 | 熊猫人   | 西邮万能墙   | <Tip copy>helpyou04</Tip>                             | ~3条/天           | 由恋爱盲盒运营     |
 

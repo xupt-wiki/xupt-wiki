@@ -1,3 +1,7 @@
+---
+author: [L33Z22L11, g0ubu1i]
+---
+
 # 学分、绩点和综测评优
 
 <Disclaimer />
