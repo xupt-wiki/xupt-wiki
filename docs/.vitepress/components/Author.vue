@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { useData } from 'vitepress'
 import { computed } from 'vue'
+import { isExtLink } from '../utils/link'
 import { getAuthor } from '../utils/member'
 
 const { frontmatter } = useData()
@@ -15,6 +16,7 @@ const authors = computed(() => (frontmatter.value.author as [] || []).map(getAut
             :key="name"
             class="author"
             :href="link"
+            :target="isExtLink(link) ? '_blank' : undefined"
         >
             <img v-if="avatar" :src="avatar" alt="">
             <span class="name">{{ name }}</span>

@@ -1,44 +1,69 @@
 <script setup lang="ts">
-import QRCode from '../QRCode.vue'
-// import Tip from '../Tip.vue'
+import Dropdown from '../Dropdown.vue'
 </script>
 
 <template>
-    <div class="card">
-        <div class="card-body">
-            <div class="card-title">
-                “西邮码农”频道
-            </div>
-            <div class="desc">
-                QQ扫码加入，获取更多纳新、技术交流、就业信息。
-            </div>
+    <Dropdown class="card vp-doc">
+        <img src="https://pd.qq.com/favicon.ico" alt="" class="coder-gulid-icon">
+        “西邮码农”频道
+        <div class="desc">
+            实验室纳新、技术交流、就业资讯
         </div>
-        <QRCode src="https://pd.qq.com/g/pd65611488" :scale="2" style="flex-shrink: 0;" />
-    </div>
+
+        <Icon icon="ri:arrow-right-s-line" class="arrow" />
+
+        <template #content>
+            <QRCode src="https://pd.qq.com/g/pd65611488" />
+            <div class="desc code-desc">
+                QQ 扫码加入
+            </div>
+        </template>
+    </Dropdown>
 </template>
 
 <style scoped>
 .card {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1em;
-    width: 20em;
-    max-width: 100%;
+    gap: 0.2em 0.5em;
+    position: relative;
+    width: fit-content;
     margin: 0 auto;
-    padding: 0.5em 1em;
+    padding: 0.5em 1.6em 0.5em 0.8em;
     border-radius: 0.5rem;
     background: var(--vp-c-default-soft);
+    flex-wrap: wrap;
+}
+
+.coder-gulid-icon {
+    height: 1.5em;
 }
 
 .desc {
-    margin-top: 0.2em;
     font-size: 0.8em;
     line-height: normal;
     color: var(--vp-c-text-2);
 }
 
 :deep(.qrcode) {
-    border-radius: 0.2rem;
+    margin: 0.5em;
+    border-radius: 0.5em;
+}
+
+.code-desc {
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.arrow {
+    position: absolute;
+    right: 0.2em;
+}
+</style>
+
+<!-- eslint-disable-next-line vue/enforce-style-attribute -->
+<style>
+.dark .coder-gulid-icon {
+    filter: brightness(12);
 }
 </style>

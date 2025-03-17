@@ -51,7 +51,11 @@ export default defineConfig({
         math: true,
     },
 
-    vite: { server: { allowedHosts: true } },
+    vite: {
+        server: {
+            allowedHosts: true,
+        },
+    },
 })
 
 function nav(): DefaultTheme.NavItem[] {
@@ -76,7 +80,7 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebar(): DefaultTheme.Sidebar {
     return {
         '/coder': [
-            { text: '实验室/码农频道', link: '/coder/' },
+            { text: '⏴ 实验室/码农频道', link: '/coder/' },
             { text: '西邮 Linux 兴趣小组培养计划', link: 'https://plan.xiyoulinux.com/' },
             { text: '移动应用开发实验室培养计划', link: '/coder/plan-mobile' },
             { text: '大数据实验室培养方案', link: '/coder/plan-bigdata' },

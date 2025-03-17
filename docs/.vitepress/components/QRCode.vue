@@ -34,6 +34,7 @@ onMounted(() => {
 
 <style scoped>
 .qrcode {
+    opacity: 0.75;
     margin: auto;
     image-rendering: pixelated;
 }

@@ -15,10 +15,14 @@ onMounted(shuffleLabs)
         西邮实验室/兴趣小组/工作室列表
         <Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleLabs" />
     </h1>
-    <div class="center-line">
+
+    <slot />
+
+    <div class="center-line vp-doc">
         由 <a href="https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM" target="_blank">西邮各实验室纳新、兴趣群信息</a> 生成，可通过在线文档修改信息
     </div>
-    <TransitionGroup tag="section" class="lab-list">
+
+    <TransitionGroup tag="section" class="lab-list vp-doc">
         <LabItem v-for="lab in labs" v-bind="lab" :key="lab.id" />
     </TransitionGroup>
 </template>
@@ -28,10 +32,13 @@ onMounted(shuffleLabs)
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr));
     gap: 1rem;
+    margin: 2rem auto;
 }
 
 .center-line {
-    margin: 1em 0 1rem;
+    margin: 2em 0 2rem;
+    font: revert;
+    line-height: normal;
     text-align: center;
 }
 

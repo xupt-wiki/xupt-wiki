@@ -16,8 +16,8 @@ defineProps<{
 <style scoped>
 .members {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(8em, 1fr));
+    gap: 0.5em;
     margin: 2em auto;
 }
 

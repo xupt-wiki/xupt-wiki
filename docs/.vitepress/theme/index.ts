@@ -8,6 +8,7 @@ import VueTippy, { roundArrow } from 'vue-tippy'
 
 import Author from '../components/Author.vue'
 import Disclaimer from '../components/Disclaimer.vue'
+import Dropdown from '../components/Dropdown.vue'
 import Footer from '../components/Footer.vue'
 import Header from '../components/Header.vue'
 import Logo from '../components/Logo.vue'
@@ -33,6 +34,7 @@ export default {
     },
     enhanceApp({ app }) {
         app.component('Disclaimer', Disclaimer)
+        app.component('Dropdown', Dropdown)
         app.component('Icon', Icon)
         app.component('Logo', Logo)
         app.component('TableAutoSpan', TableAutoSpan)

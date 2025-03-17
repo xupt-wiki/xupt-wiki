@@ -33,7 +33,7 @@ defineProps<{
 <style scoped>
 .link {
     display: inline-flex;
-    gap: 0.2rem;
+    gap: 0.2em;
     line-height: 1.4;
 }
 

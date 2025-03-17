@@ -1,5 +1,5 @@
 ---
-author: [XiyouMobile]
+author: [XiyouMobile, Magic462, Abstik, ForeverHamburger, wind-know, nanxun911, lukecc0]
 ---
 
 # 移动应用开发实验室 | 培养计划
@@ -20,9 +20,9 @@ author: [XiyouMobile]
 
 ### C 语言基础知识
 
-1. 基础语法 数组操作 结构体、联合体 指针操作
-2. C 语言内存分配基础。例如 malloc 等文件操作
-3. 链表增删改查。单链表，双向链表、循环链表 链表和数组的区别，从内存到使用上的区别
+1. 基础语法，数组操作，结构体、联合体，指针操作
+2. C 语言内存分配基础。例如 `malloc` 等文件操作
+3. 链表增删改查。单链表，双向链表、循环链表，链表和数组的区别，从内存到使用上的区别
 
 ### 计算机基础
 
