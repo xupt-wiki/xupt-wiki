@@ -72,7 +72,7 @@ Protues 上手起来比较简单，是一个单片机仿真程序，在参加仿
 
 FreeRTOS 是较为主流的嵌入式操作系统，可以搭载在 STM32上配合 HAL 库开发使用，操作系统比裸机开发的 CPU 利用率更高更稳定，能实现更多复杂的逻辑。
 
-视频教程：（[【正点原子】手把手教你学 FreeRTOS 实时系统_哔哩哔哩](https://www.bilibili.com/video/BV19g411p7UT/)）
+视频教程：[【正点原子】手把手教你学 FreeRTOS 实时系统_哔哩哔哩](https://www.bilibili.com/video/BV19g411p7UT/)
 
 需要配合 FreeRTOS 官方手册和正点原子的手册进行学习。
 
@@ -80,7 +80,7 @@ FreeRTOS 是较为主流的嵌入式操作系统，可以搭载在 STM32上配�
 
 想找工作？来学嵌入式 Linux。建议先熟练掌握 FreeRTOS。
 
-视频教程：（[正点原子【第一期】手把手教你学 Linux 之 Ubuntu 入门篇_哔哩哔哩](https://www.bilibili.com/video/BV1vE411h7Fi/)）
+视频教程：[正点原子【第一期】手把手教你学 Linux 之 Ubuntu 入门篇_哔哩哔哩](https://www.bilibili.com/video/BV1vE411h7Fi/)
 
 #### 3. 积极备赛
 

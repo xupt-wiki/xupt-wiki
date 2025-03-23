@@ -85,6 +85,7 @@ function sidebar(): DefaultTheme.Sidebar {
             { text: '移动应用开发实验室培养计划', link: '/coder/plan-mobile' },
             { text: '大数据实验室培养方案', link: '/coder/plan-bigdata' },
             { text: '硬件科技协会培养计划', link: '/coder/plan-hardware' },
+            { text: '网络科技协会安全/AI组培养方案', link: '/coder/plan-net' },
         ],
         '/': [
             {

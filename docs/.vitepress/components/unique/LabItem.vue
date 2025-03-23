@@ -111,7 +111,7 @@ const avatar = computed(() => getAvatar(props))
     width: 5rem;
     height: 5rem;
     margin: 0.5rem 0;
-    border-radius: 4rem;
+    border-radius: 5rem;
 }
 
 .name {
