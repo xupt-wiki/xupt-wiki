@@ -65,7 +65,9 @@ life:
   cainiao:
     name: 菜鸟
     icon: http://p16.qhimg.com/dr/_72_/t01950c338d20f6ccaa.png
-    desc: 查快递、取快递
+    desc:
+      - 查快递、身份码取快递
+      - 淘宝“我的驿站”小程序也可
   yundaren:
     name: 云达人
     icon: http://p18.qhimg.com/t011e18028f5c93e2a1.png

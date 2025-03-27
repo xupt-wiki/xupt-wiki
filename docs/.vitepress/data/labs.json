@@ -47,7 +47,7 @@
     "addr": "西区图书馆A514",
     "join": "8月-9月",
     "github": "ZYPC-SEC",
-    "website": "http://ctf.zypc.online:30000/",
+    "website": "http://zypc.xupt.edu.cn/",
     "plan": "",
     "note": "智邮大舞台，能打你就来"
   },
@@ -132,7 +132,7 @@
   {
     "id": "FPGA",
     "name": "FPGA创新实验室",
-    "qq": "975350856",
+    "qq": "974282567",
     "belong": "电子工程学院",
     "tags": "FPGA设计,图像处理,RISC-V处理器",
     "addr": "电院408",
@@ -152,7 +152,7 @@
     "join": "10月中旬",
     "github": "",
     "website": "http://sta.xupt.edu.cn/",
-    "plan": "",
+    "plan": "/coder/plan-software",
     "note": "欢迎大家来面试欧(●°u°●)」"
   },
   {

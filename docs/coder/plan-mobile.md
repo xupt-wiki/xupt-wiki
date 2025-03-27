@@ -2,7 +2,10 @@
 author: [XiyouMobile, Magic462, Abstik, ForeverHamburger, wind-know, nanxun911, lukecc0]
 ---
 
-# 移动应用开发实验室 | 培养计划
+# 移动应用开发实验室培养计划
+
+:::tip 转载自 [腾讯频道 - 西邮码农 - 移动应用开发实验室培养计划](https://pd.qq.com/g/pd65611488/post/B_d5afd3675f7100001441152189626375020X60)
+:::
 
 > 好好学习，天天向上
 >
