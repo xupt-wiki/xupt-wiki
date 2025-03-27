@@ -60,15 +60,14 @@ const avatar = computed(() => getAvatar(props))
     perspective: 50rem;
 }
 
-.card-face, .card-back {
+.card-face,
+.card-back {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
     position: relative;
     overflow: hidden;
-    padding: 1rem;
     border-radius: 0.5em;
     background-color: var(--vp-c-bg-soft);
     /* stylelint-disable-next-line property-no-vendor-prefix */
@@ -78,9 +77,17 @@ const avatar = computed(() => getAvatar(props))
     z-index: 0;
 }
 
+.card-face {
+    gap: 1em;
+    padding: 1.5em;
+    text-align: center;
+}
+
 .card-back {
+    gap: 0.5rem;
     position: absolute;
     inset: 0;
+    padding: 1rem;
     transform: rotateY(-180deg);
 }
 
@@ -96,7 +103,6 @@ const avatar = computed(() => getAvatar(props))
     position: absolute;
     width: 100%;
     transform: scale(1.2);
-    transition: all 0.2s;
     filter: saturate(2) contrast(0.5) blur(3em);
     mix-blend-mode: color;
     pointer-events: none;
@@ -110,7 +116,6 @@ const avatar = computed(() => getAvatar(props))
 .avatar {
     width: 5rem;
     height: 5rem;
-    margin: 0.5rem 0;
     border-radius: 5rem;
 }
 
@@ -120,9 +125,7 @@ const avatar = computed(() => getAvatar(props))
 
 .tag-line {
     flex-grow: 1;
-    margin: 0.5rem;
     font-size: 0.9em;
-    text-align: center;
 }
 
 .id {

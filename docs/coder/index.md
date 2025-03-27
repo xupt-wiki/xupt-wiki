@@ -1,7 +1,6 @@
 ---
 title: 实验室列表
 layout: page
-author: [L33Z22L11]
 sidebar: false
 ---
 

@@ -25,9 +25,8 @@ defineProps<Partial<Member>>()
     align-items: center;
     gap: 0.5em;
     width: 10em;
-    max-width: 100%;
     margin: 0.5em auto;
-    padding: 8px;
+    padding: 0.5em;
     border-radius: 0.5em;
     background-color: var(--vp-c-bg-soft);
     line-height: normal;

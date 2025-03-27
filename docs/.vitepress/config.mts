@@ -60,11 +60,11 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
     return [
-        { text: '实验室/码农频道', link: '/coder/' },
+        { text: '校友博客', link: '/blog' },
+        { text: '实验室列表', link: '/coder/' },
         { text: '校园', link: '/campus/', activeMatch: '^/campus/' },
         { text: '学习', link: '/study/', activeMatch: '^/study/' },
         { text: '生活', link: '/life/', activeMatch: '^/life/' },
-        { text: 'CO导航', link: 'https://cooo.site/' },
         {
             text: '关于',
             items: [
