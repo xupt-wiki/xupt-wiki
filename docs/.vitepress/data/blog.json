@@ -213,7 +213,7 @@
     "title": "",
     "grade": "2023",
     "belong": "智邮普创",
-    "tags": "",
+    "tags": "test",
     "link": "https://blog.goubuli.online/",
     "feed": "",
     "github": "g0ubu1i",
@@ -240,5 +240,16 @@
     "feed": "",
     "github": "zbchi",
     "qq": "1662308219"
+  },
+  {
+    "author": "王大恆",
+    "title": "Daaihang's Blog",
+    "grade": "2022",
+    "belong": "智邮普创",
+    "tags": "",
+    "link": "https://wdh.hk/",
+    "feed": "",
+    "github": "daaihang",
+    "qq": ""
   }
 ]
