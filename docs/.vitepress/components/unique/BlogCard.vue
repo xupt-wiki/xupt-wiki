@@ -44,6 +44,7 @@ const { copy, copied } = useClipboard({ source: () => props.feed, legacy: true }
     gap: 0.6em;
     position: relative;
     overflow: hidden;
+    overflow: clip;
     padding: 0.8em;
     border-radius: 0.5em;
     background-color: var(--vp-c-bg-soft);

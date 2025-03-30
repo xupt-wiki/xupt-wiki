@@ -68,6 +68,7 @@ const avatar = computed(() => getAvatar(props))
     justify-content: center;
     position: relative;
     overflow: hidden;
+    overflow: clip;
     border-radius: 0.5em;
     background-color: var(--vp-c-bg-soft);
     /* stylelint-disable-next-line property-no-vendor-prefix */
