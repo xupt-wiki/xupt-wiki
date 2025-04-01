@@ -81,12 +81,18 @@ function sidebar(): DefaultTheme.Sidebar {
     return {
         '/coder': [
             { text: '⏴ 实验室/码农频道', link: '/coder/' },
-            { text: '西邮 Linux 兴趣小组培养计划', link: 'https://plan.xiyoulinux.com/' },
-            { text: '移动应用开发实验室培养计划', link: '/coder/plan-mobile' },
-            { text: '大数据实验室培养方案', link: '/coder/plan-bigdata' },
-            { text: '硬件科技协会培养计划', link: '/coder/plan-hardware' },
-            { text: '网络科技协会培养方案', link: '/coder/plan-net' },
-            { text: '软件科技协会培养方案', link: '/coder/plan-softaware' },
+            {
+                text: '培养计划/方案',
+                items: [
+                    { text: '西邮 Linux 兴趣小组', link: 'https://plan.xiyoulinux.com/' },
+                    { text: '移动应用开发实验室', link: '/coder/plan-mobile' },
+                    { text: '大数据实验室', link: '/coder/plan-bigdata' },
+                    { text: '硬件科技协会', link: '/coder/plan-hardware' },
+                    { text: '网络科技协会', link: '/coder/plan-net' },
+                    { text: '软件科技协会', link: '/coder/plan-softaware' },
+                    { text: 'ThoughtCoding 实验室', link: '/coder/plan-tc' },
+                ],
+            },
         ],
         '/': [
             {
