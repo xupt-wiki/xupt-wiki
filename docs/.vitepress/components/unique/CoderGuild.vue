@@ -13,7 +13,7 @@ import Dropdown from '../Dropdown.vue'
         <Icon icon="ri:arrow-right-s-line" class="arrow" />
 
         <template #content>
-            <QRCode src="https://pd.qq.com/g/pd65611488" />
+            <QRCode src="https://pd.qq.com/g/xiyoumanong" />
             <div class="desc code-desc">
                 QQ 扫码加入
             </div>
