@@ -38,7 +38,7 @@ const avatar = computed(() => getAvatar(props))
             </div>
 
             <div class="link-line">
-                <Link v-if="github" v-tip="`@${github}`" icon="ri:github-fill" :link="`https://github.com/${github}`" />
+                <Link v-if="github" v-tip="`@${github}`" icon="ri:github-fill" :link="`https://github.com/${github}`" aria-label="Github" />
                 <Link v-if="website" icon="ri:global-fill" :link="website" text="官网" />
                 <Link v-if="plan" icon="ri:book-2-line" :link="plan" text="培养计划" />
             </div>
@@ -122,6 +122,8 @@ const avatar = computed(() => getAvatar(props))
 
 .name {
     font-weight: bold;
+    text-align: center;
+    text-wrap: balance;
 }
 
 .tag-line {
