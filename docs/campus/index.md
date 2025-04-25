@@ -34,3 +34,11 @@ author: [L33Z22L11]
 ### 雁塔校区
 
 ![雁塔校区地图 by 卫生所](https://weishengsuo.xupt.edu.cn/_mediafile/wss/2015/08/03/238rx6fyve.jpg)
+
+## 校区通勤
+
+:::tip 参考
+- [后勤服务产业集团 - 通勤班车运行时间表](https://hqjt.xupt.edu.cn/info/1031/3358.htm)
+:::
+
+另外，可以使用手机地图 APP 查询合适的通勤方案。
