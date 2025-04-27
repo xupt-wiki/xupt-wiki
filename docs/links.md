@@ -16,3 +16,4 @@ author: [L33Z22L11]
 - [西安邮电大学飞跃手册](https://xuptflying.github.io/xupt-flying.github.io/#/)
 - [FZU Wiki](https://fzuwiki.west2.online/) (福州大学校园指南)
 - [HDU 计算机科学讲义](https://hdu-cs.wiki/) (杭州电子科技大学)
+- [重庆大学资源共享计划](https://cqu-openlib.cn/)
