@@ -43,9 +43,9 @@ defineProps<{
 
 .content {
     display: -webkit-box;
-    -webkit-box-orient: vertical;
+    overflow: hidden;
     -webkit-line-clamp: 2;
     line-clamp: 2;
-    overflow: hidden;
+    -webkit-box-orient: vertical;
 }
 </style>

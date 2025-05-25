@@ -193,7 +193,7 @@
     "belong": "Linux小组",
     "tags": "",
     "link": "https://aetherance.github.io/",
-    "feed": "",
+    "feed": "https://aetherance.github.io/atom.xml",
     "github": "Aetherance",
     "qq": "2085163736"
   },
@@ -204,7 +204,7 @@
     "belong": "Linux小组",
     "tags": "",
     "link": "https://xyz2781790037.github.io/ ",
-    "feed": "",
+    "feed": "https://zbchi.github.io/atom.xml",
     "github": "Zeal",
     "qq": "2781790037"
   },
@@ -237,7 +237,7 @@
     "belong": "Linux小组",
     "tags": "",
     "link": "https://zbchi.github.io/",
-    "feed": "",
+    "feed": "https://zbchi.github.io/atom.xml",
     "github": "zbchi",
     "qq": "1662308219"
   },
@@ -261,6 +261,17 @@
     "link": "https://blog.luliang.online/",
     "feed": "",
     "github": "Luyoung0001",
+    "qq": ""
+  },
+  {
+    "author": "marsevilspirit",
+    "title": "marsevilspirit's blog",
+    "grade": "2023",
+    "belong": "Linux小组",
+    "tags": "",
+    "link": "https://www.marsevilspirit.com/",
+    "feed": "https://www.marsevilspirit.com/posts/index.xml",
+    "github": "marsevilspirit",
     "qq": ""
   }
 ]

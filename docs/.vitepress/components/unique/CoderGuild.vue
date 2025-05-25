@@ -24,6 +24,7 @@ import Dropdown from '../Dropdown.vue'
 <style scoped>
 .card {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     gap: 0.2em 0.5em;
     position: relative;
@@ -32,7 +33,6 @@ import Dropdown from '../Dropdown.vue'
     padding: 0.5em 1.6em 0.5em 0.8em;
     border-radius: 0.5rem;
     background: var(--vp-c-default-soft);
-    flex-wrap: wrap;
 }
 
 .coder-gulid-icon {
