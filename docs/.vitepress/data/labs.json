@@ -121,13 +121,13 @@
     "name": "智能科学与技术实验室",
     "qq": "982583530",
     "belong": "自动化学院",
-    "tags": "嵌入式软硬件开发,机器人编程,计算机视觉",
+    "tags": "嵌入式软硬件开发,嵌入式Linux,计算机视觉,机器人控制",
     "addr": "自动化学院344,342",
     "join": "9月下旬",
-    "github": "",
+    "github": "znkxsys",
     "website": "",
     "plan": "",
-    "note": ""
+    "note": "灌注智能实验室谢谢喵"
   },
   {
     "id": "FPGA",
@@ -205,6 +205,19 @@
     "github": "XUPT-BigData-AI-Lab",
     "website": "",
     "plan": "/coder/plan-bigdata",
+    "note": ""
+  },
+  {
+    "id": "SFA",
+    "name": "安全与取证协会",
+    "qq": "483431230",
+    "belong": "网络事件预警与防控技术国家工程实验室",
+    "tags": "人工智能,取证,网络安全,硬件与Linux内核,威胁情报",
+    "addr": "西区医疗中心三楼整层",
+    "join": "10月中旬",
+    "github": "",
+    "website": "https://xiyousfa.cn/",
+    "plan": "",
     "note": ""
   }
 ]

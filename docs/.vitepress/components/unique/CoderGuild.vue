@@ -3,7 +3,7 @@ import Dropdown from '../Dropdown.vue'
 </script>
 
 <template>
-    <Dropdown class="card vp-doc">
+    <Dropdown class="coder-gulid vp-doc">
         <img src="https://pd.qq.com/favicon.ico" alt="" class="coder-gulid-icon">
         “西邮码农”频道
         <div class="desc">
@@ -13,16 +13,13 @@ import Dropdown from '../Dropdown.vue'
         <Icon icon="ri:arrow-right-s-line" class="arrow" />
 
         <template #content>
-            <QRCode src="https://pd.qq.com/g/xiyoumanong" />
-            <div class="desc code-desc">
-                QQ 扫码加入
-            </div>
+            <QRCode src="https://pd.qq.com/g/xiyoumanong" text="QQ 扫码加入" visit />
         </template>
     </Dropdown>
 </template>
 
 <style scoped>
-.card {
+.coder-gulid {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -45,14 +42,9 @@ import Dropdown from '../Dropdown.vue'
     color: var(--vp-c-text-2);
 }
 
-:deep(.qrcode) {
+:deep(.image) {
     margin: 0.5em;
     border-radius: 0.5em;
-}
-
-.code-desc {
-    margin-bottom: 1em;
-    text-align: center;
 }
 
 .arrow {
