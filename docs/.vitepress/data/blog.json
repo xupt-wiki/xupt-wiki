@@ -181,7 +181,7 @@
     "grade": "2023",
     "belong": "电院237",
     "tags": "深夜哲思,生活记录",
-    "link": "http://ppjjz.site/",
+    "link": "https://bushudaoshan.github.io/",
     "feed": "",
     "github": "",
     "qq": "2994984129"
@@ -213,7 +213,7 @@
     "title": "",
     "grade": "2023",
     "belong": "智邮普创",
-    "tags": "test",
+    "tags": "<script>alert(1)</script>",
     "link": "https://blog.goubuli.online/",
     "feed": "",
     "github": "g0ubu1i",
@@ -272,6 +272,39 @@
     "link": "https://www.marsevilspirit.com/",
     "feed": "https://www.marsevilspirit.com/posts/index.xml",
     "github": "marsevilspirit",
+    "qq": ""
+  },
+  {
+    "author": "daz",
+    "title": "daz's Blog",
+    "grade": "2021",
+    "belong": "Linux小组",
+    "tags": "",
+    "link": "https://daz-3ux.github.io/",
+    "feed": "https://daz-3ux.github.io/rss.xml",
+    "github": "Daz-3ux",
+    "qq": ""
+  },
+  {
+    "author": "Yuanmxc",
+    "title": "陌上尘归处",
+    "grade": "2021",
+    "belong": "Linux小组",
+    "tags": "",
+    "link": "https://yuanmxc.site/",
+    "feed": "",
+    "github": "Yuanmxc",
+    "qq": ""
+  },
+  {
+    "author": "Y7n05h",
+    "title": "",
+    "grade": "2020",
+    "belong": "Linux小组",
+    "tags": "",
+    "link": "https://blog.y7n05h.dev/",
+    "feed": "https://blog.y7n05h.dev/atom.xml",
+    "github": "Y7n05h",
     "qq": ""
   }
 ]

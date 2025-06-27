@@ -15,7 +15,7 @@ defineProps<AppProps>()
         </div>
         <div class="app-desc">
             <template v-if="Array.isArray(desc)">
-                <p v-for="para, index in desc" :key="index">
+                <p v-for="para in desc" :key="para">
                     {{ para }}
                 </p>
             </template>
