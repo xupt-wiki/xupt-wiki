@@ -10,16 +10,16 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.16.1",
+    "@antfu/eslint-config": "^4.16.2",
     "@iconify/vue": "^5.0.0",
     "@types/qrcode": "^1.5.5",
-    "@vueuse/core": "^13.4.0",
+    "@vueuse/core": "^13.5.0",
     "@zinkawaii/stylelint-config": "^0.3.2",
-    "eslint": "^9.29.0",
+    "eslint": "^9.30.1",
     "markdown-it-mathjax3": "^4.3.2",
     "pinia": "^3.0.3",
     "qrcode": "^1.5.4",
-    "stylelint": "^16.21.0",
+    "stylelint": "^16.21.1",
     "vitepress": "^1.6.3",
     "vue": "^3.5.17",
     "vue-tippy": "^6.7.1"

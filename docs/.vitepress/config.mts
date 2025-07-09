@@ -38,7 +38,7 @@ export default defineConfig({
         docFooter: { prev: '上一篇', next: '下一篇' },
 
         footer: {
-            message: '公益项目。与任何组织无关。Made with ❤.',
+            message: '公益项目。与任何组织无关。Made with ❤. <a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2025072742号-1</a>',
             copyright: `© ${new Date().getFullYear()} <a href="https://github.com/xupt-wiki">西邮 Wiki 项目组</a>`,
         },
     },
