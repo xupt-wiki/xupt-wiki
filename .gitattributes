@@ -1,3 +1,6 @@
 *.md linguist-detectable=true
 
 docs/** -linguist-documentation
+
+* text eol=lf
+public/ binary
