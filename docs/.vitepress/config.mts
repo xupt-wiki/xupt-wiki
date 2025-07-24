@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
-    lang: 'zh-Hans',
+    lang: 'zh-CN',
     title: '西邮 Wiki',
     description: '西安邮电大学第三方公益校园生活百科',
     lastUpdated: true,
