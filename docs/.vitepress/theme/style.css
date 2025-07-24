@@ -1,18 +1,18 @@
 /* stylelint-disable selector-class-pattern */
 :root {
-    --vp-c-default-soft: #bbb3;
-    --vp-c-brand-1: #06d;
-    --vp-c-brand-2: #003da5;
-    --vp-c-brand-3: #07f;
-    --vp-c-brand-soft: #07f2;
+    --vp-c-default-soft: #BBB3;
+    --vp-c-brand-1: #06D;
+    --vp-c-brand-2: #003DA5;
+    --vp-c-brand-3: #07F;
+    --vp-c-brand-soft: #07F2;
     --vp-home-hero-name-color: transparent;
     --vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
     --vp-home-hero-image-filter: blur(240px);
 }
 
 .dark:root {
-    --vp-c-brand-1: #3af;
-    --vp-c-brand-2: #7cf;
+    --vp-c-brand-1: #3AF;
+    --vp-c-brand-2: #7CF;
 
     /* --vp-c-brand-soft: #33aaff55; */
 }
