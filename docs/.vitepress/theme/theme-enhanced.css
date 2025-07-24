@@ -1,9 +1,8 @@
-/* stylelint-disable-next-line selector-class-pattern */
+/* stylelint-disable selector-class-pattern */
 .VPMenuGroup > .title {
     font-size: 0.7em;
 }
 
-/* stylelint-disable-next-line selector-class-pattern */
 .VPSwitch > .check {
     bottom: 1px;
     width: auto;
@@ -14,7 +13,6 @@
 .vp-doc > div > :where(h4, h5, h6) {
     margin: 1.4em 0 0.5em;
 }
-
 
 .vp-doc a {
     background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
@@ -35,15 +33,6 @@
     opacity: 0.6;
 }
 
-.vp-doc .custom-block {
-    padding: 8px 16px;
-}
-
-.vp-doc .custom-block :first-child:first-child {
-    margin: 8px 0;
-}
-
-/* stylelint-disable-next-line selector-class-pattern */
 .VPBadge {
     padding: 0.2em 0.6em;
     font-size: 0.8em;

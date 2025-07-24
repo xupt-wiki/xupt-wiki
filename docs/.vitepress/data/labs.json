@@ -219,5 +219,18 @@
     "website": "https://xiyousfa.cn/",
     "plan": "",
     "note": ""
+  },
+  {
+    "id": "智能车",
+    "name": "334智能车实验室",
+    "qq": "703502508",
+    "belong": "自动化学院",
+    "tags": "嵌入式软硬件开发,计算机语言,控制算法,PCB设计",
+    "addr": "自动化学院 334",
+    "join": "9月中下旬",
+    "github": "",
+    "website": "https://mp.weixin.qq.com/s/fSREAxbpLIIlT909PkJdfw",
+    "plan": "",
+    "note": "速度与激情"
   }
 ]
