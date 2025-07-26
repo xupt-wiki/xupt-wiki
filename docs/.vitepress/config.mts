@@ -69,7 +69,7 @@ function nav(): DefaultTheme.NavItem[] {
             text: '关于',
             items: [
                 { text: '友情链接', link: '/links' },
-                { text: '贡献指南', link: '/contribute' },
+                { text: '贡献指南', link: '/contributing' },
                 { text: '更新日志', link: '/changelog' },
                 { text: '关于我们', link: '/about' },
             ],

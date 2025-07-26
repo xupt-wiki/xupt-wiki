@@ -10,7 +10,7 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^4.19.0",
+    "@antfu/eslint-config": "^5.0.0",
     "@iconify/vue": "^5.0.0",
     "@types/qrcode": "^1.5.5",
     "@vueuse/core": "^13.5.0",
