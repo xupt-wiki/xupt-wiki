@@ -4,6 +4,10 @@ author: [Bifangzi, L33Z22L11]
 
 # 防骗指南
 
+:::tip 另请参阅
+- [开学第 0 课：防骗/套路 - Ac-Wiki](https://ac-wiki.org/campus-life/first-lesson-of-school/?h=%E8%AF%88%E9%AA%97#_1)
+:::
+
 ## 低阶骗局
 
 ### 冒充官方群组

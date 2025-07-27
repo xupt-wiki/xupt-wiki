@@ -18,7 +18,7 @@ hero:
       link: /coder/
     - text: CO导航
       theme: alt
-      link: https://cooo.site
+      link: https://www.cooo.site/
 
 features:
   - title: 住宿生活

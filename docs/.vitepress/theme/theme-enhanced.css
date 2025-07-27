@@ -33,10 +33,18 @@
     opacity: 0.6;
 }
 
+.vp-doc .custom-block {
+    padding: 8px 16px;
+}
+
+.vp-doc .custom-block :first-child:first-child {
+    margin: 8px 0;
+}
+
 .VPBadge {
-    padding: 0.2em 0.6em;
+    margin: 0 0.1em;
+    padding: 0.2em 0.5em;
     font-size: 0.8em;
-    line-height: normal;
-    vertical-align: text-bottom;
-    transform: none;
+    line-height: 1.2;
+    transform: translateY(-0.1em);
 }
