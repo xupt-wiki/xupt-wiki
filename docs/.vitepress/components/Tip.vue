@@ -34,8 +34,8 @@ const icon = computed(() => props.icon
 .tip {
     position: relative;
     text-decoration: underline dashed var(--vp-c-text-3);
-    text-underline-offset: 4px;
     cursor: pointer;
+    text-underline-offset: 4px;
 }
 
 .tip-icon {

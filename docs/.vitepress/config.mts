@@ -89,7 +89,7 @@ function sidebar(): DefaultTheme.Sidebar {
                     { text: '大数据实验室', link: '/coder/plan-bigdata' },
                     { text: '硬件科技协会', link: '/coder/plan-hardware' },
                     { text: '网络科技协会', link: '/coder/plan-net' },
-                    { text: '软件科技协会', link: '/coder/plan-softaware' },
+                    { text: '软件科技协会', link: '/coder/plan-software' },
                     { text: 'ThoughtCoding 实验室', link: '/coder/plan-tc' },
                 ],
             },

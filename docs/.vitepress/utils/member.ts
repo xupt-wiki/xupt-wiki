@@ -1,14 +1,14 @@
 import members from '../data/members.json'
 
-export interface Member {
+export type Member = Partial<{
     name: string
     title: string
-    avatar?: string
-    github?: string
-    qq?: string
+    avatar: string
+    github: string
+    qq: string
     linkText: string
     link: string
-}
+}>
 
 export function getAvatar(option: { qq?: string, github?: string, avatar?: string }) {
     const { qq, github, avatar } = option
@@ -21,21 +21,17 @@ export function getAvatar(option: { qq?: string, github?: string, avatar?: strin
     return undefined
 }
 
-export const avatarIndex = members.reduce((acc, { name, github, qq }) => {
-    if (github)
-        acc[github] = name
-    if (qq)
-        acc[`-qq-${qq}`] = name
-    return acc
-}, {})
-
-export function getAuthor(authorId: string) {
-    const qq = authorId.match(/-qq-(\d+)/)?.[1]
+export function getAuthor(authorId: string): Member {
+    const [, qq, qqName] = authorId.match(/-qq-(\d+)(?:-(\w+))?/) || []
+    const github = qq ? undefined : authorId
+    const memberName = members.find(member => qq ? member.qq === qq : member.github === github)?.name
 
     const author = {
-        name: avatarIndex[authorId] || authorId,
-        link: qq ? undefined : `https://github.com/${authorId}`,
-        avatar: getAvatar(qq ? { qq } : { github: authorId }),
+        name: memberName ?? qqName ?? github,
+        avatar: getAvatar({ github, qq }),
+        link: github ? `https://github.com/${github}` : undefined,
+        qq,
+        github,
     }
 
     return author

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { Member } from '../utils/member'
 import { useData } from 'vitepress'
 import { computed } from 'vue'
 import { isExtLink } from '../utils/link'
@@ -7,19 +8,27 @@ import { getAuthor } from '../utils/member'
 const { frontmatter } = useData()
 
 const authors = computed(() => (frontmatter.value.author as [] || []).map(getAuthor))
+
+function genAuthorTip(author: Member) {
+    return {
+        content: author.qq ? `QQ: ${author.qq}` : `GitHub@${author.github}`,
+        interactive: true,
+    }
+}
 </script>
 
 <template>
     <section class="authors">
         <a
-            v-for="{ name, link, avatar } in authors"
-            :key="name"
+            v-for="author in authors"
+            :key="author.name"
+            v-tip="genAuthorTip(author)"
             class="author"
-            :href="link"
-            :target="isExtLink(link) ? '_blank' : undefined"
+            :href="author.link"
+            :target="isExtLink(author.link) ? '_blank' : undefined"
         >
-            <img v-if="avatar" :src="avatar" alt="">
-            <span class="name">{{ name }}</span>
+            <img v-if="author.avatar" :src="author.avatar" alt="">
+            <span class="name">{{ author.name }}</span>
         </a>
     </section>
 </template>
@@ -28,19 +37,19 @@ const authors = computed(() => (frontmatter.value.author as [] || []).map(getAut
 .authors {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
-    margin: 1rem 0;
-    line-height: normal;
+    gap: 1em;
+    margin: 1em 0;
+    font-size: 0.8rem;
 }
 
 .author {
     display: inline-flex;
-    align-items: center;
     opacity: 0.8;
-    border: 1px solid var(--vp-c-divider);
+    height: 1.8em;
     border-radius: 1rem;
+    outline: 1px solid var(--vp-c-divider);
     background-color: var(--vp-c-bg-soft);
-    font-size: 0.875rem;
+    line-height: 1.8;
     transition: opacity 0.2s;
 }
 
@@ -48,14 +57,17 @@ const authors = computed(() => (frontmatter.value.author as [] || []).map(getAut
     opacity: 1;
 }
 
-.author .name {
-    padding: 0.2em 0.5em;
+.author > .name {
+    padding: 0 0.5em;
 }
 
-.author img {
-    width: 1.5rem;
-    height: 1.5rem;
-    border-radius: 1rem;
+.author > img {
+    height: 100%;
+    border-radius: 1em;
     object-fit: cover;
+}
+
+.author > img + .name {
+    margin-left: -0.2em;
 }
 </style>
