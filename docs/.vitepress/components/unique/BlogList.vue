@@ -11,42 +11,42 @@ onMounted(shuffleBlogs)
 </script>
 
 <template>
-    <h1 class="center-line">
-        西邮校友博客索引
-        <Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleBlogs" />
-    </h1>
+<h1 class="center-line">
+	西邮校友博客索引
+	<Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleBlogs" />
+</h1>
 
-    <slot />
+<slot />
 
-    <div class="center-line vp-doc">
-        由 <a href="https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=7dbpqq" target="_blank">西邮个人博客列表</a> 生成，可通过在线文档修改信息
-    </div>
+<div class="center-line vp-doc">
+	由 <a href="https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=7dbpqq" target="_blank">西邮个人博客列表</a> 生成，可通过在线文档修改信息
+</div>
 
-    <TransitionGroup tag="section" class="blogs">
-        <BlogCard v-for="blog in blogs" :key="blog.link" v-bind="blog" />
-    </TransitionGroup>
+<TransitionGroup tag="section" class="blogs">
+	<BlogCard v-for="blog in blogs" :key="blog.link" v-bind="blog" />
+</TransitionGroup>
 </template>
 
 <style scoped>
 .blogs {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
-    gap: 0.5em;
-    margin: 2em auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(10em, 1fr));
+	gap: 0.5em;
+	margin: 2em auto;
 }
 
 .center-line {
-    margin: 2em 0 2rem;
-    font: revert;
-    line-height: normal;
-    text-align: center;
+	margin: 2em 0 2rem;
+	font: revert;
+	line-height: normal;
+	text-align: center;
 }
 
 .shuffle-btn {
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .v-move {
-    transition: transform 0.3s;
+	transition: transform 0.3s;
 }
 </style>

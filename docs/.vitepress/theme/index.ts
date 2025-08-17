@@ -22,34 +22,34 @@ import './theme-enhanced.css'
 import './style.css'
 
 export default {
-    extends: DefaultTheme,
-    Layout: () => {
-        return h(DefaultTheme.Layout, null, {
-            // https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
-            'doc-before': () => h(Header),
-            'doc-footer-before': () => h(Author),
-            'doc-after': () => h(Footer),
-            'not-found': () => h(NotFound),
-        })
-    },
-    enhanceApp({ app }) {
-        app.component('Disclaimer', Disclaimer)
-        app.component('Dropdown', Dropdown)
-        app.component('Icon', Icon)
-        app.component('Logo', Logo)
-        app.component('TableAutoSpan', TableAutoSpan)
-        app.component('Tip', Tip)
-        app.component('QRCode', QRCode)
+	extends: DefaultTheme,
+	Layout: () => {
+		return h(DefaultTheme.Layout, null, {
+			// https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
+			'doc-before': () => h(Header),
+			'doc-footer-before': () => h(Author),
+			'doc-after': () => h(Footer),
+			'not-found': () => h(NotFound),
+		})
+	},
+	enhanceApp({ app }) {
+		app.component('Disclaimer', Disclaimer)
+		app.component('Dropdown', Dropdown)
+		app.component('Icon', Icon)
+		app.component('Logo', Logo)
+		app.component('TableAutoSpan', TableAutoSpan)
+		app.component('Tip', Tip)
+		app.component('QRCode', QRCode)
 
-        const pinia = createPinia()
+		const pinia = createPinia()
 
-        app.use(pinia)
-        app.use(VueTippy, {
-            component: 'Tooltip',
-            directive: 'tip',
-            defaultProps: {
-                arrow: roundArrow,
-            },
-        })
-    },
+		app.use(pinia)
+		app.use(VueTippy, {
+			component: 'Tooltip',
+			directive: 'tip',
+			defaultProps: {
+				arrow: roundArrow,
+			},
+		})
+	},
 } satisfies Theme
