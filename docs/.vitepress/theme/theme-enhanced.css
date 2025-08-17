@@ -1,50 +1,50 @@
 /* stylelint-disable selector-class-pattern */
 .VPMenuGroup > .title {
-    font-size: 0.7em;
+	font-size: 0.7em;
 }
 
 .VPSwitch > .check {
-    bottom: 1px;
-    width: auto;
-    height: auto;
-    aspect-ratio: 1;
+	bottom: 1px;
+	width: auto;
+	height: auto;
+	aspect-ratio: 1;
 }
 
 .vp-doc > div > :where(h4, h5, h6) {
-    margin: 1.4em 0 0.5em;
+	margin: 1.4em 0 0.5em;
 }
 
 .vp-doc a {
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
-    text-decoration: none;
-    transition: 0.2s;
+	background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
+	text-decoration: none;
+	transition: 0.2s;
 }
 
 .vp-doc a:hover {
-    border-radius: 0.2em;
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
+	border-radius: 0.2em;
+	background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 100%;
 }
 
 .vp-doc strong {
-    background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
+	background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 40%;
 }
 
 .vp-doc s {
-    opacity: 0.6;
+	opacity: 0.6;
 }
 
 .vp-doc .custom-block {
-    padding: 8px 16px;
+	padding: 8px 16px;
 }
 
 .vp-doc .custom-block :first-child:first-child {
-    margin: 8px 0;
+	margin: 8px 0;
 }
 
 .VPBadge {
-    margin: 0 0.1em;
-    padding: 0.2em 0.5em;
-    font-size: 0.8em;
-    line-height: 1.2;
-    transform: translateY(-0.1em);
+	margin: 0 0.1em;
+	padding: 0.2em 0.5em;
+	font-size: 0.8em;
+	line-height: 1.2;
+	transform: translateY(-0.1em);
 }

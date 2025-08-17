@@ -52,7 +52,7 @@ onMounted(() => {
 	opacity: 0.8;
 	margin: 0.5em 0 1em;
 	font-size: 0.8em;
-	line-height: normal;
+	line-height: 1.4;
 	text-align: center;
 }
 </style>

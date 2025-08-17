@@ -23,18 +23,18 @@ defineProps<Partial<Member>>()
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	gap: 0.5em;
 	width: 10em;
 	margin: 0.5em auto;
 	padding: 0.5em;
 	border-radius: 0.5em;
 	background-color: var(--vp-c-bg-soft);
-	line-height: normal;
+	line-height: 1.4;
 }
 
 .avatar {
 	width: 3rem;
 	height: 3rem;
+	margin: 0.4rem 0;
 	border-radius: 4rem;
 	box-shadow: 2px 4px 1rem var(--vp-c-divider);
 }
@@ -45,7 +45,7 @@ defineProps<Partial<Member>>()
 
 .title {
 	flex-grow: 1;
-	margin-top: -0.5em;
+	margin-bottom: 0.5em;
 	font-size: 0.75em;
 	color: var(--vp-c-text-3);
 }

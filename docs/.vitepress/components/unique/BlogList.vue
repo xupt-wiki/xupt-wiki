@@ -38,7 +38,6 @@ onMounted(shuffleBlogs)
 .center-line {
 	margin: 2em 0 2rem;
 	font: revert;
-	line-height: normal;
 	text-align: center;
 }
 

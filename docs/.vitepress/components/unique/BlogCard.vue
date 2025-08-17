@@ -48,7 +48,7 @@ const { copy, copied } = useClipboard({ source: () => props.feed, legacy: true }
 	padding: 0.8em;
 	border-radius: 0.5em;
 	background-color: var(--vp-c-bg-soft);
-	line-height: normal;
+	line-height: 1.4;
 	text-align: center;
 	z-index: 0;
 }

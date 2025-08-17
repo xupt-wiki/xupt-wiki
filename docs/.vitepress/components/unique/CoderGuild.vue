@@ -38,7 +38,7 @@ import Dropdown from '../Dropdown.vue'
 
 .desc {
 	font-size: 0.8em;
-	line-height: normal;
+	line-height: 1.4;
 	color: var(--vp-c-text-2);
 }
 

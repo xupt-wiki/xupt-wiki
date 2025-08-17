@@ -1,109 +1,109 @@
 /* stylelint-disable selector-class-pattern */
 :root {
-    --vp-c-default-soft: #BBB3;
-    --vp-c-brand-1: #06D;
-    --vp-c-brand-2: #003DA5;
-    --vp-c-brand-3: #07F;
-    --vp-c-brand-soft: #07F2;
-    --vp-home-hero-name-color: transparent;
-    --vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
-    --vp-home-hero-image-filter: blur(240px);
+	--vp-c-default-soft: #BBB3;
+	--vp-c-brand-1: #06D;
+	--vp-c-brand-2: #003DA5;
+	--vp-c-brand-3: #07F;
+	--vp-c-brand-soft: #07F2;
+	--vp-home-hero-name-color: transparent;
+	--vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
+	--vp-home-hero-image-filter: blur(240px);
 }
 
 .dark:root {
-    --vp-c-brand-1: #3AF;
-    --vp-c-brand-2: #7CF;
+	--vp-c-brand-1: #3AF;
+	--vp-c-brand-2: #7CF;
 
-    /* --vp-c-brand-soft: #33aaff55; */
+	/* --vp-c-brand-soft: #33aaff55; */
 }
 
 .vp-doc {
-    counter-reset: section-counter;
+	counter-reset: section-counter;
 }
 
 .vp-doc h2 {
-    counter-increment: section-counter;
+	counter-increment: section-counter;
 }
 
 .vp-doc h2::before {
-    content: counter(section-counter);
-    position: absolute;
-    left: -2rem;
-    font-size: 5rem;
-    font-weight: bold;
-    color: transparent;
-    z-index: -1;
-    -webkit-text-stroke: 2px var(--vp-c-divider);
+	content: counter(section-counter);
+	position: absolute;
+	left: -2rem;
+	font-size: 5rem;
+	font-weight: bold;
+	color: transparent;
+	z-index: -1;
+	-webkit-text-stroke: 2px var(--vp-c-divider);
 }
 
 .vp-doc h2::after {
-    content: "西邮 Wiki";
-    position: absolute;
-    right: 0;
-    color: var(--vp-c-divider);
+	content: "西邮 Wiki";
+	position: absolute;
+	right: 0;
+	color: var(--vp-c-divider);
 }
 
 .vp-doc h3::before {
-    content: "";
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    margin-right: 0.3em;
-    background: url("/logo.svg") no-repeat;
-    vertical-align: middle;
+	content: "";
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-right: 0.3em;
+	background: url("/logo.svg") no-repeat;
+	vertical-align: middle;
 }
 
 .VPImage.image-src {
-    max-width: 240px;
+	max-width: 240px;
 }
 
 .VPFeature {
-    position: relative;
-    overflow: hidden;
-    z-index: 0;
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
 }
 
 .VPFeature .icon {
-    position: absolute;
-    opacity: 0.15;
-    right: 10%;
-    background-color: transparent;
-    font-size: 8em;
-    z-index: -1;
+	position: absolute;
+	opacity: 0.15;
+	right: 10%;
+	background-color: transparent;
+	font-size: 8em;
+	z-index: -1;
 }
 
 .fa-solid, .fa-regular, .fa-brands {
-    width: 1.2em;
-    vertical-align: middle;
-    text-align: center;
+	width: 1.2em;
+	vertical-align: middle;
+	text-align: center;
 }
 
 svg:where(.iconify) {
-    display: inline-block;
-    flex-shrink: 0;
-    font-size: 1.2em;
-    vertical-align: sub;
+	display: inline-block;
+	flex-shrink: 0;
+	font-size: 1.2em;
+	vertical-align: sub;
 }
 
 iframe {
-    width: 100%;
-    border: none;
+	width: 100%;
+	border: none;
 }
 
 .tippy-box {
-    padding: 0.3em 0.6em;
-    border-radius: 0.5em;
-    box-shadow: var(--vp-shadow-3);
-    background-color: var(--vp-c-bg-elv);
-    font-size: 0.8rem;
-    line-height: 1.4;
-    color: var(--c-text-2);
+	padding: 0.3em 0.6em;
+	border-radius: 0.5em;
+	box-shadow: var(--vp-shadow-3);
+	background-color: var(--vp-c-bg-elv);
+	font-size: 0.8rem;
+	line-height: 1.4;
+	color: var(--c-text-2);
 }
 
 .tippy-box[data-state="hidden"] {
-    opacity: 0;
+	opacity: 0;
 }
 
 .tippy-box > .tippy-svg-arrow {
-    fill: var(--vp-c-bg-elv);
+	fill: var(--vp-c-bg-elv);
 }
