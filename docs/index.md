@@ -1,5 +1,5 @@
 ---
-titleTemplate: XUPT Wiki
+titleTemplate: :title - XUPT Wiki
 layout: home
 
 hero:

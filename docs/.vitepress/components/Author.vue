@@ -45,12 +45,10 @@ function genAuthorTip(author: Member) {
 .author {
 	display: inline-flex;
 	opacity: 0.8;
-	height: 1.8em;
 	border: 1px solid var(--vp-c-divider);
-	border-radius: 1rem;
+	border-radius: 1.8em;
 	box-sizing: content-box;
 	background-color: var(--vp-c-bg-soft);
-	line-height: 1.8;
 	transition: opacity 0.2s;
 }
 
@@ -59,12 +57,13 @@ function genAuthorTip(author: Member) {
 }
 
 .author > .name {
-	padding: 0 0.5em;
+	padding: 0.15em 0.5em;
+	line-height: 1.5;
 }
 
 .author > img {
-	height: 100%;
-	border-radius: 1em;
+	height: 1.8em;
+	border-radius: 0.9em;
 	object-fit: cover;
 }
 

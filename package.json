@@ -13,7 +13,7 @@
     "@antfu/eslint-config": "^5.2.1",
     "@iconify/vue": "^5.0.0",
     "@types/qrcode": "^1.5.5",
-    "@vueuse/core": "^13.6.0",
+    "@vueuse/core": "^13.7.0",
     "@zinkawaii/stylelint-config": "^0.3.3",
     "eslint": "^9.33.0",
     "markdown-it-mathjax3": "^4.3.2",
