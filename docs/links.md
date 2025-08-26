@@ -19,3 +19,4 @@ author: [L33Z22L11]
 - [重庆大学资源共享计划](https://cqu-openlib.cn/)
 - [科成星球](https://cduestc.fun/) (电子科技大学成都学院校园生活指南)
 - [Ac-Wiki 大学生的百科全书](https://ac-wiki.org/) (高等教育学社基础知识开源建设工程)
+- [你缺失的那门计算机课](https://www.criwits.top/missing/) (电脑小白入门书籍,网页版)
