@@ -5,7 +5,7 @@ layout: home
 hero:
   name: 西邮 Wiki
   text: 西安邮电大学非官方校园生活指南
-  tagline: 由西邮 Wiki 项目组用❤开发
+  tagline: 通透见解，常读常新
   image:
     src: /logo.svg
     alt: 西邮 Wiki 项目组群头像

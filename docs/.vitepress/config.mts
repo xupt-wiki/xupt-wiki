@@ -59,8 +59,13 @@ export default defineConfig({
 
 function nav(): DefaultTheme.NavItem[] {
 	return [
-		{ text: '校友博客', link: '/blog' },
-		{ text: '实验室列表', link: '/coder/' },
+		{
+			text: 'Coder专题',
+			items: [
+				{ text: '实验室列表', link: '/coder/' },
+				{ text: '校友博客', link: '/coder/blog' },
+			],
+		},
 		{ text: '校园', link: '/campus/', activeMatch: '^/campus/' },
 		{ text: '学习', link: '/study/', activeMatch: '^/study/' },
 		{ text: '生活', link: '/life/', activeMatch: '^/life/' },
@@ -95,16 +100,16 @@ function sidebar(): DefaultTheme.Sidebar {
 		],
 		'/': [
 			{
-				text: '西邮Wiki',
+				text: '主线',
 				items: [
 					{ text: '写在开头', link: '/overview' },
 				],
 			},
 			{
 				text: '校园',
-				link: '/campus/',
 				collapsed: true,
 				items: [
+					{ text: '学校简介', link: '/campus/' },
 					{ text: '本科专业列表', link: '/campus/major' },
 					{ text: '住宿生活', link: '/campus/accommodation' },
 					{ text: '入学准备与办理', link: '/campus/enrollment' },
@@ -116,9 +121,9 @@ function sidebar(): DefaultTheme.Sidebar {
 			},
 			{
 				text: '学习',
-				link: '/study/',
 				collapsed: true,
 				items: [
+					{ text: '学习简介', link: '/study/' },
 					{
 						text: '课内学业',
 						items: [
@@ -135,9 +140,9 @@ function sidebar(): DefaultTheme.Sidebar {
 			},
 			{
 				text: '生活',
-				link: '/life/',
 				collapsed: true,
 				items: [
+					{ text: '生活简介', link: '/life/' },
 					{ text: '校园墙/社区/二手交易', link: '/life/forum' },
 					{ text: '快递和外卖', link: '/life/delivery' },
 					{ text: '美食推荐', link: '/life/food' },

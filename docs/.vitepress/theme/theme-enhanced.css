@@ -14,6 +14,14 @@
 	margin: 1.4em 0 0.5em;
 }
 
+.vp-doc blockquote > p {
+	margin: 1em 0;
+}
+
+.vp-doc table {
+	font-variant-numeric: tabular-nums;
+}
+
 .vp-doc a {
 	background: linear-gradient(var(--vp-c-brand-soft), var(--vp-c-brand-soft)) no-repeat center bottom / 100% 2px;
 	text-decoration: none;
