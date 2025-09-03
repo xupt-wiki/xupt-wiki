@@ -1,4 +1,8 @@
 /* stylelint-disable selector-class-pattern */
+:root {
+	--font-monospace: "JetBrains Mono", "SFMono-Regular", "Cascadia Code", "Fira Code", "Menlo", "Monaco", "Consolas", "Noto Sans Mono", "monospace", "Noto Sans SC", system-ui, monospace;
+}
+
 .VPMenuGroup > .title {
 	font-size: 0.7em;
 }
