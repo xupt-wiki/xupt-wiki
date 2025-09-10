@@ -100,7 +100,7 @@
     "name": "碣石微控236",
     "qq": "1031454170",
     "belong": "自动化学院",
-    "tags": "嵌入式软硬件开发，机器人，无人机",
+    "tags": "嵌入式软硬件开发,机器人,无人机",
     "addr": "自动化学院236",
     "github": "",
     "website": "",
@@ -110,7 +110,7 @@
   {
     "id": "智能",
     "name": "智能科学与技术实验室",
-    "qq": "982583530",
+    "qq": "1048737806",
     "belong": "自动化学院",
     "tags": "嵌入式软硬件开发,嵌入式Linux,计算机视觉,机器人控制",
     "addr": "自动化学院344,342",
@@ -134,7 +134,7 @@
   {
     "id": "软协",
     "name": "软件科技协会",
-    "qq": "538498419",
+    "qq": "1002380254",
     "belong": "计算机学院",
     "tags": "Java,前端,Go,C++",
     "addr": "东区逸夫楼FZ129,FZ131",
@@ -170,22 +170,22 @@
   {
     "id": "TC",
     "name": "ThoughtCoding科技小组",
-    "qq": "283435659",
+    "qq": "1036170223",
     "belong": "计算机学院",
     "tags": "嵌入式,前端,后端,安卓",
     "addr": "东区逸夫楼FZ332",
     "github": "",
     "website": "",
     "plan": "/coder/plan-tc",
-    "note": ""
+    "note": "从零开始，向前出发"
   },
   {
     "id": "大数据",
     "name": "大数据与人工智能实验室",
-    "qq": "1026480858",
+    "qq": "854399802",
     "belong": "计算机学院",
     "tags": "前端,后端,机器学习",
-    "addr": "东区逸夫楼FZ316",
+    "addr": "东区实验楼316",
     "github": "XUPT-BigData-AI-Lab",
     "website": "",
     "plan": "/coder/plan-bigdata",
@@ -209,10 +209,22 @@
     "qq": "703502508",
     "belong": "自动化学院",
     "tags": "嵌入式软硬件开发,计算机语言,控制算法,PCB设计",
-    "addr": "自动化学院 334",
+    "addr": "自动化学院334",
     "github": "",
     "website": "https://mp.weixin.qq.com/s/fSREAxbpLIIlT909PkJdfw",
     "plan": "",
     "note": "速度与激情"
+  },
+  {
+    "id": "算法队",
+    "name": "ACM算法队",
+    "qq": "829573022",
+    "belong": "计算机学院",
+    "tags": "ICPC,CCPC",
+    "addr": "东区逸夫楼FZ158",
+    "github": "",
+    "website": "",
+    "plan": "",
+    "note": ""
   }
 ]
