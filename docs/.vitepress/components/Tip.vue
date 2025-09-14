@@ -16,10 +16,7 @@ const tip = computed(() => ({
 const tipSource = useTemplateRef('tip-text')
 
 const { copy, copied } = useClipboard({ source: () => tipSource.value!.textContent!, legacy: true })
-const icon = computed(() => props.icon
-	|| (copied.value && 'ph:check-bold')
-	|| (props.copy && 'ph:copy-bold'),
-)
+const icon = computed(() => props.icon ?? (copied.value ? 'ph:check-bold' : props.copy && 'ph:copy-bold'))
 </script>
 
 <template>
