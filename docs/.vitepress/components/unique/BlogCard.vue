@@ -3,7 +3,7 @@ import type { Blog } from '../../utils/blog'
 import { useClipboard } from '@vueuse/core'
 import { computed } from 'vue'
 import { getAvatar } from '../../utils/member'
-import Link from '../Link.vue'
+import Link from '../atomic/Link.vue'
 
 const props = defineProps<Blog>()
 const avatar = computed(() => getAvatar(props))

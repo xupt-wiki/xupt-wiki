@@ -62,6 +62,7 @@ defineProps<AppProps>()
 
 .app-desc > p {
 	margin: 0.5em 0;
+	font-size: 0.9em;
 	line-height: 1.2;
 }
 </style>

@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import type { Member } from '../../utils/member'
 import { getAvatar } from '../../utils/member'
-import Link from '../Link.vue'
+import Link from '../atomic/Link.vue'
 
-defineProps<Partial<Member>>()
+defineProps<Member>()
 </script>
 
 <template>
@@ -11,7 +11,7 @@ defineProps<Partial<Member>>()
 	<img class="avatar" :src="getAvatar($props)">
 	<span class="name">{{ name }}</span>
 	<span class="title">{{ title }}</span>
-	<span v-if="github || linkText && link" class="links">
+	<span class="links">
 		<Link v-if="github" icon="ri:github-fill" :link="`https://github.com/${github}`" />
 		<Link v-if="link && linkText" icon="ri:link-m" :link="link">{{ linkText }}</Link>
 	</span>
@@ -41,6 +41,8 @@ defineProps<Partial<Member>>()
 
 .name {
 	font-weight: 600;
+	text-align: center;
+	text-wrap: balance;
 }
 
 .title {
@@ -55,14 +57,5 @@ defineProps<Partial<Member>>()
 	gap: 0.5em;
 	font-size: 0.8em;
 	line-height: 1.2;
-}
-
-.card a {
-	overflow: hidden;
-	background: unset;
-}
-
-.card a[target]::after {
-	content: unset;
 }
 </style>

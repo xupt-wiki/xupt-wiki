@@ -14,7 +14,7 @@ defineProps<{ data: Record<string, AppProps> }>()
 <style scoped>
 .app-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(18em, 1fr));
 	gap: 1em;
 }
 

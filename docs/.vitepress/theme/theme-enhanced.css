@@ -45,6 +45,22 @@
 	opacity: 0.6;
 }
 
+.vp-doc ::marker {
+	color: var(--vp-c-brand-1);
+}
+
+.vp-doc ol:not([class]), .vp-doc ol:not([class]) ol ol ol {
+	list-style-type: revert;
+}
+
+.vp-doc ol:not([class]) ol, .vp-doc ol:not([class]) ol ol ol ol {
+	list-style-type: lower-alpha;
+}
+
+.vp-doc ol:not([class]) ol ol, .vp-doc ol:not([class]) ol ol ol ol ol {
+	list-style-type: lower-roman;
+}
+
 .vp-doc .custom-block {
 	padding: 8px 16px;
 }

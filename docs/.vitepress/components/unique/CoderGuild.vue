@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Dropdown from '../Dropdown.vue'
+import Dropdown from '../atomic/Dropdown.vue'
 </script>
 
 <template>

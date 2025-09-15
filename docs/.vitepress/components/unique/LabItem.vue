@@ -2,7 +2,7 @@
 import type { Lab } from '../../utils/lab'
 import { computed } from 'vue'
 import { getAvatar } from '../../utils/lab'
-import Link from '../Link.vue'
+import Link from '../atomic/Link.vue'
 
 const props = defineProps<Lab>()
 const avatar = computed(() => getAvatar(props))
