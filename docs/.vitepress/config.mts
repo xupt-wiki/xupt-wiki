@@ -45,6 +45,8 @@ export default defineConfig({
 
 	head: [
 		['link', { rel: 'icon', href: '/logo.svg' }],
+		['link', { rel: 'preconnect', href: 'https://fonts.gstatic.cn/', crossorigin: '' }],
+		['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.cn/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap', media: 'print', onload: 'this.media="all"' }],
 	],
 
 	markdown: {

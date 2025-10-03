@@ -105,6 +105,10 @@ img.icon {
 	z-index: -1;
 }
 
+.link.card .content {
+	font-weight: 500;
+}
+
 .link-desc {
 	opacity: 0.8;
 	margin-top: 0.2em;

@@ -1,0 +1,148 @@
+:root {
+	--vp-font-family-base: "Inter-Local", "Noto Sans SC", system-ui, sans-serif;
+	--vp-font-family-mono: "JetBrains Mono", "Cascadia Code", "Monaco", "Consolas", "monospace", var(--vp-font-family-base), monospace;
+
+	font-variant-alternates: styleset(open-digits, disambiguation, round-quotes-and-commas);
+	text-autospace: normal;
+}
+
+@media (max-resolution: 1.2dppx) {
+	:root {
+		--vp-font-family-base: "Inter-Local", system-ui, sans-serif;
+	}
+}
+
+code, pre {
+	text-autospace: none;
+}
+
+@font-feature-values Inter-Local {
+	@styleset {
+		open-digits: 1;
+		disambiguation: 2;
+		round-quotes-and-commas: 3;
+		disambiguation-except-zero: 4;
+		circled-characters: 5;
+		squared-characters: 6;
+		square-punctuation: 7;
+		square-quotes: 8;
+	}
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 100;
+	src: local("Inter Thin");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 100;
+	src: local("Inter Thin Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 200;
+	src: local("Inter ExtraLight");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 200;
+	src: local("Inter ExtraLight Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 300;
+	src: local("Inter Light");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 300;
+	src: local("Inter Light Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 400;
+	src: local("Inter Regular");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 400;
+	src: local("Inter Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 500;
+	src: local("Inter Medium");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 500;
+	src: local("Inter Medium Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 600;
+	src: local("Inter SemiBold");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 600;
+	src: local("Inter SemiBold Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 700;
+	src: local("Inter Bold");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 700;
+	src: local("Inter Bold Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 800;
+	src: local("Inter ExtraBold");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 800;
+	src: local("Inter ExtraBold Italic");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-weight: 900;
+	src: local("Inter Black");
+}
+
+@font-face {
+	font-family: Inter-Local;
+	font-style: italic;
+	font-weight: 900;
+	src: local("Inter Black Italic");
+}
+
