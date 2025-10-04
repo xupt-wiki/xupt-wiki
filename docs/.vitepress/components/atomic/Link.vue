@@ -55,6 +55,7 @@ withDefaults(defineProps<LinkProps>(), {
 	position: relative;
 	overflow: hidden;
 	overflow: clip;
+	font-weight: normal;
 	line-height: 1.4;
 	text-decoration: none;
 	z-index: 0;
@@ -103,6 +104,10 @@ img.icon {
 	height: 100%;
 	object-fit: cover;
 	z-index: -1;
+}
+
+.link.card .content {
+	font-weight: 500;
 }
 
 .link-desc {

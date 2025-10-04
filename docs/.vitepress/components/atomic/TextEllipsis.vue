@@ -9,7 +9,7 @@ defineProps<{
 
 const textEllipsis = useTemplateRef('text-ellipsis')
 const isClamped = ref(false)
-const tip = computed(() => isClamped.value ? textEllipsis.value?.textContent.trim() : undefined)
+const tip = computed(() => isClamped.value ? textEllipsis.value?.textContent?.trim() : undefined)
 
 function detectClamp() {
 	if (!textEllipsis.value)
