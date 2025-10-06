@@ -1,13 +1,16 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import blogDList from '../../data/blog.json'
+import blogList from '../../data/blog.json'
 import BlogCard from './BlogCard.vue'
 
-const blogs = ref([...blogDList])
+const blogs = ref([...blogList])
 
 const shuffleBlogs = () => blogs.value.sort(() => Math.random() - 0.5)
 
-onMounted(shuffleBlogs)
+onMounted(() => {
+	if (!location.search.includes('shuffle=false'))
+		shuffleBlogs()
+})
 </script>
 
 <template>

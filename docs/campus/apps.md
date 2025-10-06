@@ -51,7 +51,7 @@ lifeApps:
 ---
 
 <script setup>
-import LinkList from "/.vitepress/components/unique/LinkList.vue";
+import LinkList from "@/components/unique/LinkList.vue";
 </script>
 
 # 手机上的 APP 们

@@ -5,8 +5,8 @@ sidebar: false
 ---
 
 <script setup>
-import CoderGuild from "/.vitepress/components/unique/CoderGuild.vue";
-import LabList from "/.vitepress/components/unique/LabList.vue";
+import CoderGuild from "@/components/unique/CoderGuild.vue";
+import LabList from "@/components/unique/LabList.vue";
 </script>
 
 <LabList><CoderGuild /></LabList>

@@ -13,7 +13,7 @@ foodList:
 ---
 
 <script setup lang="ts">
-import LinkList from "/.vitepress/components/unique/LinkList.vue";
+import LinkList from "@/components/unique/LinkList.vue";
 </script>
 
 # 美食推荐

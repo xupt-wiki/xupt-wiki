@@ -7,6 +7,7 @@ export interface Blog {
 	belong: string
 	tags: string
 	link: string
+	error: string
 	feed: string
 	github: string
 	qq: string

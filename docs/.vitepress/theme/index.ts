@@ -23,20 +23,31 @@ import './style.css'
 import './theme-enhanced.css'
 import 'tippy.js/dist/svg-arrow.css'
 
+// @keep-sorted
+const globalComponents = {
+	Disclaimer,
+	Dropdown,
+	Icon,
+	Logo,
+	QRCode,
+	TableAutoSpan,
+	Tip,
+}
+
+export type GlobalComponentTypes = typeof globalComponents
+
 declare module 'vue' {
-	// @keep-sorted
-	interface GlobalComponents {
-		Disclaimer: typeof Disclaimer
-		Dropdown: typeof Dropdown
-		Icon: typeof Icon
-		Logo: typeof Logo
-		QRCode: typeof QRCode
-		TableAutoSpan: typeof TableAutoSpan
-		Tip: typeof Tip
+	interface GlobalComponents extends GlobalComponentTypes {
 		Tooltip: typeof Tippy
 	}
+
 	interface GlobalDirectives {
 		vTip: typeof directive
+	}
+
+	interface ComponentCustomProperties {
+		$frontmatter: Record<string, any>
+		$param: Record<string, any>
 	}
 }
 
@@ -44,7 +55,6 @@ export default {
 	extends: DefaultTheme,
 	Layout: () => {
 		return h(DefaultTheme.Layout, null, {
-			// https://vitepress.dev/zh/guide/extending-default-theme#layout-slots
 			'doc-before': () => h(Header),
 			'doc-footer-before': () => h(Author),
 			'doc-after': () => h(Footer),
@@ -52,17 +62,12 @@ export default {
 		})
 	},
 	enhanceApp({ app }) {
-		app.component('Disclaimer', Disclaimer)
-		app.component('Dropdown', Dropdown)
-		app.component('Icon', Icon)
-		app.component('Logo', Logo)
-		app.component('TableAutoSpan', TableAutoSpan)
-		app.component('Tip', Tip)
-		app.component('QRCode', QRCode)
+		// 注册 globalComponents
+		Object.entries(globalComponents).forEach(args => app.component(...args))
 
 		const pinia = createPinia()
-
 		app.use(pinia)
+
 		app.use(VueTippy, {
 			component: 'Tooltip',
 			directive: 'tip',

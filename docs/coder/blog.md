@@ -5,7 +5,7 @@ sidebar: false
 ---
 
 <script setup>
-import BlogList from "/.vitepress/components/unique/BlogList.vue";
+import BlogList from "@/components/unique/BlogList.vue";
 </script>
 
 <BlogList />

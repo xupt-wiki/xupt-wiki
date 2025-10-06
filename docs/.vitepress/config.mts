@@ -61,6 +61,11 @@ export default defineConfig({
 	},
 
 	vite: {
+		resolve: {
+			alias: {
+				'@': import.meta.dirname,
+			},
+		},
 		server: {
 			allowedHosts: true,
 		},

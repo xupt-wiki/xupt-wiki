@@ -22,7 +22,8 @@
   "devDependencies": {
     "@antfu/eslint-config": "^5.4.1",
     "@zinkawaii/stylelint-config": "^0.3.3",
-    "eslint": "^9.36.0",
+    "@zinkawaii/tsconfig": "^0.0.2",
+    "eslint": "^9.37.0",
     "markdown-it-mathjax3": "^5.2.0",
     "stylelint": "^16.25.0"
   },

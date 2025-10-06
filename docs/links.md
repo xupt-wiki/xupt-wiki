@@ -63,7 +63,7 @@ wikiLinks:
 ---
 
 <script setup lang="ts">
-import LinkList from "/.vitepress/components/unique/LinkList.vue";
+import LinkList from "@/components/unique/LinkList.vue";
 </script>
 
 # 友情链接

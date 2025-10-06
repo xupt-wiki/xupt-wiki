@@ -4,8 +4,8 @@ author: [L33Z22L11]
 ---
 
 <script setup>
-import memberData from '/.vitepress/data/members.json'
-import MemberList from '/.vitepress/components/unique/MemberList.vue'
+import memberData from "@/data/members.json"
+import MemberList from "@/components/unique/MemberList.vue"
 </script>
 
 # 关于我们

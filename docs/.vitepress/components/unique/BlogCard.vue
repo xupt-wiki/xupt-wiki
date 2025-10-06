@@ -14,7 +14,7 @@ const { copy, copied } = useClipboard({ source: () => props.feed, legacy: true }
 <div class="card">
 	<img class="blur-bg" :src="avatar" alt="">
 
-	<a class="avatar-container" :href="link" target="_blank">
+	<a v-tip="error" class="avatar-container" :href="link" target="_blank">
 		<img class="avatar" :src="avatar">
 		<Icon icon="ri:arrow-right-line" />
 	</a>
@@ -107,7 +107,7 @@ const { copy, copied } = useClipboard({ source: () => props.feed, legacy: true }
 .tag-container {
 	flex-grow: 1;
 	min-height: 1em;
-	font-size: 0.75em;
+	font-size: 0.9em;
 }
 
 .tag-container .tag-line {
