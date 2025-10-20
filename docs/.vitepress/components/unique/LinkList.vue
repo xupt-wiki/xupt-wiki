@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import type { LinkProps } from '../atomic/Link.vue'
-import Link from '../atomic/Link.vue'
+import type { LinkProps } from '@/components/atomic/Link.vue'
+import Link from '@/components/atomic/Link.vue'
 
 defineProps<{
 	links: Record<string, LinkProps>

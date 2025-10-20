@@ -1,4 +1,4 @@
-// import labs from '../data/labs.json'
+// import labs from '@/data/labs.json'
 
 export interface Lab {
 	id: string

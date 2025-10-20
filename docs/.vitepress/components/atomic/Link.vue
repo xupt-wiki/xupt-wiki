@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { isExtLink } from '../../utils/link'
+import { isExtLink } from '@/utils/link'
 import TextEllipsis from './TextEllipsis.vue'
 import Tip from './Tip.vue'
 

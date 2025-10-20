@@ -1,4 +1,4 @@
-// import blogList from '../data/blog.json'
+// import blogList from '@/data/blog.json'
 
 export interface Blog {
 	author: string

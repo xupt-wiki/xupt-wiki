@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { Member } from '../../utils/member'
+import type { Member } from '@/utils/member'
 import MemberCard from './MemberCard.vue'
 
 defineProps<{

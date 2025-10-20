@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { Member } from '../utils/member'
+import type { Member } from '@/utils/member'
 import { useData } from 'vitepress'
 import { computed } from 'vue'
-import { isExtLink } from '../utils/link'
-import { getAuthor } from '../utils/member'
+import { isExtLink } from '@/utils/link'
+import { getAuthor } from '@/utils/member'
 
 const { frontmatter } = useData()
 

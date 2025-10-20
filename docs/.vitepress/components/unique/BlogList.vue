@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import blogList from '../../data/blog.json'
+import blogList from '@/data/blog.json'
 import BlogCard from './BlogCard.vue'
 
 const blogs = ref([...blogList])

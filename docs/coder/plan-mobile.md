@@ -1,5 +1,5 @@
 ---
-author: [XiyouMobile, Magic462, Abstik, ForeverHamburger, wind-know, nanxun911, lukecc0]
+author: [XiyouMobile, Magic462, Abstik, ForeverHamburger, wind-know, nanxun911, lukecc0, Jaxon7Cheung]
 ---
 
 # 移动应用开发实验室培养计划

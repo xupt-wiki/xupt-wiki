@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import type { Lab } from '../../utils/lab'
+import type { Lab } from '@/utils/lab'
 import { computed } from 'vue'
-import { getAvatar } from '../../utils/lab'
-import Link from '../atomic/Link.vue'
+import Link from '@/components/atomic/Link.vue'
+import { getAvatar } from '@/utils/lab'
 
 const props = defineProps<Lab>()
 const avatar = computed(() => getAvatar(props))

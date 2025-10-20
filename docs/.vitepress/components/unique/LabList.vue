@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import LabList from '../../data/labs.json'
+import LabList from '@/data/labs.json'
 import LabItem from './LabItem.vue'
 
 const labs = ref([...LabList])

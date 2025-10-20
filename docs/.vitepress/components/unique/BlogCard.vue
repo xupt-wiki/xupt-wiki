@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import type { Blog } from '../../utils/blog'
+import type { Blog } from '@/utils/blog'
 import { useClipboard } from '@vueuse/core'
 import { computed } from 'vue'
-import { getAvatar } from '../../utils/member'
-import Link from '../atomic/Link.vue'
+import Link from '@/components/atomic/Link.vue'
+import { getAvatar } from '@/utils/member'
 
 const props = defineProps<Blog>()
 const avatar = computed(() => getAvatar(props))

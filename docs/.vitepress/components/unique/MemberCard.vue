@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import type { Member } from '../../utils/member'
-import { getAvatar } from '../../utils/member'
-import Link from '../atomic/Link.vue'
+import type { Member } from '@/utils/member'
+import Link from '@/components/atomic/Link.vue'
+import { getAvatar } from '@/utils/member'
 
 defineProps<Member>()
 </script>
