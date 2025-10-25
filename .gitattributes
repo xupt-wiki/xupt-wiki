@@ -2,5 +2,4 @@
 
 docs/** -linguist-documentation
 
-* text eol=lf
-public/ binary
+* text=auto eol=lf
