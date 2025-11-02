@@ -334,5 +334,17 @@
     "feed": "https://blog.y7n05h.dev/atom.xml",
     "github": "Y7n05h",
     "qq": ""
+  },
+  {
+    "author": "Mouse",
+    "title": "Mouse'Blog",
+    "grade": "2023",
+    "belong": "计科卓越",
+    "tags": "嵌入式,Linux",
+    "link": "https://blog.haozi-haozi.cn/",
+    "error": "",
+    "feed": "https://blog.haozi-haozi.cn/atom.xml",
+    "github": "Hunhaozi",
+    "qq": "3146702362"
   }
 ]
