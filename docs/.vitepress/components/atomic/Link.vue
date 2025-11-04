@@ -65,11 +65,12 @@ withDefaults(defineProps<LinkProps>(), {
 	gap: 0.5em;
 	margin: 1em auto;
 	padding: 0.5em 0.8em;
+	border: 1px solid transparent;
 	border-radius: 0.5em;
 	background: none;
 	background-color: var(--vp-c-bg-soft);
 	color: inherit;
-	transition: all 0.1s;
+	transition: all 0.2s;
 }
 
 .link.card.card.card::after {
@@ -77,7 +78,7 @@ withDefaults(defineProps<LinkProps>(), {
 }
 
 a.link.card:hover {
-	outline: 1px solid var(--vp-c-brand-1);
+	border-color: var(--vp-c-brand-1);
 	background-color: var(--vp-c-bg-soft-hover);
 	color: var(--vp-c-brand-1);
 }

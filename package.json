@@ -20,10 +20,10 @@
     "vue-tippy": "^6.7.1"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.0.0",
+    "@antfu/eslint-config": "^6.2.0",
     "@zinkawaii/stylelint-config": "^0.3.3",
     "@zinkawaii/tsconfig": "^0.0.2",
-    "eslint": "^9.38.0",
+    "eslint": "^9.39.1",
     "markdown-it-mathjax3": "^5.2.0",
     "stylelint": "^16.25.0"
   },
