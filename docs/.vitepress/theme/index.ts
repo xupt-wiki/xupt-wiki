@@ -1,6 +1,6 @@
-// https://vitepress.dev/zh/guide/custom-theme
 import type { Theme } from 'vitepress'
 import type { directive, Tippy } from 'vue-tippy'
+// https://vitepress.dev/zh/guide/custom-theme
 import { Icon } from '@iconify/vue'
 import { createPinia } from 'pinia'
 import DefaultTheme from 'vitepress/theme-without-fonts'
@@ -18,10 +18,9 @@ import Logo from '@/components/Logo.vue'
 import NotFound from '@/components/NotFound.vue'
 import TableAutoSpan from '@/components/TableAutoSpan.vue'
 
-import './font.css'
+import 'tippy.js/dist/svg-arrow.css'
 import './style.css'
 import './theme-enhanced.css'
-import 'tippy.js/dist/svg-arrow.css'
 
 // @keep-sorted
 const globalComponents = {

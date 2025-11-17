@@ -1,5 +1,7 @@
 /* stylelint-disable selector-class-pattern */
 :root {
+	--vp-font-family-base: "InterVariable", "Noto Sans SC", system-ui, sans-serif;
+	--vp-font-family-mono: ui-monospace, "JetBrains Mono", "Cascadia Code", "Consolas", "monospace", var(--vp-font-family-base), monospace;
 	--vp-c-default-soft: #BBB3;
 	--vp-c-brand-1: #06D;
 	--vp-c-brand-2: #003DA5;
@@ -8,6 +10,9 @@
 	--vp-home-hero-name-color: transparent;
 	--vp-home-hero-name-background: linear-gradient(30deg, var(--vp-c-brand-3), var(--vp-c-brand-2));
 	--vp-home-hero-image-filter: blur(240px);
+
+	font-variant-alternates: styleset(open-digits, disambiguation, round-quotes-and-commas);
+	text-autospace: normal;
 }
 
 .dark:root {
@@ -15,6 +20,10 @@
 	--vp-c-brand-2: #7CF;
 
 	/* --vp-c-brand-soft: #33aaff55; */
+}
+
+code, pre {
+	text-autospace: none;
 }
 
 .vp-doc {
