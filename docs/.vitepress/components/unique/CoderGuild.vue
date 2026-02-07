@@ -13,7 +13,7 @@ import Dropdown from '@/components/atomic/Dropdown.vue'
 	<Icon icon="ri:arrow-right-s-line" class="arrow" />
 
 	<template #content>
-		<QRCode src="https://pd.qq.com/g/xiyoumanong" text="QQ 扫码加入" visit />
+		<Qrcode src="https://pd.qq.com/g/xiyoumanong" text="QQ 扫码加入" visit />
 	</template>
 </Dropdown>
 </template>

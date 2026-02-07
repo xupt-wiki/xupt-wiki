@@ -1,6 +1,6 @@
+// https://vitepress.dev/zh/guide/custom-theme
 import type { Theme } from 'vitepress'
 import type { directive, Tippy } from 'vue-tippy'
-// https://vitepress.dev/zh/guide/custom-theme
 import { Icon } from '@iconify/vue'
 import { createPinia } from 'pinia'
 import DefaultTheme from 'vitepress/theme-without-fonts'
@@ -8,7 +8,8 @@ import { h } from 'vue'
 import VueTippy, { roundArrow } from 'vue-tippy'
 
 import Dropdown from '@/components/atomic/Dropdown.vue'
-import QRCode from '@/components/atomic/QRCode.vue'
+import Link from '@/components/atomic/Link.vue'
+import Qrcode from '@/components/atomic/Qrcode.vue'
 import Tip from '@/components/atomic/Tip.vue'
 import Author from '@/components/Author.vue'
 import Disclaimer from '@/components/Disclaimer.vue'
@@ -27,8 +28,9 @@ const globalComponents = {
 	Disclaimer,
 	Dropdown,
 	Icon,
+	Link,
 	Logo,
-	QRCode,
+	Qrcode,
 	TableAutoSpan,
 	Tip,
 }

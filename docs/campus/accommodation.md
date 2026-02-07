@@ -69,7 +69,7 @@ author: [L33Z22L11]
 请参阅财务处[学生公寓电费充值操作指南](https://cwc.xupt.edu.cn/info/1013/1371.htm)。
 :::
 
-<QRCode
+<Qrcode
     src="https://wx.weiweixiao.net/index.php/Wap/Index/columns.html?token=eoQ1mDMc7BGAAAAWPgst-A&id=VGGmLrY67BGAAAAWPwAVGQ"
     text="支付宝扫码缴费"
 />
