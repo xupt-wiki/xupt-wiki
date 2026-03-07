@@ -346,5 +346,17 @@
     "feed": "https://blog.haozi-haozi.cn/atom.xml",
     "github": "Hunhaozi",
     "qq": "3146702362"
+  },
+  {
+    "author": "Luyoung",
+    "title": "",
+    "grade": "2022",
+    "belong": "硬协",
+    "tags": "计算机系统结构,处理器",
+    "link": "https://blog.luliang.website/",
+    "error": "",
+    "feed": "https://blog.luliang.website/atom.xml",
+    "github": "Luyoung0001",
+    "qq": ""
   }
 ]
