@@ -17,7 +17,7 @@ export function getAvatar(lab: Lab) {
 	const { qq, github } = lab
 
 	return github
-		? `https://wsrv.nl/?url=github.com/${github}.png%3fsize=128`
+		? `https://avatars-githubusercontent.webp.se/${github}?s=96`
 		: qq
 			? `https://p.qlogo.cn/gh/${qq}/${qq}/0/`
 			: undefined

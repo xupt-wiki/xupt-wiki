@@ -77,11 +77,11 @@ import LinkList from "@/components/unique/LinkList.vue";
 
 ### 应知应会
 
-<LinkList :links="$frontmatter.knowledgeList" width="12em" />
+<LinkList :links="$frontmatter.knowledgeList" />
 
 ### 计算机科学
 
-<LinkList :links="$frontmatter.csList" width="12em" />
+<LinkList :links="$frontmatter.csList" />
 
 ## 飞跃手册，常读常新
 

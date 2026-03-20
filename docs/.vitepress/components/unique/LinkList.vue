@@ -17,7 +17,7 @@ defineProps<{
 <style scoped>
 .link-list {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(var(--col-width, 10em), 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(var(--col-width, 11em), 1fr));
 	gap: 1em;
 	margin: 1em 0;
 }

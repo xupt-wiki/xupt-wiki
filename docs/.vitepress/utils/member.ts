@@ -15,7 +15,7 @@ export function getAvatar(option: { qq?: string, github?: string, avatar?: strin
 	if (avatar)
 		return avatar
 	if (github)
-		return `https://wsrv.nl/?url=github.com/${github}.png%3fsize=92`
+		return `https://avatars-githubusercontent.webp.se/${avatar}?s=96`
 	if (qq)
 		return `https://q1.qlogo.cn/g?b=qq&nk=${qq}&s=3`
 	return undefined

@@ -3,7 +3,7 @@ import Dropdown from '@/components/atomic/Dropdown.vue'
 </script>
 
 <template>
-<Dropdown class="coder-gulid vp-doc">
+<Dropdown class="coder-gulid">
 	<img src="https://pd.qq.com/favicon.ico" alt="" class="coder-gulid-icon">
 	“西邮码农”频道
 	<div class="desc">
