@@ -57,12 +57,8 @@
 	list-style-type: lower-roman;
 }
 
-.vp-doc .custom-block {
-	padding: 8px 16px;
-}
-
-.vp-doc .custom-block :first-child:first-child {
-	margin: 8px 0;
+.vp-doc .custom-block > * {
+	margin-bottom: 8px;
 }
 
 .VPBadge {
@@ -70,5 +66,6 @@
 	padding: 0.2em 0.5em;
 	font-size: 0.8em;
 	line-height: 1.2;
-	transform: translateY(-0.1em);
+	vertical-align: 0.1em !important; /* stylelint-disable-line declaration-no-important */
+	transform: none;
 }

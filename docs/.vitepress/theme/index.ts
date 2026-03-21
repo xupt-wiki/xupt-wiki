@@ -1,5 +1,6 @@
 // https://vitepress.dev/zh/guide/custom-theme
 import type { Theme } from 'vitepress'
+import type { VPBadge } from 'vitepress/theme-without-fonts'
 import type { directive, Tippy } from 'vue-tippy'
 import { Icon } from '@iconify/vue'
 import { createPinia } from 'pinia'
@@ -39,6 +40,7 @@ export type GlobalComponentTypes = typeof globalComponents
 
 declare module 'vue' {
 	interface GlobalComponents extends GlobalComponentTypes {
+		Badge: typeof VPBadge
 		Tooltip: typeof Tippy
 	}
 
