@@ -10,7 +10,7 @@
 
 ## 贡献指南
 
-阅读[在线版](https://wiki.cooo.site/contribute)或仓库内[源文档](/docs/contribute.md)。
+阅读[在线版](https://wiki.cooo.site/contributing)或仓库内[源文档](/docs/contribute.md)。
 
 ## 更新日志
 
@@ -25,6 +25,7 @@
 ```sh
 pnpm i
 ```
+
 ### 本地测试
 
 ```sh
