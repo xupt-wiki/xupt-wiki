@@ -61,7 +61,6 @@ defineProps<{
 .flip .face,
 .flip .back {
 	backface-visibility: hidden;
-	backface-visibility: hidden;
 	transition: transform 0.3s;
 }
 

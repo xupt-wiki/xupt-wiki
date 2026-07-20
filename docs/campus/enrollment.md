@@ -6,11 +6,9 @@ author: [L33Z22L11, Bifangzi]
 
 ## 入学准备
 
-::: tip 请参阅官方指南
-《西安邮电大学新生入学入学指南》随附在录取通知书快递中。
-:::
+《西安邮电大学新生入学入学指南》二维码随附在录取通知书快递中，也可在[西安邮电大学本科招生信息网 - 重点关注](https://zhaosheng.xupt.edu.cn/zdgz.htm)查看本年入学指南。
 
-点击阅读[《2025年西安邮电大学新生入学入学指南》](https://zhaosheng.xupt.edu.cn/info/1036/3351.htm)。
+[2026](https://zhaosheng.xupt.edu.cn/info/1036/3427.htm) [2025](https://zhaosheng.xupt.edu.cn/info/1036/3351.htm) [2024](https://zhaosheng.xupt.edu.cn/info/1036/3286.htm) [2023](https://zhaosheng.xupt.edu.cn/info/1036/3247.htm) [2022](https://zhaosheng.xupt.edu.cn/info/1007/3020.htm)
 
 ## 入学办理
 
