@@ -33,7 +33,7 @@ onMounted(() => {
 onUnmounted(() => window.removeEventListener('popstate', readQuery))
 const articles = computed(() => {
 	if (props.limit)
-		return data.filter(article => Number.isFinite(Date.parse(article.updated))).slice(0, props.limit)
+		return data.filter(article => article.lastUpdated).slice(0, props.limit)
 	return data.filter(article => (selected.value === '全部' || article.category === selected.value || article.tags.includes(selected.value)) && [article.title, article.category, article.description, ...article.tags].join(' ').toLocaleLowerCase().includes(query.value.trim().toLocaleLowerCase()))
 })
 function select(value: string) {
@@ -65,7 +65,7 @@ function select(value: string) {
 				</p>
 				<ArticleChips v-if="!limit" :items="article.tags" @select="select" />
 			</div>
-			<ArticleByline :updated="article.updated" :authors="article.authors" />
+			<ArticleByline :date="article.lastUpdated || article.date" :authors="article.authors" />
 		</li>
 	</ul>
 	<p v-if="!articles.length">

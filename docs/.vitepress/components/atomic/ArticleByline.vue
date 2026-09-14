@@ -2,13 +2,13 @@
 import { computed } from 'vue'
 import { getAuthor } from '@/utils/member'
 
-const props = defineProps<{ updated: string, authors: string[] }>()
+const props = defineProps<{ date: string, authors: string[] }>()
 const names = computed(() => props.authors.map(id => getAuthor(id).name).join('、'))
 </script>
 
 <template>
 <div class="byline">
-	<time v-if="updated" :datetime="updated"><Icon icon="ri:time-line" />{{ updated.slice(0, 10) }}</time>
+	<time v-if="date" :datetime="date"><Icon icon="ri:time-line" />{{ date.slice(0, 10) }}</time>
 	<span v-if="names" class="authors" :title="names"><Icon icon="ri:user-line" /><span class="names">{{ names }}</span></span>
 </div>
 </template>

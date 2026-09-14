@@ -57,6 +57,8 @@ lifeApps:
   - text: 隔壁小O（公众号）
     icon: https://q1.qlogo.cn/g?b=qq&nk=3820099583&s=3
     desc: 逸夫楼教室导航神器，输入教室名直接告诉你从哪个口进怎么走；还有校园活动和推文
+date: 2024-07-21
+lastUpdated: 2026-09-09
 ---
 
 <script setup>

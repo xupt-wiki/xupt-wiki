@@ -7,7 +7,7 @@ export default defineConfig({
 	lang: 'zh-CN',
 	title: '西邮 Wiki',
 	description: '西安邮电大学第三方公益校园生活百科',
-	lastUpdated: true,
+	lastUpdated: false,
 	cleanUrls: true,
 
 	themeConfig: {
@@ -61,7 +61,7 @@ export default defineConfig({
 		},
 		lastUpdated: {
 			text: '更新于',
-			formatOptions: { dateStyle: 'short', timeStyle: 'medium' },
+			formatOptions: { dateStyle: 'short', timeZone: 'UTC' },
 		},
 		docFooter: { prev: '上一篇', next: '下一篇' },
 
@@ -69,6 +69,10 @@ export default defineConfig({
 			message: '公益项目。与任何组织无关。Made with ❤.',
 			copyright: `© ${new Date().getFullYear()} <a href="https://github.com/xupt-wiki">西邮 Wiki 项目组</a>`,
 		},
+	},
+
+	transformPageData(page) {
+		page.lastUpdated = page.frontmatter.lastUpdated ? new Date(page.frontmatter.lastUpdated).getTime() : undefined
 	},
 
 	head: [

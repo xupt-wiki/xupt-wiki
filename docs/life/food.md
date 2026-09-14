@@ -1,5 +1,5 @@
 ---
-author: [Claisenn, L33Z22L11]
+author: [Claisenn, L33Z22L11, Monoceros406]
 
 foodList:
   - text: 西安邮电大学美食广场(西区)
@@ -10,6 +10,8 @@ foodList:
     icon: https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_6f3907e1033e723af12925e04b7e3ff0~c5_300x300.jpeg
     link: https://www.iesdouyin.com/share/mix/detail/7366461662573889588/
     desc: 抖音合集：跟着学姐吃邮电
+date: 2024-07-31
+lastUpdated: 2026-09-09
 ---
 
 <script setup lang="ts">

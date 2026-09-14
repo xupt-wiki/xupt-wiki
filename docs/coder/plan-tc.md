@@ -1,3 +1,7 @@
+---
+date: 2025-04-01
+---
+
 # ThoughtCoding 实验室培养方案
 
 :::tip 转载自 [腾讯频道 - 西邮码农 - ThoughtCoding 实验室培养方案](https://pd.qq.com/g/xiyoumanong/post/B_2783ea67311302001441152187200318830X60)

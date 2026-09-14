@@ -19,6 +19,7 @@ import Footer from '@/components/Footer.vue'
 import Header from '@/components/Header.vue'
 import Logo from '@/components/Logo.vue'
 import NotFound from '@/components/NotFound.vue'
+import PageArticleFooter from '@/components/PageArticleFooter.vue'
 import RecentArticles from '@/components/RecentArticles.vue'
 import TableAutoSpan from '@/components/TableAutoSpan.vue'
 
@@ -62,6 +63,7 @@ export default {
 	Layout: () => {
 		return h(DefaultTheme.Layout, null, {
 			'home-features-after': () => h(RecentArticles),
+			'page-bottom': () => h(PageArticleFooter),
 			'doc-before': () => h(Header),
 			'doc-footer-before': () => h(Author),
 			'doc-after': () => h(Footer),

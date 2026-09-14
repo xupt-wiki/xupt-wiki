@@ -64,6 +64,8 @@ wikiLinks:
     link: https://cs4ncu.space/
     icon: https://cs4ncu.space/assets/ncuscc-logo.svg
     desc: 写给普通人的大学成长指南
+date: 2024-07-21
+lastUpdated: 2026-09-09
 ---
 
 <script setup lang="ts">

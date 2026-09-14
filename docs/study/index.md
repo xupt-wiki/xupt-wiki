@@ -53,6 +53,8 @@ csList:
     link: https://plan.xiyoulinux.com/
     icon: https://plan.xiyoulinux.com/favicon.ico
     desc: Linux + 后端进阶入门指南
+date: 2024-07-20
+lastUpdated: 2026-09-09
 ---
 
 <script setup lang="ts">

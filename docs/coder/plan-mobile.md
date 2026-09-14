@@ -1,5 +1,7 @@
 ---
 author: [XiyouMobile, Magic462, Abstik, ForeverHamburger, wind-know, nanxun911, lukecc0, Jaxon7Cheung]
+date: 2025-03-16
+lastUpdated: 2026-09-09
 ---
 
 # 移动应用开发实验室培养计划

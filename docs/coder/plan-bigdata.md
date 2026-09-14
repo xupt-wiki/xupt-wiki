@@ -1,5 +1,7 @@
 ---
 author: [XUPT-BigData-AI-Lab]
+date: 2025-03-16
+lastUpdated: 2025-03-27
 ---
 
 # 大数据与人工智能实验室培养方案

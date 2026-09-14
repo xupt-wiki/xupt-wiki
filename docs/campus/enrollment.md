@@ -1,5 +1,7 @@
 ---
-author: [L33Z22L11, Bifangzi]
+author: [L33Z22L11, Bifangzi, Ph0m1]
+date: 2024-07-21
+lastUpdated: 2026-09-09
 ---
 
 # 入学准备与办理
