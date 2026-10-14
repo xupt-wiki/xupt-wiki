@@ -61,11 +61,15 @@ wikiLinks:
     icon: https://www.criwits.top/missing/favicon.png
     desc: 电脑小白入门指南
   - text: 寻路之南
-    link: https://cs4ncu.space/
-    icon: https://cs4ncu.space/assets/ncuscc-logo.svg
+    link: https://cs4ncu.tech/
+    icon: https://cs4ncu.tech/assets/ncuscc-logo.svg
     desc: 写给普通人的大学成长指南
+  - text: 青岛理工大学生活指南
+    link: https://wiki.quters.top/
+    icon: https://pic1.imgdb.cn/i/0349E4NqLje1oLHNowvJ4R.png
+    desc: 为青岛理工大学学生提供便捷的生活信息和资源
 date: 2024-07-21
-lastUpdated: 2026-09-09
+lastUpdated: 2026-10-14
 ---
 
 <script setup lang="ts">
