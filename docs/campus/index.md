@@ -30,6 +30,8 @@ lastUpdated: 2026-09-09
 
 ## 各个校区
 
+[打开交互校园地图](./map)：搜索地点、按类别筛选，查看长安西区、东区和雁塔校区的标注。
+
 ### 长安校区
 
 ![长安校区地图 by 信连创](https://pic1.zhimg.com/v2-8d1fdb3bdafe4c5719a56239ea9cd3ab_r.jpg)
