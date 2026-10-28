@@ -39,7 +39,7 @@ lastUpdated: 2026-09-09
 | 集成**电路**设计与集成系统       | 电路       |
 | **电子**信息工程（中外合作办学） | 电子(国际) |
 
-### 计算机学院 · [官网](http://cs.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/jsjxy.htm)
+### 计算机学院、软件学院 · [官网](http://cs.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/jsjxy.htm)
 
 | 专业名称                 | 简称   | 备注    |
 | ------------------------ | ------ | ------- |
@@ -60,7 +60,7 @@ lastUpdated: 2026-09-09
 | **机器人**工程         | 机器人   | 2021年新增                           |
 | **智能无人**系统技术   | 智能无人 | 2024年新增                           |
 
-### 网络空间安全学院 · [官网](https://wa.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/wlkjaqxy.htm)
+### 网络空间安全学院、密码学院 · [官网](https://wa.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/wlkjaqxy.htm)
 
 一般简称为“网安院”。
 
@@ -85,7 +85,7 @@ lastUpdated: 2026-09-09
 | 市场**营销**               | 营销          |
 | ~~**国**际经济与**贸**易~~ | 国贸          | 2024年撤销 |
 
-### 现代邮政学院（物流学院） · [官网](http://xdyzxy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/xdyzxy_wlxy_.htm)
+### 现代邮政学院（物流学院、邮政研究院） · [官网](http://xdyzxy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/xdyzxy_wlxy_.htm)
 
 | 专业名称                   | 简称 | 备注    |
 | -------------------------- | ---- | ------- |
@@ -112,7 +112,7 @@ lastUpdated: 2026-09-09
 | **行政**管理     | 行政 |
 | **商**务**英**语 | 商英 | `≠英语` |
 
-### 数字艺术学院 · [官网](http://syy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/szysxy.htm)
+### 数字艺术学院（人文素质教育教学部、公共艺术教育中心） · [官网](http://syy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/szysxy.htm)
 
 一般简称为“数艺院”。
 
