@@ -26,6 +26,12 @@ studyApps:
   - text: 步道乐跑
     icon: http://p18.qhimg.com/t01af7dbe39618208df.png
     desc: 校园跑，一学期80km左右；aka 步道乐骑，步道乐摇
+  - text: 学习公社
+    icon: http://file.market.xiaomi.com/thumbnail/PNG/l114/AppStore/0d47d439dc7e98e7660940b43efce9607a1417a6c
+    desc: 入党/马院类作业参考，入组织必备
+  - text: CSDN
+    icon: https://blog.csdn.net/favicon.ico
+    desc: 程序员的搜索引擎，啥都能搜到
 
 orgApps:
   - text: 志愿汇
@@ -48,6 +54,11 @@ lifeApps:
   - text: 企鹅共享APP服务
     icon: https://yyb-community-1258344701.file.myqcloud.com/wx_mini_app_icon/wx52cfa5fc8d32a43d.png
     desc: 雁塔校区公共洗衣机；微信小程序
+  - text: 隔壁小O（公众号）
+    icon: https://q1.qlogo.cn/g?b=qq&nk=3820099583&s=3
+    desc: 逸夫楼教室导航神器，输入教室名直接告诉你从哪个口进怎么走；还有校园活动和推文
+date: 2024-07-21
+lastUpdated: 2026-09-09
 ---
 
 <script setup>

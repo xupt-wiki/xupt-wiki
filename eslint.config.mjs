@@ -1,6 +1,8 @@
 import antfu from '@antfu/eslint-config'
+import css from '@zinkawaii/eslint-config-css'
 
 export default antfu({
+	pnpm: false,
 	stylistic: {
 		indent: 'tab',
 	},
@@ -23,4 +25,9 @@ export default antfu({
 	rules: {
 		'style/eol-last': ['warn', 'never'],
 	},
-})
+}).append(css, {
+	files: ['**/*.css'],
+	rules: {
+		'css-stylistic/indentation': ['error', 'tab'],
+	},
+}).setDefaultIgnores(previous => [...previous, '**/*.css'])

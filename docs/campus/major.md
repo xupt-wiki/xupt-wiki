@@ -1,5 +1,7 @@
 ---
 author: [L33Z22L11, Bifangzi]
+date: 2024-07-20
+lastUpdated: 2026-09-09
 ---
 
 # 专业
@@ -10,7 +12,7 @@ author: [L33Z22L11, Bifangzi]
 [西安邮电大学本科招生信息网 - 学院专业](https://zhaosheng.xupt.edu.cn/xyzy2.htm)
 :::
 
-### [通信与信息工程学院](https://zhaosheng.xupt.edu.cn/xyzy2/txyxxgcxy.htm)
+### 通信与信息工程学院 · [官网](https://tg.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/txyxxgcxy.htm)
 
 一般简称为“通院”。
 
@@ -23,7 +25,7 @@ author: [L33Z22L11, Bifangzi]
 | ~~**广**播**电**视工程~~ | 广电     | 2025年撤销                   |
 | 智能**视听**工程         | 视听     | 原`广播电视工程`，2024年更名 |
 
-### [电子工程学院、集成电路学院](https://zhaosheng.xupt.edu.cn/xyzy2/dzgcxy_jcdlxy.htm)
+### 电子工程学院、集成电路学院 · [官网](http://dianxin.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/dzgcxy_jcdlxy.htm)
 
 一般简称为“电院”。
 
@@ -37,7 +39,7 @@ author: [L33Z22L11, Bifangzi]
 | 集成**电路**设计与集成系统       | 电路       |
 | **电子**信息工程（中外合作办学） | 电子(国际) |
 
-### [计算机学院](https://zhaosheng.xupt.edu.cn/xyzy2/jsjxy.htm)
+### 计算机学院 · [官网](http://cs.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/jsjxy.htm)
 
 | 专业名称                 | 简称   | 备注    |
 | ------------------------ | ------ | ------- |
@@ -46,7 +48,7 @@ author: [L33Z22L11, Bifangzi]
 | **网络**工程             | 网络   |
 | 数据科学与**大数据**     | 大数据 | `≠数管` |
 
-### [人工智能学院、自动化学院](https://zhaosheng.xupt.edu.cn/xyzy2/rgznxy_zdhxy.htm)
+### 人工智能学院、自动化学院 · [官网](http://automation.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/rgznxy_zdhxy.htm)
 
 | 专业名称               | 简称     | 备注                                 |
 | ---------------------- | -------- | ------------------------------------ |
@@ -58,7 +60,7 @@ author: [L33Z22L11, Bifangzi]
 | **机器人**工程         | 机器人   | 2021年新增                           |
 | **智能无人**系统技术   | 智能无人 | 2024年新增                           |
 
-### [网络空间安全学院](https://zhaosheng.xupt.edu.cn/xyzy2/wlkjaqxy.htm)
+### 网络空间安全学院 · [官网](https://wa.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/wlkjaqxy.htm)
 
 一般简称为“网安院”。
 
@@ -69,7 +71,7 @@ author: [L33Z22L11, Bifangzi]
 | **网**络空间**安**全 | 网安          |
 | **密码**科学与技术   | 密码          | 2022年新增 |
 
-### [经济与管理学院](https://zhaosheng.xupt.edu.cn/xyzy2/jjyglxy.htm)
+### 经济与管理学院 · [官网](http://jgy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/jjyglxy.htm)
 
 | 专业名称                   | 简称          | 备注       |
 | -------------------------- | ------------- | ---------- |
@@ -83,7 +85,7 @@ author: [L33Z22L11, Bifangzi]
 | 市场**营销**               | 营销          |
 | ~~**国**际经济与**贸**易~~ | 国贸          | 2024年撤销 |
 
-### [现代邮政学院（物流学院）](https://zhaosheng.xupt.edu.cn/xyzy2/xdyzxy_wlxy_.htm)
+### 现代邮政学院（物流学院） · [官网](http://xdyzxy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/xdyzxy_wlxy_.htm)
 
 | 专业名称                   | 简称 | 备注    |
 | -------------------------- | ---- | ------- |
@@ -93,7 +95,7 @@ author: [L33Z22L11, Bifangzi]
 | **邮**政**工**程           | 邮工 |
 | **信**息**管**理与信息系统 | 信管 | `≠信息` |
 
-### [理学院](https://zhaosheng.xupt.edu.cn/xyzy2/lxy.htm)
+### 理学院 · [官网](http://slx.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/lxy.htm)
 
 | 专业名称             | 简称   | 备注       |
 | -------------------- | ------ | ---------- |
@@ -102,7 +104,7 @@ author: [L33Z22L11, Bifangzi]
 | **材**料**物**理     | 材物   |
 | **新能源**材料与器件 | 新能源 | 2023年新增 |
 
-### [外国语学院](https://zhaosheng.xupt.edu.cn/xyzy2/wgyxy.htm)
+### 外国语学院 · [官网](http://wyx.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/wgyxy.htm)
 
 | 专业名称         | 简称 | 备注    |
 | ---------------- | ---- | ------- |
@@ -110,7 +112,7 @@ author: [L33Z22L11, Bifangzi]
 | **行政**管理     | 行政 |
 | **商**务**英**语 | 商英 | `≠英语` |
 
-### [数字艺术学院](https://zhaosheng.xupt.edu.cn/xyzy2/szysxy.htm)
+### 数字艺术学院 · [官网](http://syy.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/szysxy.htm)
 
 一般简称为“数艺院”。
 
@@ -120,7 +122,7 @@ author: [L33Z22L11, Bifangzi]
 | 网络与**新媒体**     | 新媒体 |
 | **数**字媒体**技**术 | 数技   | 2023年新增，`≠数媒` |
 
-### [纽黑文信息工程学院](https://zhaosheng.xupt.edu.cn/xyzy2/nhwxxgcxy.htm)
+### 纽黑文信息工程学院 · [官网](https://nhie.xupt.edu.cn/) [简介](https://zhaosheng.xupt.edu.cn/xyzy2/nhwxxgcxy.htm)
 
 > 2025年成立
 

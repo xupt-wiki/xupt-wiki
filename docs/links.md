@@ -20,7 +20,7 @@ campusLinks:
     desc: 华硕合伙人-西邮生活公众号
   - text: 3G 实验室
     link: https://mobile.xupt.edu.cn/
-    icon: https://wsrv.nl/?url=github.com/XiyouMobile.png%3fsize=92
+    icon: https://avatars-githubusercontent.webp.se/XiyouMobile?s=96
     desc: 西邮移动应用开发实验室
   - text: 智邮普创实验室
     link: https://zypc.xupt.edu.cn/
@@ -32,6 +32,10 @@ wikiLinks:
     link: https://xuptflying.github.io/xupt-flying.github.io/#/
     icon: https://xuptflying.github.io/xupt-flying.github.io/src/_media/school_logo.png
     desc: 毕业学长的择业路线心得分享
+  - text: NCEPU Wiki
+    link: https://wiki.ncepuinfo.cc/
+    icon: https://wiki.ncepuinfo.cc/favicon-light.svg
+    desc: 华北电力大学非官方校园知识库
   - text: FZU Wiki
     link: https://fzuwiki.west2.online/
     icon: https://west2.online/img/favicon.ico
@@ -42,7 +46,7 @@ wikiLinks:
     desc: 杭州电子科技大学
   - text: 重庆大学资源共享计划
     link: https://cqu-openlib.cn/
-    icon: https://cqu-openlib.cn/assets/favicon.png
+    icon: https://cqu-openlib.cn/favicon.png
     desc: 重庆大学资源共享网站
   - text: 科成星球
     link: https://cduestc.fun/
@@ -50,16 +54,22 @@ wikiLinks:
     desc: 电子科技大学成都学院校园生活指南
   - text: Ac-Wiki
     link: https://ac-wiki.org/
-    icon: https://ac-wiki.org/assets/logo_clear.png
+    icon: https://avatars-githubusercontent.webp.se/ac-wiki?s=96
     desc: 大学生的百科全书
   - text: 你缺失的那门计算机课
     link: https://www.criwits.top/missing/
     icon: https://www.criwits.top/missing/favicon.png
     desc: 电脑小白入门指南
   - text: 寻路之南
-    link: https://cs4ncu.space/
-    icon: https://cs4ncu.space/assets/ncuscc-logo.svg
+    link: https://cs4ncu.tech/
+    icon: https://cs4ncu.tech/assets/ncuscc-logo.svg
     desc: 写给普通人的大学成长指南
+  - text: 青岛理工大学生活指南
+    link: https://wiki.quters.top/
+    icon: https://pic1.imgdb.cn/i/0349E4NqLje1oLHNowvJ4R.png
+    desc: 为青岛理工大学学生提供便捷的生活信息和资源
+date: 2024-07-21
+lastUpdated: 2026-10-14
 ---
 
 <script setup lang="ts">

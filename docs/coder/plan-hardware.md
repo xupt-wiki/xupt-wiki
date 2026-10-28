@@ -1,5 +1,7 @@
 ---
 author: [luluniu6, ljg52913]
+date: 2025-03-17
+lastUpdated: 2025-03-27
 ---
 
 # 硬件科技协会培养计划

@@ -19,7 +19,7 @@ onMounted(shuffleGroups)
 <slot />
 
 <div class="center-line vp-doc">
-	由 <a href="https://docs.qq.com/sheet/DUkZvVEl2akpEY3ZO" target="_blank">西邮QQ兴趣群在线表格</a> 生成，可通过在线文档新增/修改信息
+	由 <a href="https://docs.qq.com/sheet/DSkFiRmpzcVJHSklM?tab=ov58e9" target="_blank">西邮QQ兴趣群在线表格</a> 生成，可通过在线文档新增/修改信息
 </div>
 
 <TransitionGroup tag="section" class="group-list">

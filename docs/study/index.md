@@ -53,6 +53,8 @@ csList:
     link: https://plan.xiyoulinux.com/
     icon: https://plan.xiyoulinux.com/favicon.ico
     desc: Linux + 后端进阶入门指南
+date: 2024-07-20
+lastUpdated: 2026-09-09
 ---
 
 <script setup lang="ts">
@@ -64,6 +66,15 @@ import LinkList from "@/components/unique/LinkList.vue";
 欢迎来到“学习”板块。
 
 大学课程固然重要，但「自学」也是不可或缺的一环。
+
+## 学习与校园指南
+
+- [课程安排](/study/curriculum)：选课、作息、自习与体测通知。
+- [校园与教学楼](/campus/#各个校区)：教室位置、图书馆与常用网站。
+- [实验班与兴趣小组](/study/labs)：实验班选拔、实验室纳新。
+- [学号与学籍](/study/status)：转专业及学籍异动。
+- [学分绩点与综测评优](/study/gpa)：课程学分、课外学分与推免。
+- [竞赛与证书](/study/contest)、[社团与爱好](/study/clubs)。
 
 ## 培养方案是忠实的讲述人
 

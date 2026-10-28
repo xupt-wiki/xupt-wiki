@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type { Lab } from '@/utils/lab'
 import { computed } from 'vue'
+import SearchExcerpt from '@/components/atomic/SearchExcerpt.vue'
 import { getGithubAvatar, getQqGroupAvatar } from '@/utils/avatar'
 
 const props = defineProps<Lab>()
@@ -8,7 +9,8 @@ const avatar = computed(() => getGithubAvatar(props.github) ?? getQqGroupAvatar(
 </script>
 
 <template>
-<BlurCard :avatar="avatar" :name="name" :tags="tags" flip>
+<BlurCard :id="`lab-${id}`" :avatar="avatar" :name="name" :tags="tags" flip>
+	<SearchExcerpt :anchor="`lab-${id}`" :title="name" :text="[tags, belong, addr, note, qq].filter(Boolean).join(' · ')" />
 	<template #back>
 		<div class="id">
 			{{ id }}

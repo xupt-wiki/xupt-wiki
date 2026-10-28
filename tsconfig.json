@@ -5,7 +5,12 @@
       "@/*": [
         "./docs/.vitepress/*"
       ]
-    }
+    },
+    "types": [
+      "node",
+      "vite/client"
+    ],
+    "allowImportingTsExtensions": true
   },
   "vueCompilerOptions": {
     "vitePressExtensions": [
@@ -15,6 +20,7 @@
   "include": [
     "**/.*.md",
     "**/*.md",
-    "**/.vitepress/**/*.ts"
+    "**/.vitepress/**/*.ts",
+    "**/.vitepress/**/*.mts"
   ]
 }

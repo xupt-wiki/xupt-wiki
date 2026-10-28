@@ -1,4 +1,3 @@
-/* stylelint-disable selector-class-pattern */
 .VPMenuGroup > .title {
 	font-size: 0.7em;
 }
@@ -66,6 +65,7 @@
 	padding: 0.2em 0.5em;
 	font-size: 0.8em;
 	line-height: 1.2;
-	vertical-align: 0.1em !important; /* stylelint-disable-line declaration-no-important */
+	/* eslint-disable-next-line css/no-important -- Override VitePress inline badge alignment. */
+	vertical-align: 0.1em !important;
 	transform: none;
 }

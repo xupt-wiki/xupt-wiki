@@ -16,7 +16,6 @@ header {
 	color: var(--vp-c-text-3);
 }
 
-/* stylelint-disable-next-line media-feature-range-notation */
 @media (max-width: 768px) {
 	header {
 		font-size: 0.875em;

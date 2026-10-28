@@ -2,6 +2,7 @@
 import type { Blog } from '@/utils/blog'
 import { useClipboard } from '@vueuse/core'
 import { computed } from 'vue'
+import SearchExcerpt from '@/components/atomic/SearchExcerpt.vue'
 import { getAvatar } from '@/utils/member'
 
 const props = defineProps<Blog>()
@@ -10,7 +11,8 @@ const { copy, copied } = useClipboard({ source: () => props.feed, legacy: true }
 </script>
 
 <template>
-<div class="card">
+<div :id="`blog-${encodeURIComponent(link)}`" class="card">
+	<SearchExcerpt :anchor="`blog-${encodeURIComponent(link)}`" :title="title || author" :text="[author, belong, tags].filter(Boolean).join(' · ')" />
 	<img class="blur-bg" :src="avatar" alt="">
 
 	<a v-tip="error" class="avatar-container" :href="link" target="_blank">
