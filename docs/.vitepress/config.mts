@@ -130,7 +130,7 @@ function nav(): DefaultTheme.NavItem[] {
 			items: [
 				{ text: '学习简介', link: '/study/' },
 				{ text: '课内学业', link: '/study/grades' },
-				{ text: '实验室·兴趣小组', link: '/study/labs' },
+				{ text: '实验班·兴趣小组', link: '/study/labs' },
 				{ text: '竞赛与证书', link: '/study/contest' },
 			],
 		},
