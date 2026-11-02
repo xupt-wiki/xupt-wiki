@@ -119,6 +119,7 @@ function nav(): DefaultTheme.NavItem[] {
 			activeMatch: '^/campus/',
 			items: [
 				{ text: '学校简介', link: '/campus/' },
+				{ text: '校园地图', link: '/campus/map' },
 				{ text: '住宿生活', link: '/campus/accommodation' },
 				{ text: '入学准备', link: '/campus/enrollment' },
 				{ text: '防骗指南', link: '/campus/anti-fraud' },
@@ -187,6 +188,7 @@ function sidebar(): DefaultTheme.Sidebar {
 				collapsed: true,
 				items: [
 					{ text: '学校简介', link: '/campus/' },
+					{ text: '校园地图', link: '/campus/map' },
 					{ text: '本科专业列表', link: '/campus/major' },
 					{ text: '住宿生活', link: '/campus/accommodation' },
 					{ text: '入学准备与办理', link: '/campus/enrollment' },
